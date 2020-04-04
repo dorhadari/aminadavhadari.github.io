@@ -1,0 +1,44 @@
+
+body {background-image: url(sport.jpg);
+  background-repeat: no-repeat;
+  background-position: center; top;
+  background-attachment: fixed; 
+}
+
+.container {
+  margin: 20px;
+}
+
+
+
+.circle0, .circle1, .circle2, .circle3, .circle4 {
+  margin: 10px;
+}
+.container:hover .circle0, .container:hover .circle1, .container:hover .circle2, .container:hover .circle3, .container:hover .circle4  {
+  transform: translateX(1250px);
+}
+
+.circle0 {
+  
+  transition: all 3s linear;
+}
+
+.circle1 {
+  
+  transition: all 3s ease;
+}
+
+.circle2 {
+  
+  transition: all 3s ease-in;
+}
+
+.circle3 {
+  
+  transition: all 3s ease-out;
+}
+
+.circle4 {
+  
+  transition: all 3s ease-in-out;
+}
