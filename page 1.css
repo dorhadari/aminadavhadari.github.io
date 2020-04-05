@@ -1,0 +1,64 @@
+
+body{
+	background-image: url("heart.jpg");
+	height: 120px; 
+    background-repeat: no-repeat;
+  	background-size: cover;
+
+}
+
+
+h1{
+	color: salmon;
+	text-shadow: -1px 0 red, 0 1px red;
+}
+
+h1:hover {
+	text-shadow: 2px 2px 4px black;
+}
+
+
+p+h4{
+	position: relative;
+  	right: 40px;
+	background-image: url("heart.jpg");
+	background-position: center; 
+	text-align: center;
+	font-weight: 700;
+	line-height: 20px;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	border-style: ridge;
+	margin: 3px 450px;
+	padding: 8px
+
+} 
+
+
+.shadow{
+	font-size: 18px;
+	line-height: 23px;
+	text-shadow: -1px 0 red, 0 1px red;
+}
+
+span{
+	font-size: 35px;
+	color: black;
+	line-height: 45px;
+	font-weight: 700;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	text-shadow: 2px 2px 10px salmon;
+	
+}
+
+aside{
+	float: right;
+}
+
+button{
+	border-radius: 15px;
+}
+
+button:hover{
+	background-color: salmon;
+	transform: scale(1.1);
+}
