@@ -1,0 +1,61 @@
+
+body {background-image: url(background1.jpg);
+	background-repeat: no-repeat;
+  background-position: center; top;
+  background-attachment: fixed;
+  line-height: 104%;
+}
+h1 {
+	color: purple;
+	text-align: center;
+	font-family: 'Gotu', sans-serif;
+	text-shadow: -1px 0 white, 0 1px white;
+	position: relative;
+  	top: 2px;
+}
+h2{
+	color: lightskyblue;
+	text-shadow: 2px 2px 4px black;
+}
+
+h3 {
+	text-shadow: 2px 0px 8px red;
+}
+
+strong {
+	text-shadow: 2px 0px 20px red;
+}
+
+ol{
+	position: absolute;
+  	left: 40px;
+}
+
+img {
+	float: center;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.webtext {
+	font-weight: 700; 
+	color: brown;
+}
+
+footer {
+	clear: both;
+	position: absolute;
+  	bottom: 18px;
+}
+
+#div1 {
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	border-style: ridge;
+	background-color: rgba(239, 198, 209, 0.5);
+	font-weight: 700;
+	width: 650px;
+}
