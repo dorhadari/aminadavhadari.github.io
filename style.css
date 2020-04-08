@@ -1,6 +1,7 @@
   body{
   background-color: rgba();
   
+  
 } 
 
 .nav1>ul {
@@ -370,6 +371,7 @@ position: absolute;
    font-weight: 839;
    font-size: 18px;
    text-align: center;
+   box-shadow:10px 10px 50px white;
   }
   .last>div {
  border: 1.5px  rgba(3, 36, 66, 0.9);
@@ -381,6 +383,7 @@ position: absolute;
    font-family: 'Playfair Display', serif;
    font-weight: 839;
    text-align: center;
+   box-shadow:10px 10px 50px white;
     }
 
 span{
