@@ -1,8 +1,15 @@
-  body{
-  background-color: rgba();
-  
-  
-} 
+body{
+  margin: auto 0;
+}
+
+
+.nav1 { 
+  grid-area: header;
+  position: fixed;
+  top: 0px;
+  left: 6px;
+  width: 99%;
+}
 
 .nav1>ul {
   list-style-type: none;
@@ -14,11 +21,11 @@
 
 li {
   float: left;
+  font-size: 15px;
 }
 
 .left{
-  position: absolute;
-  left: 100px;  
+  margin-left: 8%;  
 }
 
 li a, .dropbtn {
@@ -61,56 +68,97 @@ li.dropdown {
 }
 
 
-/*
-.rectangle {
-  height: 700px;
-  width: 520px;
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
+.item1 { 
+  grid-area: head;
+  height: 12px;
+}
+.item2 { 
+  grid-area: menu;
+  text-align: center;
+  position: relative;
+  top: 7%;
+  left: 5%;
   z-index: -1;
-}*/
+}
 #Aminadavpic{
-      position: absolute;
-  left: 183px;
-  top: 80px;
+      position: relative;
+      top: -9%;
+      left: -1%;
 }
 .avatar{
 border-radius: 100%;
 }
-
-
-
-.content-center{
-  position: absolute;
-  top: 185px;
-  left: 85px;
-  text-align: center;
-}
-
 .title {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 25%;
+    left: 11%;
+    text-align: center;
     font-weight: 900;
     font-size: 50px;
-    color: #0A0A6C;
+    color: #0B54AB;
     text-shadow: 2px 2px 4px white;
 }
-
 .category {
+    position: relative;
+    top: 3%;
+    left: 1%;
     font-family: 'Playfair Display', serif;
-    color: rgba(18, 17, 12, 0.8);
+    color: rgba(11, 84, 171, 0.75);
+    text-align: center;
     font-size: 30px;
     font-weight: 900;
     line-height: 1.4;
-    text-shadow: 1px 4px 6px #A7B9FF;
+    text-shadow: 2px 2px 8px white;
+
+    
  }
 
 
+.description1 {
+ grid-area: main;
+ position: absolute;
+ top: 13.5%; 
+ left: 28%;
+        text-align: center;
+       font-family: 'Playfair Display', serif;
+      font-size: 57px;
+  color: white;
+  line-height: 58px;
+  font-weight: 427;
+  text-shadow:
+   6px -1px 0 #0B54AB,  
+    1px -2px 0 #0B54AB,
+    -1px 1px 0 #0B54AB,
+     1px 1px 0 #58B3DA;
+}
+.item4 { 
+    grid-area: right;
+    position: relative;
+    top: 5%;
+ }
+ .WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 34%;
+  right: -82px;
+  opacity: 0.8;
+ }
+.item5 { 
+  grid-area: footer;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 12%;
+   }
 
-
-
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'head head head head head head'
+    'menu main main main right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
 
 .page-header-image {
     position: absolute;
@@ -121,43 +169,16 @@ border-radius: 100%;
     width: 100%;
     height: 100%;
     z-index: -1;
-opacity: 1;
 }
 
-.description1 {
-      position: absolute;
-      top: 0px;
-      right: 610px;
-       font-family: 'Playfair Display', serif;
-      font-size: 27px;
-  color: white;
-  line-height: 58px;
-  font-weight: 427;
- 
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
-.WordsPuzzle_White{
-  position: absolute;
-  right: 60px;
-  top: 230px;
-  opacity: 0.7;
-  z-index: 1;
-}
-
-
-article{
-  height: 610px;
-}
-
-
-
- .footer {
-    height: 90px;
-    width: 100%;
+.item5 {
     background-color: white;
-    position: absolute;
-    right: 0px;
-
 }
 
 
@@ -171,18 +192,89 @@ ol>li a{
 color: rgba(33, 38, 43, 0.8);
 }
 
-
+ol>li a:hover {
+  background-color: white;
+}
 
 .copyright{
   position: absolute;
-  right: 210px;
-  top:30px;
+  right: 10%;
 }
 
 .copyright>a{
   color: #FF5913;
 }
 
-
-
-
+@media only screen and (max-width: 600px){
+  body{
+    height: 500px;
+  }
+  .nav1{
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .page-header-image {
+    
+    clip: rect(0px,1200px,600px,0px);
+}
+  .description1{
+    position: absolute;
+    left: 2%;
+  }
+  #Aminadavpic{
+    position: relative;
+    top: 37%;
+    left: 12%;
+  }
+  .item2 { 
+    width: 360px;
+  }
+  .title {
+    position: absolute;
+    top: 140%;
+    left: 8%;
+    width: 390px;
+  }
+  .category {
+    position: relative;
+    top: 115%;
+    left: 13%;
+    text-align: center; 
+  }
+  .WordsPuzzle_DARK_BLUE{
+   width: 470px;
+   height: 450px;
+   position: relative;
+   top: 90%;
+   left: 0%;
+  }
+  .grid-container {
+  display: grid;
+  grid-template-areas:
+    'head head'
+    'main main'
+    'menu menu'
+    'right right'
+    'footer footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
+  .item5{
+    height: 100px;
+    position: relative;
+    bottom: -450px;
+  }
+  .copyright{
+    position: relative;
+    bottom: -4px;
+    right: 20px;
+    float: right;
+    font-size: 9px;
+}
+ol>li a{
+ position: relative;
+ bottom: 5px;
+ right: 30px;
+ padding: 15px;
+}
+}
