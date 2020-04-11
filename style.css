@@ -153,7 +153,8 @@ border-radius: 100%;
   opacity: 0.8;
    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
- }
+  
+}
 .item5 { 
   grid-area: footer;
   position: absolute;
@@ -191,6 +192,7 @@ border-radius: 100%;
 
 .item5 {
     background-color: white;
+
 }
 
 
@@ -455,5 +457,29 @@ ol>li a{
  bottom: 5px;
  right: 30px;
  padding: 15px;
+}
+}
+
+
+
+
+
+@media only screen and (max-height: 700px) and (min-width: 1000px){
+
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 25%;
+}
+}
+@media only screen and (max-height: 650px) and (min-width: 1000px){
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 15%;
+}
+}
+@media only screen and (max-height: 600px) and (min-width: 1000px){
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 12%;
 }
 }
