@@ -478,9 +478,6 @@ ol>li a{
     font-size: 0.5em;
     padding: 0;
   }
-  .page-header-image {
-     clip: rect(0px,1200px,600px,0px);
-}
   .description1{
     position: absolute;
     left: 2%;
@@ -543,6 +540,12 @@ ol>li a{
  right: 30px;
  padding: 15px;
 }}
+@media only screen and (max-width: 412px){
+body{
+  height: 732px;
+}
+}
+
 
 
 
