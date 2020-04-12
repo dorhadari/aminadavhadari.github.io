@@ -242,21 +242,21 @@ ol>li a:hover {
   }
   #Aminadavpic{
     position: relative;
-    top: 37%;
+    top: 25%;
     left: 67%;
  }
   .item2 { 
     width: 360px;
   }
   .title {
-    position: absolute;
-    top: 140%;
+    position: relative;
+    top: 59%;
     left: 63%;
     width: 390px;
   }
   .category {
     position: relative;
-    top: 115%;
+    top: 54%;
     left: 68%;
     text-align: center; 
   }
@@ -264,7 +264,7 @@ ol>li a:hover {
    width: 470px;
    height: 450px;
    position: relative;
-   top: 90%;
+   top: 65%;
    left: 0%;
   }
   .grid-container {
@@ -281,7 +281,7 @@ ol>li a:hover {
   .item5{
     height: 100px;
     position: relative;
-    bottom: -450px;
+    bottom: -365px;
   }
   .copyright{
     position: relative;
@@ -327,18 +327,18 @@ ol>li a{
   }
   #Aminadavpic{
     position: relative;
-    top: 37%;
+    top: 25%;
     left: 50%;
  }
   .title {
-    position: absolute;
-    top: 140%;
+    position: relative;
+    top: 59%;
     left: 45%;
     width: 390px;
   }
   .category {
     position: relative;
-    top: 115%;
+    top: 54%;
     left: 50%;
     text-align: center; 
   }
@@ -346,7 +346,7 @@ ol>li a{
    width: 470px;
    height: 450px;
    position: relative;
-   top: 90%;
+   top: 65%;
    left: 0%;
   }
   .grid-container {
@@ -363,7 +363,7 @@ ol>li a{
   .item5{
     height: 100px;
     position: relative;
-    bottom: -450px;
+    bottom: -335px;
   }
   .copyright{
     position: relative;
