@@ -407,18 +407,18 @@ ol>li a{
   }
   #Aminadavpic{
     position: relative;
-    top: 37%;
+    top: 25%;
     left: 22%;
  }
   .title {
-    position: absolute;
-    top: 140%;
+    position: relative;
+    top: 59%;
     left: 17%;
     width: 390px;
   }
   .category {
     position: relative;
-    top: 115%;
+    top: 54%;
     left: 23%;
     text-align: center; 
   }
@@ -426,7 +426,7 @@ ol>li a{
    width: 470px;
    height: 450px;
    position: relative;
-   top: 90%;
+   top: 65%;
    left: 0%;
   }
   .grid-container {
@@ -443,7 +443,7 @@ ol>li a{
   .item5{
     height: 100px;
     position: relative;
-    bottom: -450px;
+    bottom: -335px;
   }
   .copyright{
     position: relative;
