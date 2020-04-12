@@ -2,7 +2,6 @@ body{
   margin: auto 0;
 }
 
-
 .nav1 { 
   grid-area: header;
   position: fixed;
@@ -11,7 +10,6 @@ body{
   width: 99%;
   z-index: 1;
 }
-
 .nav1>ul {
   list-style-type: none;
   margin: 0;
@@ -19,7 +17,6 @@ body{
   overflow: hidden;
   background-color: #333;
 }
-
 li {
   float: left;
   font-size: 15px;
@@ -116,9 +113,7 @@ border-radius: 100%;
     font-weight: 900;
     line-height: 1.4;
     text-shadow: 2px 2px 8px white;
-
-    
- }
+}
 
 
 .description1 {
@@ -153,7 +148,6 @@ border-radius: 100%;
   opacity: 0.8;
    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
-  
 }
 .item5 { 
   grid-area: footer;
@@ -192,34 +186,23 @@ border-radius: 100%;
 
 .item5 {
     background-color: white;
-
 }
-
-
-  ol{
+ol{
 list-style-type: none;
-
 }
-
 ol>li a{
-
 color: rgba(33, 38, 43, 0.8);
 }
-
 ol>li a:hover {
   background-color: white;
 }
-
 .copyright{
   position: absolute;
   right: 10%;
 }
-
 .copyright>a{
   color: #FF5913;
 }
-
-
 
 
 
@@ -265,7 +248,7 @@ ol>li a:hover {
    height: 450px;
    position: relative;
    top: 65%;
-   left: 0%;
+   left: -3%;
   }
   .grid-container {
   display: grid;
@@ -295,17 +278,107 @@ ol>li a{
  bottom: 5px;
  right: 30px;
  padding: 15px;
-}
-}
+}}
 
-
-
-
-
-
-
-
+@media only screen and (max-width: 900px){
+  .WordsPuzzle_DARK_BLUE{
+   width: 470px;
+   height: 450px;
+   position: relative;
+   top: 65%;
+   left: 0%;
+  }}
+@media only screen and (max-width: 845px){
+  .description1{
+    position: absolute;
+    left: 10%;
+  }
+  .item2 { 
+    width: 350px;
+    position: relative;
+    left: -1%;
+  }}
 @media only screen and (max-width: 800px){
+  body{
+    height: 500px;
+  }
+  .nav1{
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .page-header-image {
+    clip: rect(0px,1200px,600px,0px);
+}
+  .description1{
+    position: absolute;
+    left: 9%;
+}
+   .item2 { 
+    width: 350px;
+    position: relative;
+    left: 5%;
+  }
+  #Aminadavpic{
+    position: relative;
+    top: 25%;
+    left: 50%;
+ }
+  .title {
+    position: relative;
+    top: 59%;
+    left: 45%;
+    width: 390px;
+  }
+  .category {
+    position: relative;
+    top: 54%;
+    left: 50%;
+    text-align: center; 
+  }
+  .WordsPuzzle_DARK_BLUE{
+   width: 470px;
+   height: 450px;
+   position: relative;
+   top: 65%;
+   left: 0%;
+  }
+  .grid-container {
+  display: grid;
+  grid-template-areas:
+    'head head'
+    'main main'
+    'menu menu'
+    'right right'
+    'footer footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
+  .item5{
+    height: 100px;
+    position: relative;
+    bottom: -335px;
+  }
+  .copyright{
+    position: relative;
+    bottom: -4px;
+    right: 20px;
+    float: right;
+    font-size: 9px;
+}
+ol>li a{
+ position: relative;
+ bottom: 5px;
+ right: 30px;
+ padding: 15px;
+}}
+@media only screen and (max-width: 775px){
+  .item2 { 
+    width: 350px;
+    position: relative;
+    left: 3%;
+  }
+}
+@media only screen and (max-width: 768px){
   body{
 
     height: 500px;
@@ -315,7 +388,6 @@ ol>li a{
     padding: 0;
   }
   .page-header-image {
-    
     clip: rect(0px,1200px,600px,0px);
 }
   .description1{
@@ -377,15 +449,32 @@ ol>li a{
  bottom: 5px;
  right: 30px;
  padding: 15px;
+}}
+@media only screen and (max-width: 700px){
+  .item2 { 
+    width: 350px;
+    position: relative;
+    left: -2%;
+  }
 }
-}
-
-
-
-
+@media only screen and (max-width: 670px){
+ .item2 { 
+    width: 350px;
+    position: relative;
+    left: -5%;
+  }
+ .description1{
+    position: absolute;
+    left: 3%;
+}}
 @media only screen and (max-width: 600px){
+.item2 { 
+    width: 350px;
+    position: relative;
+    left: -10%;
+}}
+@media only screen and (max-width: 520px){
   body{
-
     height: 500px;
   }
   .nav1{
@@ -402,7 +491,7 @@ ol>li a{
    .item2 { 
     width: 350px;
     position: relative;
-    left: -3px;
+    left: -2%;
   }
   #Aminadavpic{
     position: relative;
@@ -456,29 +545,32 @@ ol>li a{
  bottom: 5px;
  right: 30px;
  padding: 15px;
-}
-}
+}}
 
 
 
-
-
-@media only screen and (max-height: 700px) and (min-width: 1000px){
-
+@media only screen and (max-height: 716px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
   top: 25%;
-}
-}
-@media only screen and (max-height: 650px) and (min-width: 1000px){
+}}
+@media only screen and (max-height: 680px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
   top: 15%;
-}
-}
-@media only screen and (max-height: 600px) and (min-width: 1000px){
+}}
+@media only screen and (max-height: 630px) and (min-width: 1000px){
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 10%;
+}}
+@media only screen and (max-height: 610px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
   top: 12%;
-}
-}
+}}
+@media only screen and (max-height: 590px) and (min-width: 1000px){
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 8%;
+}}
