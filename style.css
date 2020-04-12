@@ -393,8 +393,7 @@ ol>li a{
     padding: 0;
   }
   .page-header-image {
-    
-    clip: rect(0px,1200px,600px,0px);
+     clip: rect(0px,1200px,600px,0px);
 }
   .description1{
     position: absolute;
