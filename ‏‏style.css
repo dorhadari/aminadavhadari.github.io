@@ -288,6 +288,7 @@ ol>li a{
   }
   .page-header-image {
     clip: rect(0px,1200px,600px,0px);
+   
 }
   .description1{
     position: absolute;
@@ -423,7 +424,6 @@ ol>li a{
  right: 30px;
  padding: 15px;
 }}
-
 @media only screen and (max-width: 360px){
  ul{
   width: 105%;
