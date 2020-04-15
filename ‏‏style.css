@@ -91,7 +91,7 @@ border-radius: 100%;
 }
 .category {
     position: relative;
-    top: -8%;
+    top: -9%;
     left: -1%;
     /*font-family: 'Playfair Display', serif;*/
     font-family: 'Times New Roman', serif;
@@ -129,19 +129,19 @@ border-radius: 100%;
  }
  .WordsPuzzle_DARK_BLUE{
   position: relative;
-  top: 34%;
+  top: 29%;
   /*right: -82px;*/
-  right: -12%;
+  right: -10%;
   opacity: 0.8;
    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 .item5 { 
   grid-area: footer;
-  position: absolute;
-  bottom: 0px;
+  position: relative;
+  top: 155px;
   width: 100%;
-  height: 12%;
+  height: 70px;
 }
 .grid-container {
   display: grid;
@@ -181,7 +181,7 @@ ol>li a:hover {
 }
 .copyright{
   position: absolute;
-  right: 10%;
+  right: 152px; 
 }
 .copyright>a{
   color: #FF5913;
@@ -248,7 +248,7 @@ ol>li a:hover {
   .item5{
     height: 100px;
     position: relative;
-    bottom: -450px;
+    top: 380px;
   }
   .copyright{
     position: relative;
@@ -275,7 +275,13 @@ ol>li a{
     width: 350px;
     position: relative;
     left: -2%;
-  }}
+  }
+.item5{
+    height: 100px;
+    position: relative;
+    top: 430px;
+  }
+}
 @media only screen and (max-width: 845px){
   .description1{
     position: absolute;
@@ -550,29 +556,53 @@ ol>li a{
  left: 16px;
  padding: 15px;
 }}
-
 @media only screen and (max-height: 716px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
   top: 25%;
-}}
+}
+ .item5{
+    height: 100px;
+    position: relative;
+    top: 120px;
+  }}
 @media only screen and (max-height: 680px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
   top: 15%;
-}}
+}
+.item5{
+    height: 100px;
+    position: relative;
+    top: 80px;
+  }}
 @media only screen and (max-height: 630px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
   top: 12%;
-}}
+}
+.item5{
+    height: 90px;
+    position: relative;
+    top: 35px;
+  }}
 @media only screen and (max-height: 610px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
   top: 14%;
-}}
+}
+.item5{
+    height: 90px;
+    position: relative;
+    top: 30px;
+  }}
 @media only screen and (max-height: 590px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
   top: 10%;
-}}
+}
+.item5{
+    height: 90px;
+    position: relative;
+    top: 27px;  }}
+  
