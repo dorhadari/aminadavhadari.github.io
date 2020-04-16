@@ -523,7 +523,7 @@ ol>li a{
  padding: 15px;
 }}
 
-/*
+
 @media only screen and (max-width: 375px){
  body{
     height: 500px;
@@ -602,7 +602,7 @@ ol>li a{
  bottom: 5px;
  left: 16px;
  padding: 15px;
-}}*/
+}}
 @media only screen and (max-height: 716px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
