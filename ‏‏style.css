@@ -198,7 +198,7 @@ ol>li a:hover {
   .page-header-image {
      position: absolute;
     right: 0px;
-    bottom: 130px;}
+    bottom: 25%;}
   .description1{
     position: absolute;
     left: 15%;
@@ -217,13 +217,13 @@ ol>li a:hover {
   }
   .title {
     position: relative;
-    top: 67%;
+    top: 57%;
     left: 71%;
     width: 390px; 
   }
   .category {
     position: relative;
-    top: 67%;
+    top: 64%;
     left: 77%;
     text-align: center; 
   }
@@ -302,7 +302,7 @@ ol>li a{
   .page-header-image {
      position: absolute;
     right: 0px;
-    bottom: 310px;
+    bottom: 42%;
 height: 59%;
   }
   .description1{
@@ -423,7 +423,7 @@ ol>li a{
 .page-header-image {
      position: absolute;
     right: 0px;
-    bottom: 350px;
+    bottom: 48%;
 height: 59%;}
 .description1{
     position: relative;
@@ -460,7 +460,7 @@ height: 59%;}
   .page-header-image {
      position: absolute;
     right: 0px;
-    bottom: 350px;
+    bottom: 46%;
 height: 59%;}
   .description1{
     position: relative;
@@ -536,7 +536,7 @@ ol>li a{
  .page-header-image {
      position: absolute;
     right: 0px;
-    bottom: 350px;
+    bottom: 40%;
 height: 59%;
 width: 100%;}
 .item1{
