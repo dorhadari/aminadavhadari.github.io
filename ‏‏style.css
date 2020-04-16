@@ -198,14 +198,15 @@ ol>li a:hover {
   .page-header-image {
      position: absolute;
     right: 0px;
-    bottom: 25%;}
+    bottom: 40%;
+    height: 60%}
   .description1{
     position: absolute;
     left: 15%;
   }
   #Aminadavpic{
     position: relative;
-    top: 34%;
+    top: 14%;
     left: 74%;
  }
  .avatar{
@@ -217,21 +218,21 @@ ol>li a:hover {
   }
   .title {
     position: relative;
-    top: 57%;
+    top: 37%;
     left: 71%;
     width: 390px; 
   }
   .category {
     position: relative;
-    top: 64%;
+    top: 34%;
     left: 77%;
     text-align: center; 
   }
   .WordsPuzzle_DARK_BLUE{
-   width: 470px;
-   height: 450px;
+   width: 570px;
+   height: 550px;
    position: relative;
-   top: 70%;
+   top: 40%;
    left: 0%;
   }
   .grid-container {
@@ -268,7 +269,7 @@ ol>li a{
    width: 470px;
    height: 450px;
    position: relative;
-   top: 80%;
+   top: 45%;
    left: 0%;
   }
 .item2 { 
@@ -279,7 +280,7 @@ ol>li a{
 .item5{
     height: 100px;
     position: relative;
-    top: 430px;
+    top: 320px;
   }}
 @media only screen and (max-width: 845px){
   .description1{
@@ -302,13 +303,13 @@ ol>li a{
   .page-header-image {
      position: absolute;
     right: 0px;
-    bottom: 42%;
-height: 59%;
+    top: 0px;
+    height: 68%;
   }
   .description1{
     position: relative;
-    top: 70px;
-    left: 130px;
+    top: 61px;
+    left: 16%;
     width: 467px;
   }
    .item2 { 
@@ -318,19 +319,19 @@ height: 59%;
   }
   #Aminadavpic{
     position: relative;
-    top: 37%;
-    left: 50%;
+    top: 27%;
+    left: 48%;
  }
   .title {
     position: relative;
-    top: 35%;
-    left: 45%;
+    top: 38%;
+    left: 43%;
     width: 390px;
   }
   .category {
     position: relative;
     top: 35%;
-    left: 52%;
+    left: 48%;
     text-align: center; 
   }
   .WordsPuzzle_DARK_BLUE{
@@ -382,7 +383,7 @@ ol>li a{
     left: 2%;}
 #Aminadavpic{
     position: relative;
-    top: 37%;
+    top: 26%;
     left: 37%;}
   .title {
     position: relative;
@@ -395,10 +396,16 @@ ol>li a{
     left: 37%;
     text-align: center;}}
 @media only screen and (max-width: 600px){
+.page-header-image {
+     position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 64%;
+  }
 .description1{
     position: relative;
-    top: 70px;
-    left: 70px;
+    top: 65px;
+    left: 60px;
   }
 .item2 { 
     width: 350px;
@@ -406,28 +413,28 @@ ol>li a{
     left: 0%;}
 #Aminadavpic{
     position: relative;
-    top: 37%;
+    top: 27%;
     left: 33%;
  }
   .title {
     position: relative;
     top: 35%;
-    left: 27%;
+    left: 25%;
     width: 390px;}
   .category {
     position: relative;
     top: 32%;
-    left: 33%;
+    left: 31%;
     text-align: center;}}
 @media only screen and (max-width: 570px){
 .page-header-image {
      position: absolute;
     right: 0px;
     bottom: 48%;
-height: 59%;}
+height: 63%;}
 .description1{
     position: relative;
-    top: 70px;
+    top: 60px;
     left: 40px;
     width: 467px;
   }
@@ -439,7 +446,7 @@ height: 59%;}
 }
 #Aminadavpic{
     position: relative;
-    top: 37%;
+    top: 32%;
     left: 24%;
  }
   .title {
@@ -461,10 +468,10 @@ height: 59%;}
      position: absolute;
     right: 0px;
     bottom: 46%;
-height: 59%;}
+height: 67%;}
   .description1{
     position: relative;
-    top: 80px;
+    top: 70px;
     left: 20px;
     width: 460px;
   }
@@ -522,8 +529,6 @@ ol>li a{
  right: 30px;
  padding: 15px;
 }}
-
-
 @media only screen and (max-width: 375px){
  body{
     height: 500px;
@@ -536,12 +541,9 @@ ol>li a{
  .page-header-image {
      position: absolute;
     right: 0px;
-    bottom: 40%;
-height: 59%;
-width: 100%;}
-.item1{
-  width: 100%;
-}
+    top: 0px;
+    height: 64%;
+  }
   .description1{
     width: 900px;
     position: absolute;
