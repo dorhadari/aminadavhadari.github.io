@@ -1,0 +1,657 @@
+body{
+  margin: auto 0;
+}
+.nav1 { 
+  grid-area: header;
+  position: fixed;
+  top: 0px;
+  left: 6px;
+  width: 99%;
+  z-index: 1;
+}
+.nav1>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+  font-size: 15px;
+}
+.left{
+  margin-left: 8%;  
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.item1 { 
+  grid-area: head;
+  height: 12px;
+}
+.item2 { 
+  grid-area: menu;
+  text-align: center;
+  position: relative;
+  top: 5%;
+  left: 3%;
+  z-index: -1;
+}
+#Aminadavpic{
+      position: relative;
+      top: 0%;
+      left: -1%;
+}
+.avatar{
+border-radius: 100%;
+}
+.title {
+    font-family: 'Times New Roman', serif;
+    position: relative;
+    top: -6%;
+    left: 10.5%;
+    width: 400px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    /*color: #0B54AB;*/
+    color: black;
+    text-shadow: 2px 2px 4px white;
+}
+.category {
+    position: relative;
+    top: -9%;
+    left: -1%;
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'Times New Roman', serif;
+    /*color: rgba(11, 84, 171, 0.75);*/
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-shadow: 2px 2px 8px white;
+}
+.description1 {
+ grid-area: main;
+ position: absolute;
+ top: 13.5%; 
+ left: 30%;
+        text-align: center;
+       /*font-family: 'Playfair Display', serif;*/
+       font-family: 'Times New Roman', sans-serif;
+      font-size: 57px;
+  /*color: white;*/
+  color: black;
+  line-height: 58px;
+  font-weight: 500;
+  /*text-shadow:
+   6px -1px 0 #0B54AB,  
+    1px -2px 0 #0B54AB,
+    -1px 1px 0 #0B54AB,
+     1px 1px 0 #58B3DA;*/
+}
+.item4 { 
+    grid-area: right;
+    position: relative;
+    top: 5%;
+ }
+ .WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 29%;
+  /*right: -82px;*/
+  right: -10%;
+  opacity: 0.8;
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.item5 { 
+  grid-area: footer;
+  position: relative;
+  top: 155px;
+  width: 100%;
+  height: 70px;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'head head head head head head'
+    'menu main main main right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
+.page-header-image {
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item5 {
+    background-color: white;
+}
+ol{
+list-style-type: none;
+}
+ol>li a{
+color: rgba(33, 38, 43, 0.8);
+}
+ol>li a:hover {
+  background-color: white;
+}
+.copyright{
+  position: absolute;
+  right: 152px; 
+}
+.copyright>a{
+  color: #FF5913;
+}
+@media only screen and (max-width: 1366px){
+  .nav1{
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .page-header-image {
+     position: absolute;
+    right: 0px;
+    bottom: 70%;
+    height: 28%}
+  .description1{
+    position: absolute;
+    left: 23%;
+    top: 6%;
+  }
+  #Aminadavpic{
+    position: relative;
+    top: -20%;
+    left: 80%;
+ }
+ .avatar{
+ width: 220px; 
+    height: 210px;
+}
+  .item2 { 
+    width: 360px;
+    position: relative;
+    left: 7%;
+    top: 35%;
+  }
+  .title {
+    position: relative;
+    top: -10%;
+    left: 71%;
+    width: 390px;}
+  .category {
+    position: relative;
+    top: -13%;
+    left: 77%;
+    text-align: center; 
+  }
+  .WordsPuzzle_DARK_BLUE{
+   width: 570px;
+   height: 550px;
+   position: relative;
+   top: 17%;
+   left: 0%;
+  }
+  .grid-container {
+  display: grid;
+  grid-template-areas:
+    'head head'
+    'main main'
+    'menu menu'
+    'right right'
+    'footer footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
+  .item5{
+    height: 100px;
+    position: relative;
+    top: 130px;
+  }
+  .copyright{
+    position: relative;
+    bottom: -4px;
+    right: 35px;
+    float: right;
+    font-size: 9px;
+}
+ol>li a{
+ position: relative;
+ bottom: 5px;
+ right: 30px;
+ padding: 15px;
+}}
+@media only screen and (max-width: 1000px){
+  body{
+    height: 500px;
+  }
+  .nav1{
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .page-header-image {
+     position: absolute;
+    right: 0px;
+    bottom: 40%;
+    height: 60%}
+  .description1{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+  }
+  #Aminadavpic{
+    position: relative;
+    top: 14%;
+    left: 74%;
+ }
+ .avatar{
+ width: 180px; 
+    height: 170px;
+}
+  .item2 { 
+    width: 360px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+  }
+  .title {
+    position: relative;
+    top: 37%;
+    left: 71%;
+    width: 390px; 
+  }
+  .category {
+    position: relative;
+    top: 34%;
+    left: 77%;
+    text-align: center; 
+  }
+  .WordsPuzzle_DARK_BLUE{
+   width: 570px;
+   height: 550px;
+   position: relative;
+   top: 40%;
+   left: 0%;
+  }
+  .grid-container {
+  display: grid;
+  grid-template-areas:
+    'head head'
+    'main main'
+    'menu menu'
+    'right right'
+    'footer footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
+  .item5{
+    height: 100px;
+    position: relative;
+    top: 380px;
+  }
+  .copyright{
+    position: relative;
+    bottom: -4px;
+    right: 20px;
+    float: right;
+    font-size: 9px;
+}
+ol>li a{
+ position: relative;
+ bottom: 5px;
+ right: 30px;
+ padding: 15px;
+}}
+@media only screen and (max-width: 900px){
+  .WordsPuzzle_DARK_BLUE{
+   width: 470px;
+   height: 450px;
+   position: relative;
+   top: 45%;
+   left: 0%;
+  }
+.item2 { 
+    width: 350px;
+    position: relative;
+    left: -2%;
+  }
+.item5{
+    height: 100px;
+    position: relative;
+    top: 320px;
+  }}
+@media only screen and (max-width: 845px){
+  .description1{
+    position: absolute;
+    left: 10%;
+  }
+  .item2 { 
+    width: 350px;
+    position: relative;
+    left: -5%;
+  }}
+@media only screen and (max-width: 800px){
+  body{
+    height: 500px;
+  }
+  .nav1{
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .page-header-image {
+     position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 66%;
+  }
+  .description1{
+    position: relative;
+    top: 61px;
+    left: 16%;
+    width: 467px;
+  }
+   .item2 { 
+    width: 350px;
+    position: relative;
+    left: 2%;
+  }
+  #Aminadavpic{
+    position: relative;
+    top: 27%;
+    left: 48%;
+ }
+  .title {
+    position: relative;
+    top: 38%;
+    left: 43%;
+    width: 390px;
+  }
+  .category {
+    position: relative;
+    top: 35%;
+    left: 48%;
+    text-align: center; 
+  }
+  .WordsPuzzle_DARK_BLUE{
+   width: 470px;
+   height: 450px;
+   position: relative;
+   top: 40%;
+   left: 0%;
+  }
+  .grid-container {
+  display: grid;
+  grid-template-areas:
+    'head head'
+    'main main'
+    'menu menu'
+    'right right'
+    'footer footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
+  .item5{
+    height: 100px;
+    position: relative;
+    top: 230%;
+  }
+  .copyright{
+    position: relative;
+    bottom: -4px;
+    right: 20px;
+    float: right;
+    font-size: 9px;
+}
+ol>li a{
+ position: relative;
+ bottom: 5px;
+ right: 30px;
+ padding: 15px;
+}}
+@media only screen and (max-width: 670px){
+.page-header-image {
+     position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 60%;}
+.description1{
+    position: relative;
+    top: 54px;
+    left: 80px;
+    width: 467px;
+  }
+.item2 { 
+    width: 350px;
+    position: relative;
+    left: 2%;}
+#Aminadavpic{
+    position: relative;
+    top: 26%;
+    left: 37%;}
+  .title {
+    position: relative;
+    top: 35%;
+    left: 31%;
+    width: 390px;}
+  .category {
+    position: relative;
+    top: 35%;
+    left: 37%;
+    text-align: center;}}
+@media only screen and (max-width: 600px){
+.page-header-image {
+     position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 45%;
+  }
+.description1{
+    position: relative;
+    top: 61px;
+    left: 60px;
+  }
+.item2 { 
+    width: 350px;
+    position: relative;
+    left: 0%;}
+#Aminadavpic{
+    position: relative;
+    top: 27%;
+    left: 33%;
+ }
+  .title {
+    position: relative;
+    top: 35%;
+    left: 25%;
+    width: 390px;}
+  .category {
+    position: relative;
+    top: 32%;
+    left: 31%;
+    text-align: center;}}
+@media only screen and (max-width: 570px){
+.page-header-image {
+     position: absolute;
+    right: 0px;
+    bottom: 48%;
+height: 47%;}
+.description1{
+    position: relative;
+    top: 53px;
+    left: 40px;
+    width: 467px;
+  }
+.item2 { 
+    width: 350px;
+    position: relative;
+    left: 0%;
+    top: 0%;
+}
+#Aminadavpic{
+    position: relative;
+    top: 32%;
+    left: 24%;
+ }
+  .title {
+    position: relative;
+    top: 37%;
+    left: 18%;
+    width: 390px;}
+  .category {
+    position: relative;
+    top: 35%;
+    left: 24%;
+    text-align: center;}}
+@media only screen and (max-width: 520px){
+  .nav1{
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .page-header-image {
+     position: absolute;
+    right: 0px;
+    top: 0px;
+height: 480px;}
+  .description1{
+    position: relative;
+    top: 64px;
+    left: 20px;
+    width: 460px;}
+   .item2 { 
+    width: 350px;
+    position: relative;
+    left: 0%;}
+  #Aminadavpic{
+    position: relative;
+    top: 30%;
+    left: 21%;}
+  .title {
+    position: relative;
+    top: 39%;
+    left: 16%;
+    width: 390px;}
+  .category {
+    position: relative;
+    top: 34%;
+    left: 22%;
+    text-align: center; }
+    .item4{
+    	position: relative;
+    	left: -2%;}
+  .WordsPuzzle_DARK_BLUE{
+   width: 450px;
+   height: 430px;
+   position: relative;
+   top: 45%;
+   left: 0%;}
+  .grid-container {
+  display: grid;
+  grid-template-areas:
+    'head head'
+    'main main'
+    'menu menu'
+    'right right'
+    'footer footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
+  .item5{
+    height: 100px;
+    position: relative;
+    bottom: -335px;
+  }
+  .copyright{
+    position: relative;
+    bottom: -4px;
+    right: 34px;
+    float: right;
+    font-size: 9px;}
+ol>li a{
+ position: relative;
+ bottom: 5px;
+ right: 30px;
+ padding: 15px;
+}}
+
+@media only screen and (max-height: 716px) and (min-width: 1000px){
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 25%;}
+ .item5{
+    height: 100px;
+    position: relative;
+    top: 120px;}}
+@media only screen and (max-height: 680px) and (min-width: 1000px){
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 15%;}
+.item5{
+    height: 100px;
+    position: relative;
+    top: 80px;}}
+@media only screen and (max-height: 630px) and (min-width: 1000px){
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 12%;}
+.item5{
+    height: 90px;
+    position: relative;
+    top: 35px;}}
+@media only screen and (max-height: 610px) and (min-width: 1000px){
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 14%;}
+.item5{
+    height: 90px;
+    position: relative;
+    top: 30px;}}
+@media only screen and (max-height: 590px) and (min-width: 1000px){
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 10%;}
+.item5{
+    height: 90px;
+    position: relative;
+    top: 27px;}}
