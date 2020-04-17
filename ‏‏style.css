@@ -287,8 +287,8 @@ ol>li a{
     left: 74%;
  }
  .avatar{
- width: 180px; 
-    height: 170px;
+ width: 200px; 
+    height: 190px;
 }
   .item2 { 
     width: 360px;
@@ -298,13 +298,13 @@ ol>li a{
   }
   .title {
     position: relative;
-    top: 37%;
+    top: 31%;
     left: 71%;
     width: 390px; 
   }
   .category {
     position: relative;
-    top: 34%;
+    top: 28%;
     left: 77%;
     text-align: center; 
   }
@@ -503,12 +503,12 @@ ol>li a{
  }
   .title {
     position: relative;
-    top: 35%;
+    top: 40%;
     left: 25%;
     width: 390px;}
   .category {
     position: relative;
-    top: 32%;
+    top: 35%;
     left: 31%;
     text-align: center;}}
 @media only screen and (max-width: 570px){
@@ -531,9 +531,13 @@ height: 47%;}
 }
 #Aminadavpic{
     position: relative;
-    top: 32%;
+    top: 24%;
     left: 24%;
  }
+ .avatar{
+ width: 210px; 
+    height: 200px;
+}
   .title {
     position: relative;
     top: 37%;
@@ -562,11 +566,15 @@ height: 480px;}
    .item2 { 
     width: 350px;
     position: relative;
-    left: 0%;}
+    left: -2%;}
   #Aminadavpic{
     position: relative;
     top: 30%;
     left: 21%;}
+    .avatar{
+ width: 200px; 
+    height: 190px;
+}
   .title {
     position: relative;
     top: 39%;
