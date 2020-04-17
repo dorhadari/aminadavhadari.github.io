@@ -458,7 +458,7 @@ ol>li a{
     height: 60%;}
 .description1{
     position: relative;
-    top: 54px;
+    top: 50px;
     left: 80px;
     width: 467px;
   }
@@ -474,7 +474,7 @@ ol>li a{
     position: relative;
     top: 35%;
     left: 31%;
-    width: 390px;}
+    width: 390px;color: red;}
   .category {
     position: relative;
     top: 35%;
