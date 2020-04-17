@@ -400,18 +400,19 @@ ol>li a{
   #Aminadavpic{
     position: relative;
     top: 27%;
-    left: 48%;
+    left: 38%;
  }
   .title {
     position: relative;
     top: 38%;
-    left: 43%;
-    width: 390px;
+    left: 24%;
+    width: 450px;
   }
   .category {
     position: relative;
     top: 35%;
-    left: 48%;
+    left: 26%;
+    width: 450px;
     text-align: center; 
   }
   .WordsPuzzle_DARK_BLUE{
@@ -473,12 +474,13 @@ ol>li a{
   .title {
     position: relative;
     top: 35%;
-    left: 31%;
-    width: 390px;}
+    left: 28%;
+    width: 450px;}
   .category {
     position: relative;
     top: 35%;
-    left: 37%;
+    left: 30%;
+    width: 450px;
     text-align: center;}}
 @media only screen and (max-width: 600px){
 .page-header-image {
@@ -572,7 +574,7 @@ height: 480px;}
   #Aminadavpic{
     position: relative;
     top: 25%;
-    left: 20%;}
+    left: 23%;}
     .avatar{
  width: 210px; 
     height: 200px;
