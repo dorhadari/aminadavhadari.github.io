@@ -186,7 +186,83 @@ ol>li a:hover {
 .copyright>a{
   color: #FF5913;
 }
-
+@media only screen and (max-width: 1366px){
+  .nav1{
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .page-header-image {
+     position: absolute;
+    right: 0px;
+    bottom: 70%;
+    height: 28%}
+  .description1{
+    position: absolute;
+    left: 23%;
+    top: 6%;
+  }
+  #Aminadavpic{
+    position: relative;
+    top: -20%;
+    left: 80%;
+ }
+ .avatar{
+ width: 220px; 
+    height: 210px;
+}
+  .item2 { 
+    width: 360px;
+    position: relative;
+    left: 7%;
+    top: 35%;
+  }
+  .title {
+    position: relative;
+    top: -10%;
+    left: 71%;
+    width: 390px;}
+  .category {
+    position: relative;
+    top: -13%;
+    left: 77%;
+    text-align: center; 
+  }
+  .WordsPuzzle_DARK_BLUE{
+   width: 570px;
+   height: 550px;
+   position: relative;
+   top: 17%;
+   left: 0%;
+  }
+  .grid-container {
+  display: grid;
+  grid-template-areas:
+    'head head'
+    'main main'
+    'menu menu'
+    'right right'
+    'footer footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
+  .item5{
+    height: 100px;
+    position: relative;
+    top: 130px;
+  }
+  .copyright{
+    position: relative;
+    bottom: -4px;
+    right: 35px;
+    float: right;
+    font-size: 9px;
+}
+ol>li a{
+ position: relative;
+ bottom: 5px;
+ right: 30px;
+ padding: 15px;
+}}
 @media only screen and (max-width: 1000px){
   body{
     height: 500px;
@@ -203,6 +279,7 @@ ol>li a:hover {
   .description1{
     position: absolute;
     left: 15%;
+    top: 10%;
   }
   #Aminadavpic{
     position: relative;
@@ -215,6 +292,9 @@ ol>li a:hover {
 }
   .item2 { 
     width: 360px;
+    position: relative;
+    top: 0%;
+    left: 0%;
   }
   .title {
     position: relative;
@@ -304,7 +384,7 @@ ol>li a{
      position: absolute;
     right: 0px;
     top: 0px;
-    height: 68%;
+    height: 66%;
   }
   .description1{
     position: relative;
@@ -371,9 +451,14 @@ ol>li a{
  padding: 15px;
 }}
 @media only screen and (max-width: 670px){
+.page-header-image {
+     position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 60%;}
 .description1{
     position: relative;
-    top: 70px;
+    top: 54px;
     left: 80px;
     width: 467px;
   }
@@ -400,11 +485,11 @@ ol>li a{
      position: absolute;
     right: 0px;
     top: 0px;
-    height: 64%;
+    height: 45%;
   }
 .description1{
     position: relative;
-    top: 65px;
+    top: 61px;
     left: 60px;
   }
 .item2 { 
@@ -431,10 +516,10 @@ ol>li a{
      position: absolute;
     right: 0px;
     bottom: 48%;
-height: 63%;}
+height: 47%;}
 .description1{
     position: relative;
-    top: 60px;
+    top: 53px;
     left: 40px;
     width: 467px;
   }
@@ -467,22 +552,20 @@ height: 63%;}
   .page-header-image {
      position: absolute;
     right: 0px;
-    bottom: 46%;
-height: 67%;}
+    top: 0px;
+height: 480px;}
   .description1{
     position: relative;
-    top: 70px;
+    top: 64px;
     left: 20px;
-    width: 460px;
-  }
+    width: 460px;}
    .item2 { 
     width: 350px;
     position: relative;
-    left: -2%;
-  }
+    left: 0%;}
   #Aminadavpic{
     position: relative;
-    top: 38%;
+    top: 30%;
     left: 21%;}
   .title {
     position: relative;
@@ -494,9 +577,12 @@ height: 67%;}
     top: 34%;
     left: 22%;
     text-align: center; }
+    .item4{
+    	position: relative;
+    	left: -2%;}
   .WordsPuzzle_DARK_BLUE{
-   width: 470px;
-   height: 450px;
+   width: 450px;
+   height: 430px;
    position: relative;
    top: 45%;
    left: 0%;}
@@ -519,139 +605,53 @@ height: 67%;}
   .copyright{
     position: relative;
     bottom: -4px;
-    right: 20px;
+    right: 34px;
     float: right;
-    font-size: 9px;
-}
+    font-size: 9px;}
 ol>li a{
  position: relative;
  bottom: 5px;
  right: 30px;
  padding: 15px;
 }}
-@media only screen and (max-width: 375px){
- body{
-    height: 500px;
-  }
-  .nav1{
-    font-size: 0.5em;
-    padding: 0;
-    width: 100%;
-  }
- .page-header-image {
-     position: absolute;
-    right: 0px;
-    top: 0px;
-    height: 64%;
-  }
-  .description1{
-    width: 900px;
-    position: absolute;
-    left: 44%;
-    top: 19%;
-  }
-   .item2 { 
-    width: 100%;
-    position: relative;
-    left: 4%;
-  }
-  #Aminadavpic{
-    position: relative;
-    top: 15%;
-    left: 8%;
- }
-  .title {
-    position: relative;
-    top: 15%;
-    left: 20%;
-    width: 800px;
-  }
-  .category {
-    position: relative;
-    top: 0%;
-    left: 10%; 
-  }
-  .item4{
-    width: 100%;
-  }
-  .WordsPuzzle_DARK_BLUE{
-   position: relative;
-   top: 15%;
-   left: 9%;
-   width: 1030px;
-   height: 950px;
-   margin: 0px;
-   
-  }
-  .grid-container {
-  display: grid;
-  grid-template-areas:
-    'head head'
-    'main main'
-    'menu menu'
-    'right right'
-    'footer footer';
-  grid-gap: 0px;
-  padding: 0px;
-}
-  .item5{
-    height: 200px;
-    position: relative;
-    bottom: -655px;
-  }
-ol>li a{
- position: relative;
- bottom: 5px;
- left: 16px;
- padding: 15px;
-}}
+
 @media only screen and (max-height: 716px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
-  top: 25%;
-}
+  top: 25%;}
  .item5{
     height: 100px;
     position: relative;
-    top: 120px;
-  }}
+    top: 120px;}}
 @media only screen and (max-height: 680px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
-  top: 15%;
-}
+  top: 15%;}
 .item5{
     height: 100px;
     position: relative;
-    top: 80px;
-  }}
+    top: 80px;}}
 @media only screen and (max-height: 630px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
-  top: 12%;
-}
+  top: 12%;}
 .item5{
     height: 90px;
     position: relative;
-    top: 35px;
-  }}
+    top: 35px;}}
 @media only screen and (max-height: 610px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
-  top: 14%;
-}
+  top: 14%;}
 .item5{
     height: 90px;
     position: relative;
-    top: 30px;
-  }}
+    top: 30px;}}
 @media only screen and (max-height: 590px) and (min-width: 1000px){
 .WordsPuzzle_DARK_BLUE{
   position: relative;
-  top: 10%;
-}
+  top: 10%;}
 .item5{
     height: 90px;
     position: relative;
-    top: 27px;  }}
-  
+    top: 27px;}}
