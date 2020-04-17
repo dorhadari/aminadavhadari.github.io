@@ -504,12 +504,13 @@ ol>li a{
   .title {
     position: relative;
     top: 40%;
-    left: 25%;
-    width: 390px;}
+    left: 17%;
+    width: 450px;}
   .category {
     position: relative;
     top: 35%;
-    left: 31%;
+    left: 19%;
+    width: 450px;
     text-align: center;}}
 @media only screen and (max-width: 570px){
 .page-header-image {
@@ -540,13 +541,14 @@ height: 47%;}
 }
   .title {
     position: relative;
-    top: 37%;
-    left: 18%;
-    width: 390px;}
+    top: 38%;
+    left: 10%;
+    width: 450px;}
   .category {
     position: relative;
-    top: 35%;
-    left: 24%;
+    top: 32%;
+    left: 11%;
+    width: 450px;
     text-align: center;}}
 @media only screen and (max-width: 520px){
   .nav1{
@@ -566,11 +568,11 @@ height: 480px;}
    .item2 { 
     width: 350px;
     position: relative;
-    left: -2%;}
+    left: 0%;}
   #Aminadavpic{
     position: relative;
     top: 25%;
-    left: 21%;}
+    left: 20%;}
     .avatar{
  width: 210px; 
     height: 200px;
@@ -578,12 +580,13 @@ height: 480px;}
   .title {
     position: relative;
     top: 39%;
-    left: 16%;
-    width: 390px;}
+    left: 7.5%;
+    width: 450px;}
   .category {
     position: relative;
     top: 34%;
-    left: 22%;
+    left: 7%;
+    width: 450px;
     text-align: center; }
     .item4{
     	position: relative;
