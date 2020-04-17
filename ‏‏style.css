@@ -363,6 +363,19 @@ ol>li a{
     top: 320px;
   }}
 @media only screen and (max-width: 845px){
+   .title {
+    position: relative;
+    top: 31%;
+    left: 55%;
+    width: 500px; 
+  }
+  .category {
+    position: relative;
+    top: 28%;
+    left: 57%;
+    width: 500px;
+    text-align: center; 
+  }
   .description1{
     position: absolute;
     left: 10%;
@@ -395,7 +408,7 @@ ol>li a{
    .item2 { 
     width: 350px;
     position: relative;
-    left: 2%;
+    left: 8%;
   }
   #Aminadavpic{
     position: relative;
@@ -497,7 +510,7 @@ ol>li a{
 .item2 { 
     width: 350px;
     position: relative;
-    left: 0%;}
+    left: 1%;}
 #Aminadavpic{
     position: relative;
     top: 27%;
