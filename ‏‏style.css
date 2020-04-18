@@ -87,8 +87,7 @@ border-radius: 100%;
     font-size: 50px;
     /*color: #0B54AB;*/
     color: black;
-    text-shadow: 2px 2px 4px white;
-}
+    text-shadow: 2px 2px 4px white;}
 .category {
     position: relative;
     top: -9%;
@@ -558,7 +557,8 @@ height: 47%;}
     position: relative;
     top: 38%;
     left: 10%;
-    width: 450px;}
+    width: 450px;
+font-size: 52px;}
   .category {
     position: relative;
     top: 32%;
@@ -596,7 +596,8 @@ height: 480px;}
     position: relative;
     top: 39%;
     left: 7.5%;
-    width: 450px;}
+    width: 450px;
+font-size: 48px;}
   .category {
     position: relative;
     top: 34%;
