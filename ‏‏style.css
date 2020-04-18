@@ -419,7 +419,7 @@ ol>li a{
     top: 38%;
     left: 24%;
     width: 450px;
-  }
+  font-size: 48px;}
   .category {
     position: relative;
     top: 35%;
@@ -487,7 +487,8 @@ ol>li a{
     position: relative;
     top: 35%;
     left: 28%;
-    width: 450px;}
+    width: 450px;
+font-size: 48px;}
   .category {
     position: relative;
     top: 35%;
@@ -519,7 +520,8 @@ ol>li a{
     position: relative;
     top: 40%;
     left: 17%;
-    width: 450px;}
+    width: 450px;
+font-size: 50px;}
   .category {
     position: relative;
     top: 35%;
@@ -590,8 +592,7 @@ height: 480px;}
     left: 23%;}
     .avatar{
  width: 210px; 
-    height: 200px;
-}
+    height: 200px;}
   .title {
     position: relative;
     top: 39%;
@@ -622,8 +623,7 @@ font-size: 48px;}
     'right right'
     'footer footer';
   grid-gap: 0px;
-  padding: 0px;
-}
+  padding: 0px;}
   .item5{
     height: 100px;
     position: relative;
