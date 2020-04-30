@@ -84,8 +84,8 @@ li.dropdown {
 	/*background-size: cover;*/
 	background-size: 100% 90%;
 	background-repeat: no-repeat;
-  transition: 2s;
-}
+  transition: 2s; 
+} 
 .container .section:nth-child(2){
 	background-image: url("photo-1465829235810-1f912537f253.jpg");
 	background-size: cover;
@@ -325,6 +325,9 @@ body {
   width: 100%;
 }
 @media (max-width: 1200px) {
+ .container .section:nth-child(1){
+  overflow-x: hidden;
+}
  .empty{
   display: none;
 }
@@ -340,19 +343,11 @@ body {
   .column {
     flex: 50%;
     max-width: 50%;
-  }
-  .WordsPuzzle_DARK_BLUE{
-    width: 335px;
-    height: 325px;
   }}
 @media (max-width: 761px){
 /*.WordsPuzzle_DARK_BLUE{
   display: none;
 }*/
- .WordsPuzzle_DARK_BLUE{
-    width: 375px;
-    height: 365px;
-  }
 .grid-wrapper {
   grid-gap: 150px;}
   .zone{
@@ -367,7 +362,7 @@ body {
   background-size: 100% 34%;
 }
 .rectangle {
-  height: 60vh;
+  height: 115vh;
   width: 100%;
   background-color: white;
   position: absolute;
@@ -398,15 +393,11 @@ left: -10px;}
 
  .container1{
    height: 20vh;
-}
-.WordsPuzzle_DARK_BLUE{
-    width: 205px;
-    height: 195px;
-  }
-.item5{
+}.item5{
   position: relative;
-  bottom: -9px;
-  }}
+  bottom: -250px;
+  height: 15vh;
+}}
 
 @media only screen and (max-width: 520px){
 .white{
@@ -421,9 +412,14 @@ left: -10px;}
     top: 50px;}
     .grid-wrapper {
   position: relative;
-  top: 0px;
-  grid-gap: 0px;
+  top: 20px;
+  grid-gap: 50px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+}
+.item5{
+  position: relative;
+  bottom: -300px;
+  height: 15vh;
 }
 .copyright{
     position: relative;
