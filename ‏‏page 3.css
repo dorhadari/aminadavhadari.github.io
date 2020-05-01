@@ -249,9 +249,9 @@ table {
     overflow-x: auto;
   position: absolute;
   top: 25%;
-  left: 12%;
+  left: 9%;
   border-collapse: collapse;
-  width: 75%;
+  width: 82%;
   background-color: rgba(252, 252, 252, 0.4);
 
   }
@@ -343,6 +343,8 @@ ol{
 list-style-type: none;
 }
 .item55>ol>li a{
+  position: relative;
+  bottom: 26px;
 color: rgba(33, 38, 43, 1);
 }
 .item55>ol>li a:hover {
