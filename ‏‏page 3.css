@@ -87,8 +87,10 @@ li.dropdown {
   transition: 2s; 
 } 
 .container .section:nth-child(2){
-	background-image: url("photo-1465829235810-1f912537f253.jpg");
-	background-size: cover;
+	background-image: url("photo3.jpg");
+  background-color: #6486D3;
+	background-size: 100% 100%;
+  background-repeat: no-repeat;
   transition: 2s;
 }
 .container .section:nth-child(3){
@@ -211,7 +213,61 @@ color: rgba(33, 38, 43, 0.8);
 }*/
 
 
-//secend page
+//secend page - about me
+.about{
+  height: 10vh;
+}
+.box1{
+  position: absolute;
+  top: 5%;
+  left:  14%;
+  padding: 0px;
+  margin: 0px;
+  background-color:rgba(252, 252, 252, 0.2);
+}
+.box2{
+  position: absolute;
+  top: 10%;
+  right: 13%;
+  font-size: 22px;
+  background-color:rgba(252, 252, 252, 0.2);
+}
+
+h1{
+  border-bottom: 2px solid brown;
+  width: 310px;
+  font-size: 40px;
+}
+
+table, td, th {  
+  border: 1px solid #25686B;
+  text-align: left;
+}
+
+table {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  border-collapse: collapse;
+  width: 75%;
+  background-color: rgba(252, 252, 252, 0.4);
+}
+
+th, td {
+  padding: 12px;
+}
+th{ background-color: white;
+   font-family: 'Times New Roman', serif;
+    text-align: center; 
+    font-size: 25px;}
+td{
+  font-family: 'Times New Roman', serif;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center; 
+}
+
+
 //wavy navigation bar
 
 section{
@@ -351,18 +407,7 @@ body {
 .title{font-size: 46px;}
 }
 @media (max-width: 600px) {
-
-/*.container .section:nth-child(1){
-  background-size: 100% 50%;
-}
-.rectangle {
-  height: 115vh;
-  width: 100%;
-  background-color: white;
-  position: absolute;
-  top: 50%;
-}*/
-  .column {
+.column {
     flex: 100%;
     max-width: 100%;
   }
@@ -414,7 +459,7 @@ left: -20px;
     top: 110px;}
 .category {
   position: relative;
-    top: 110px;}
+    top: 105px;}
     .grid-wrapper {
   position: relative;
   top: 140px;
@@ -429,7 +474,7 @@ left: -20px;
 }
 .item5{
   position: relative;
-  bottom: -445px;
+  bottom: -465px;
   height: 15vh;
 }
 .copyright{
@@ -444,6 +489,4 @@ ol>li a{
  right: 30px;
  padding: 15px;
 }
-.container .section:nth-child(2){
-  background-size: 100% 100%;
-} }
+ }
