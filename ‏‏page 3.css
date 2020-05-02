@@ -1,4 +1,4 @@
-/*111111111111111111111111111*/
+/*11111111111111111111111111111111111*/
 html,body
 {
     width: 100%;
@@ -96,13 +96,20 @@ li.dropdown {
   height: 60vh;
   position: sticky;
   top: -60vh;
+   border-bottom: 1px solid blue;
+  border-top: 1px solid blue;
 }
 .container .section:nth-child(4){
+  background-image: url("photo-1512799545738-0625ef92a288.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container .section:nth-child(5){
   background-image: url("photo-1512799545738-0625ef92a288.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
-
 //first web page - index:
 .zone {
 	color: #FFF;
@@ -356,6 +363,35 @@ color: rgba(33, 38, 43, 1);
 .copyright>a{
   color: #FF5913;
 }
+//page 4 - about
+.about2{
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: 100%;
+}
+.box3{
+position: absolute;
+top: 10%;
+right: 6%; }
+.box4{position: absolute;
+  top: 5%;
+  left: 3%;
+   background-color: rgba(252, 252, 252, 0.3);
+  width: 900px;
+  border: 4px solid black;
+  padding: 20px;
+  margin: 10px;
+}
+.h1{ font-family: 'Times New Roman', serif;
+    color: #02304B;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.4;}
+p{font-family: 'Times New Roman', serif;
+  font-size: 30px;
+}
 
 @media (max-width: 1200px) {
  .container .section:nth-child(1){
@@ -408,6 +444,9 @@ h4>a{
   }
 .item5_1 {
   display: none;
+}
+.container .section:nth-child(3){
+  height: 45vh;
 }}
 @media only screen and (max-width: 520px){
 .container .section:nth-child(1){
@@ -469,5 +508,4 @@ ol>li a{
 .card{
   position: relative;
   left: 1%;}
-}
-}
+}}
