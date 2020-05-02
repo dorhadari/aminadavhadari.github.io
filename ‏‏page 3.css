@@ -225,7 +225,11 @@ h1{
   border-bottom: 2px solid brown;
   width: 310px;
   font-size: 40px;}
-
+.arrow{
+  position: absolute;
+  top: 19%;
+  right: 10%;
+}
 table, td, th {  
   border: 1px solid #25686B;
   text-align: left;}
