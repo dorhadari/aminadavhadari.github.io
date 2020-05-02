@@ -447,6 +447,18 @@ h4>a{
 }
 .container .section:nth-child(3){
   height: 45vh;
+}
+.WordsPuzzle_DARK_BLUE2{
+  display: none;
+}
+.box4{
+  width: 370px;
+}
+.h1{ 
+    font-size: 25px;
+    line-height: 1.2;}
+p{font-family: 'Times New Roman', serif;
+  font-size: 21px;
 }}
 @media only screen and (max-width: 520px){
 .container .section:nth-child(1){
