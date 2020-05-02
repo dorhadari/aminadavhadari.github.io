@@ -460,5 +460,14 @@ ol>li a{
  right: 30px;
  padding: 15px;
 }
+.card{
+  position: relative;
+  left: 8%;}
 }
 
+@media only screen and (max-width: 420px){
+.card{
+  position: relative;
+  left: 1%;}
+}
+}
