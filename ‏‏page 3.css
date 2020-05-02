@@ -1,4 +1,4 @@
-
+/*11111111111111111111111111111111111111*/
 html,body
 {
     width: 100%;
@@ -91,19 +91,16 @@ li.dropdown {
   background-color: #6486D3;
 	background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   transition: 2s;
 }
 .container .section:nth-child(3){
-	background-image: url("photo-1499092346589-b9b6be3e94b2.jpg");
-	background-size: cover;
+  background-image: url("photo-1499092346589-b9b6be3e94b2.jpg");
+  background-size: cover;
 }
 .container .section:nth-child(4){
-	background-image: url("photo-1512799545738-0625ef92a288.jpg");
-	background-size: cover;
-}
-.container .section:nth-child(5){
-	background-image: url("photo-1417632993443-302f4897cf67.jpg");
-	background-size: cover;
+  background-image: url("photo-1512799545738-0625ef92a288.jpg");
+  background-size: cover;
 }
 
 //first web page - index:
@@ -265,7 +262,7 @@ th{ background-color: white;
 td{
   font-family: 'Times New Roman', serif;
   font-size: 25px;
-  line-height: 28px;
+  line-height: 32px;
   text-align: center; 
 }
 
@@ -273,14 +270,9 @@ td{
 //wavy navigation bar
 
 section{
-  position: relative;
+  
   width: 100%;
   height: 100vh;
-  background-image: url("");
-  background-color: rgba();
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
 }
 section .wave{
   position: absolute;
@@ -359,31 +351,7 @@ color: rgba(33, 38, 43, 1);
   color: #FF5913;
 }
 
-// last page
 
-body {
-  margin: 0;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-  box-sizing: border-box;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
 @media (max-width: 1200px) {
  .container .section:nth-child(1){
   overflow-x: hidden;
@@ -391,13 +359,7 @@ body {
  .empty{
   display: none;
 }
-  
-@media (max-width: 815px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
+
 @media (max-width: 761px){
 /*.WordsPuzzle_DARK_BLUE{
   display: none;
@@ -411,10 +373,7 @@ body {
 .title{font-size: 46px;}
 }
 @media (max-width: 600px) {
-.column {
-    flex: 100%;
-    max-width: 100%;
-  }
+
 .description1 {
  position: relative;
  top: 40%; }
@@ -441,7 +400,10 @@ left: -20px;
   position: relative;
   bottom: -250px;
   height: 15vh;
-}}
+}
+h4>a{
+  font-size: 17px;
+  }}
 
 @media only screen and (max-width: 520px){
 .container .section:nth-child(1){
@@ -492,4 +454,6 @@ ol>li a{
  bottom: 5px;
  right: 30px;
  padding: 15px;
-}}
+}
+}
+
