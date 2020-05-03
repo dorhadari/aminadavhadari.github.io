@@ -1,4 +1,4 @@
-/*11111111111111111111111111111111111*/
+/*11111111111111111111111111111111111111*/
 html,body
 {
     width: 100%;
@@ -263,6 +263,7 @@ table {
   border-collapse: collapse;
   width: 82%;
   background-color: rgba(252, 252, 252, 0.4);
+  box-shadow: 4px 2px #25686B;
   }
 th, td {
   padding: 12px;
@@ -277,6 +278,7 @@ td{
   line-height: 32px;
   text-align: center; 
 }
+
 .item5_1 {
   position: relative;
   top: 660px;
@@ -422,8 +424,9 @@ p{
   font-family: 'Times New Roman', serif;
   font-size: 30px;
 }
-.box4>p{
+.box4>ol>li{
   font-size: 26px;
+  margin: 11px;
 }
 
 .box4{position: absolute;
@@ -435,6 +438,17 @@ p{
   padding: 20px;
   margin: 10px;
 }
+
+// 5th page
+.cat {
+  transition: all 0.3s linear;
+}
+.house {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+}
+
 @media (max-width: 1200px) {
  .container .section:nth-child(1){
   overflow-x: hidden;
@@ -505,11 +519,27 @@ h4>a{
     font-size: 25px;
     line-height: 1.2;}
 p{font-family: 'Times New Roman', serif;
-  font-size: 21px;
+  font-size: 18px;
 }
 .box4>p{
   font-size: 19px;
-  }}
+  }
+//5th page
+
+/*.dog>img{
+  width: 100%;*/
+
+}
+.dog{
+  font-size: 20px;
+  text-align: center;
+  border-radius: 4px;
+  border:1.5px solid black;
+  background-color: rgba(91, 175, 225, 0.5);
+  padding: 10px;
+  margin: 20px;}
+}
+
 @media only screen and (max-width: 520px){
 .container .section:nth-child(1){
   background-size: 100% 58%;
