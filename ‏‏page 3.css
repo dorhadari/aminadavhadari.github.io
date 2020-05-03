@@ -462,7 +462,12 @@ p{
   background-color: rgba(91, 175, 225, 0.5);
   padding: 10px;
   margin: 20px;}
-
+.fish:hover{
+  -webkit-transform: rotate(-7deg);
+  /*-moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);*/
+}
 @media (max-width: 1200px) {
  .container .section:nth-child(1){
   overflow-x: hidden;
@@ -534,6 +539,10 @@ h4>a{
     line-height: 1.2;}
 p{font-family: 'Times New Roman', serif;
   font-size: 18px;
+}
+.box4>ol{
+  position: relative;
+  top: -10px;
 }
 .box4>ol>li{
   margin: 7px;
