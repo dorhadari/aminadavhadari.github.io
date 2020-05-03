@@ -117,7 +117,7 @@ li.dropdown {
   background-size: 100% 150%;
   height: 60vh;
   position: sticky;
-  top: -300vh;
+  top: -150vh;
    border-bottom: 1px solid white;
   border-top: 1px solid black;
 }
@@ -542,10 +542,10 @@ p{font-family: 'Times New Roman', serif;
 }
 .box4>ol{
   position: relative;
-  top: -10px;
+  top: -11px;
 }
 .box4>ol>li{
-  margin: 7px;
+  margin: 6px;
   font-size: 19px;
   }
 //5th page
