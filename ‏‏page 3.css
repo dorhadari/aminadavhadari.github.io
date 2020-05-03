@@ -463,7 +463,7 @@ p{
 .grid-wrapper {
   grid-gap: 150px;}
   .zone{
-    margin: auto;}}
+    margin: auto;}
 
 @media (max-width: 640px){
 .title{font-size: 46px;}
