@@ -510,7 +510,13 @@ p{
   grid-gap: 150px;}
   .zone{
     margin: auto;}
-
+.rectangle {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 90%;
+}
 @media (max-width: 640px){
 .title{font-size: 46px;}
 }
