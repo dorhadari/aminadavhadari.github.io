@@ -80,7 +80,7 @@ li.dropdown {
 	/*background-size: cover;*/
 	background-size: 100% 90%;
 	background-repeat: no-repeat;
-  background-attachment: fixed;
+  
   transition: 2s; 
 } 
 .container .section:nth-child(2){
@@ -503,7 +503,7 @@ p{
 
 .WordsPuzzle_DARK_BLUE2{
   display: none;
-}}
+}
 
 @media (max-width: 761px){
 /*.WordsPuzzle_DARK_BLUE{
