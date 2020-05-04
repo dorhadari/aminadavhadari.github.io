@@ -500,12 +500,15 @@ p{
 .container .section:nth-child(5){
   width: 100%;
   }
+
 .WordsPuzzle_DARK_BLUE2{
   display: none;
 }
+
 @media (max-width: 761px){
 /*.WordsPuzzle_DARK_BLUE{
   display: none;
+}
 }*/
 .grid-wrapper {
   grid-gap: 150px;}
@@ -523,7 +526,7 @@ section .wave{
   top: 53%;}
 @media (max-width: 640px){
 .title{font-size: 46px;}
-}
+} 
 @media (max-width: 600px) {
 .description1 {
  position: relative;
