@@ -500,7 +500,7 @@ p{
   }
 .WordsPuzzle_DARK_BLUE2{
   display: none;
-}}
+}
 @media (max-width: 761px){
 /*.WordsPuzzle_DARK_BLUE{
   display: none;
@@ -633,7 +633,7 @@ ol>li a{
 .card{
   position: relative;
   left: 8%;}
-}}
+}
 
 @media only screen and (max-width: 420px){
 .card{
