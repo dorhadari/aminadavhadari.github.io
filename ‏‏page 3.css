@@ -1,4 +1,4 @@
-/*1111111111111111111111111111111111111111*/
+/*11111111111111111111111111111111111111*/
 html,body
 {
     width: 100%;
@@ -6,7 +6,7 @@ html,body
     padding: 0px;
     overflow-x: hidden;}
 body {
-  background-color: #6486D3;
+  background-color: #87BBE6;
 }
 .nav1 { 
   grid-area: header;
@@ -104,7 +104,6 @@ li.dropdown {
   background-image: url("photo-1512799545738-0625ef92a288.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .container .section:nth-child(5){
   background-image: url("photo-1512799545738-0625ef92a288.jpg");
@@ -280,7 +279,7 @@ th{ background-color: white;
 td{
     color: rgba(0, 0, 0, 1);
     text-align: center;
-    text-shadow: 2px 2px 8px white;
+    text-shadow: 2px 2px 2px white;
   font-family: 'Times New Roman', serif;
   font-size: 25px;
   line-height: 32px; 
@@ -381,7 +380,7 @@ section .wave:after{
     z-index: 1;
 }
 .wave{
-  background-color: #6486D3;
+  background-color: #206BAA;
   
   z-index: -1; 
 }
@@ -411,15 +410,15 @@ color: rgba(33, 38, 43, 1);
 }
 
 .WordsPuzzle_DARK_BLUE2{
-position: absolute;
-top: 10%;
-right: 6%; 
+position: relative;
+top: 10vh;
+left: 70%; 
 }
 
 .box3{position: absolute;
-  top: 6%;
+  top: 10%;
   left: 3%;
-   background-color: rgba(252, 252, 252, 0.3);
+   background-color: rgba(252, 252, 252, 0.5);
   width: 900px;
   border: 4px solid black;
   padding: 20px;
@@ -435,23 +434,26 @@ p{
   position: relative;
   top: -10px;
   font-family: 'Times New Roman', serif;
-  font-size: 30px;
+  font-size: 26px;
 }
 .box4>ol>li{
-  font-size: 26px;
+  font-size: 23px;
   margin: 11px;
 }
 
 .box4{position: absolute;
   top: 5%;
   left: 4.2%;
-   background-color: rgba(252, 252, 252, 0.4);
+   background-color: rgba(252, 252, 252, 0.6);
   width: 900px;
   border: 4px solid black;
   padding: 20px;
   margin: 10px;
 }
-
+.box4>ol{
+  position: relative;
+  top: -13px;
+}
 // 5th page
 .cat {
   transition: all 0.3s linear;
@@ -475,11 +477,28 @@ p{
   -o-transform: rotate(-7deg);
   transform: rotate(-7deg);*/
 }
+@media (max-width: 1440px) {
+  .WordsPuzzle_DARK_BLUE2{
+  width: 275px;
+  height: 265px;
+  position: relative;
+  left: 75%;
+  top: 15vh;
+}
+.container .section:nth-child(5){
+  width: 74%;
+  }
 @media (max-width: 1200px) {
  .container .section:nth-child(1){
   overflow-x: hidden;
 }
  .empty{
+  display: none;
+}
+.container .section:nth-child(5){
+  width: 100%;
+  }
+.WordsPuzzle_DARK_BLUE2{
   display: none;
 }
 @media (max-width: 761px){
@@ -530,11 +549,7 @@ h4>a{
 /*.container .section:nth-child(3){
   height: 45vh;
 }*/
-.container .section:nth-child(5){
-  width: 100%;}
-.WordsPuzzle_DARK_BLUE2{
-  display: none;
-}
+
 .box3{
   width: 370px;
 }
@@ -618,10 +633,13 @@ ol>li a{
 .card{
   position: relative;
   left: 8%;}
-}}
+}
 
 @media only screen and (max-width: 420px){
 .card{
   position: relative;
   left: 1%;}
 }}
+
+
+
