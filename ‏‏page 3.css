@@ -522,6 +522,9 @@ p{
   position: absolute;
   top: 90%;
 }
+.box2{
+  background-color:rgba(252, 252, 252, 0);
+}
 section .wave{
   position: absolute;
   top: 53%;}
@@ -554,9 +557,6 @@ left: -20px;
   position: relative;
   bottom: -250px;
   height: 15vh;
-}
-.box2{
-  background-color:rgba(252, 252, 252, 0);
 }
 h4>a{
   font-size: 17px;
