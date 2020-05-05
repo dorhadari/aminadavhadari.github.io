@@ -555,6 +555,9 @@ left: -20px;
   bottom: -250px;
   height: 15vh;
 }
+.box2{
+  background-color:rgba(252, 252, 252, 0);
+}
 h4>a{
   font-size: 17px;
   }
