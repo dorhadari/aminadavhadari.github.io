@@ -8,7 +8,7 @@ html,body
 
 body{
 
- 
+ /*111111111111111111111111111111111111111111*/
   
 }
 .nav1 { 
@@ -367,7 +367,9 @@ p{
   position: relative;
   left: 75%;
   top: 15vh;
-}}
+}
+.box3{position: relative;
+  top: -17%;}}
 @media (max-width: 1200px) {
  .container .section:nth-child(1){
   overflow-x: hidden;
@@ -378,6 +380,10 @@ p{
 .WordsPuzzle_DARK_BLUE2{
   display: none;
 }
+.box3{position: relative;
+top: 0%;}
+.card{position: relative;
+left: 30%}
 @media (max-width: 761px){
 .grid-wrapper {
   grid-gap: 150px;}
@@ -476,7 +482,7 @@ p{font-family: 'Times New Roman', serif;
     top: 105px;}
     .grid-wrapper {
   position: relative;
-  top: 140px;
+  top: 135px;
   grid-gap: 80px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));}
 .avatar{
@@ -486,7 +492,7 @@ p{font-family: 'Times New Roman', serif;
   height: 165px;}
 .item5{
   position: relative;
-  bottom: -465px;
+  bottom: -520px;
   height: 15vh;
 }
 .copyright{
@@ -508,3 +514,5 @@ p{font-family: 'Times New Roman', serif;
 .box2{
   left: 9%;
 }}
+
+
