@@ -61,6 +61,7 @@ li.dropdown {
   display: block;
   text-align: left;
 }
+span{font-size: 17px;}
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
 .dropdown:hover .dropdown-content {
@@ -503,7 +504,7 @@ p{font-family: 'Times New Roman', serif;
   height: 165px;}
 .item5{
   position: relative;
-  bottom: -520px;
+  bottom: -490px;
   height: 15vh;
 }
 .copyright{
@@ -525,5 +526,3 @@ p{font-family: 'Times New Roman', serif;
 .box2{
   left: 9%;
 }}
-
-
