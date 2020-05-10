@@ -384,18 +384,29 @@ font-size: 17px;}
 height: 175vh;}
 }
 @media (max-width: 520px){
+.WMS{
+	width: 100%; 
+	height: 150vh;
+}
+.ol{height: 68vh;
+	position: relative;
+	top: 13%;}
 	h1{font-size: 26px;
 		position: relative;
 		left: 0px;}
+}
 .WMS>img{
 	position: relative;
-	top: -50px;
+	top: -40px;
 	left: 5%;
-	width: 150px;
-	height: 170px;}
+	width: 180px;
+	height: 200px;}
+	ol{position: relative;
+top: -260px;
+font-size: 17px;}
 		.card{
 	position: absolute;
-	top: 47%;
+	top: 24%;
 left: 14%;
 width: 320px;
 height: 150px;}
@@ -406,7 +417,7 @@ height: 150px;}
 	top: 60%;}
 		h3{
 	position: absolute;
-	top: 69%;
+	top: 74%;
 	left: 14%;}
 	.arrow{
 	position: absolute;
@@ -414,46 +425,12 @@ height: 150px;}
 	left: 19%;}
 	.grass{
 	position: absolute;
-	top: -50%;
-height: 175vh;}
+	top: -10%;
+height: 100vh;}
 	.grass2{
 		width: 60%;
+
 	position: absolute;
-	top: 68%;
+	top: 76%;
 	left: 5%;}}
 
-@media (max-width: 400px){
-	.WMS>img{
-	position: relative;
-	top: -50px;
-	left: 5%;
-	width: 110px;
-	height: 130px;}
-	ol{position: relative;
-top: -145px;
-font-size: 15px;}
-.box{
-	width: 290px;
-	height: 290px;
-	position: absolute;
-	top: 65%;}
-	h3{
-		font-size: 18px;
-	position: absolute;
-	top: 73%;
-	left: 12%;}
-	.arrow{
-		width: 100px;
-		height: 100px;
-	position: absolute;
-	top: 80%;
-	left: 15%;}
-	.grass2{
-	position: absolute;
-	top: 71%;}
-.card{
-	position: absolute;
-	top: 52%;
-left: 19%;
-width: 220px;
-height: 100px;}}
