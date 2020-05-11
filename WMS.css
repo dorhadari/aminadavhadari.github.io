@@ -321,10 +321,12 @@ z-index: -1}
 .child5{
 position: relative;
 top: 40%;
+left: 9%;
 }
 .child6{width: 100%;
 position: relative;
 top: 60%;
+left: 9%;
 }
 .card{
 	width: 190px;
@@ -371,18 +373,41 @@ button{cursor: pointer;
 	top: -55vh;}
 .slash{
 	width: 100%;
+}
+.child5{
+position: relative;
+left: 7%;
+}
+.child6{width: 100%;
+position: relative;
+left: 7%;
 }}
 @media (max-width: 360px) {
 	 .ol>ol{position: relative;
  	top: 10vh;
  	left: -30px;
- 	font-size: 10px;}}
+ 	font-size: 10px;}
+ .child5{
+position: relative;
+left: 7%;
+}
+.child6{width: 100%;
+position: relative;
+left: 8%;
+}}
  @media (max-width: 320px) {
  	ul>li {
   float: left;
-  font-size: 12px;
+  font-size: 10px;
   margin: -5px;
 }
 .ol>ol{
  	font-size: 9px;}
+.child5{
+position: relative;
+left: 4%;
 }
+.child6{width: 100%;
+position: relative;
+left: 6%;
+}}
