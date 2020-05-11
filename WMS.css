@@ -300,7 +300,7 @@ h1 {
  .ol>ol{position: relative;
  	top: 7vh;
  	left: -40px;
-	 font-size: 10px;}
+	 font-size: 11px;}
 .child3>img{
 	position: relative;
 	top: -20px;
@@ -365,7 +365,8 @@ button{cursor: pointer;
 	height: 100px;
 }
 .ol>ol{position: relative;
- 	top: 9vh;}
+ 	top: 9vh;
+ 	font-size: 10px;}
 .child4>img{position: relative;
 	top: -55vh;}
 .slash{
@@ -374,10 +375,14 @@ button{cursor: pointer;
 @media (max-width: 360px) {
 	 .ol>ol{position: relative;
  	top: 10vh;
- 	left: -30px;}}
+ 	left: -30px;
+ 	font-size: 10px;}}
  @media (max-width: 320px) {
  	ul>li {
   float: left;
   font-size: 12px;
+  margin: -3px;
 }
+.ol>ol{
+ 	font-size: 9px;}
 }
