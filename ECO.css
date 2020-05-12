@@ -1,5 +1,5 @@
 html,body
-{	height: 1300px;
+{	height: 1400px;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -81,9 +81,11 @@ border: 2px solid black;
 }
 h5, ol, p{
 	position: relative;
-	top: 63vh;
+	top: 66vh;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;}
+.small{position: relative;
+  top: 2vh;}
 h5{font-weight: 100;}
 ol{list-style-type: none;
 	text-align-last: right;
@@ -106,7 +108,8 @@ p>img{
 @media (max-width: 1280px) {
 body{
     background-image: url('');
-    background-color: rgba(255, 224, 167, 0.4);}
+    background-image: linear-gradient(rgba(255, 224, 167, 0.4) 30% , black);
+    }
 .box{
 	margin: auto;
   width: 96%;
@@ -129,22 +132,29 @@ h5{
 	top: 39%;
 }
 ol, p{ position: relative;
-top: 40%; }}
+top: 40%; }
+}
 @media (max-width: 518px) {
 .box{
 	margin: auto;
   width: 90%;
-  height: 80%;
+  height: 90%;
 }
 h5, ol, p{
 	position: relative;
-	top: 34%;
-	font-size: 10px;}
-}
+	top: 38%;
+	font-size: 11px;}
+.small{
+  font-size: 10.5px;
+  }}
 @media (max-width: 400px){
 h1{font-size: 25px;}
 h5{font-size: 9px;}
+.small{
+  font-size: 9.5px;
+  }
 h5, ol, p{
 	position: relative;
-	top: 37%;}
+	top: 37%;
+  font-size: 10px;}
 }
