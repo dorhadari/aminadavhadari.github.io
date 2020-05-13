@@ -6,7 +6,7 @@ html,body
   }
   body{
   	background-image: url('');
-    
+    background-image: linear-gradient(white , rgba(255, 224, 167, 0.4) );
    background-size: cover; 
   background-repeat: no-repeat;
   }
@@ -74,6 +74,7 @@ span{font-size: 17px;}
 border: 2px solid black;
 	padding: 10px;
 	background-image: url("photo22.jpg");
+	background-color: white;
    background-size: 100% 45%; 
   background-repeat: no-repeat;
 	position: relative;
@@ -106,7 +107,6 @@ p, h5{text-align-last: right;
 @media (max-width: 1280px) {
 body{
     background-image: url('');
-    /*background-image: linear-gradient(rgba(255, 224, 167, 0.4) 30% , black);*/
     }
 .box{
 	margin: auto;
