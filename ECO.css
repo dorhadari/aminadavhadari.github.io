@@ -162,6 +162,10 @@ h5, ol, p{
 .small{
   font-size: 10.5px;
   }}
+  @media (max-width: 500px) {
+	.wall{position: relative;
+  top: -8vh;}
+}
 @media (max-width: 470px){
 .box{
 	margin: auto;
@@ -169,7 +173,7 @@ h5, ol, p{
   height: 80%;
 }
 .wall{position: relative;
-  top: -40%}
+  top: -45%}
 h1{font-size: 25px;}
 h5{font-size: 9px;}
 .small{
