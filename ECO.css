@@ -3,6 +3,7 @@ html,body
     width: 100%;
     margin: 0px;
     padding: 0px;
+    padding-bottom: 15%;
   }
   body{
   	background-image: url('');
@@ -83,7 +84,7 @@ border: 2px solid black;
 h5, ol, p{
 	position: relative;
 	top: 66vh;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 20px;
   }
 .small{position: relative;
@@ -111,8 +112,9 @@ p, h5{text-align-last: right;
 }
 
 @media (max-width: 1280px) {
+html,body{padding-bottom: 45%;}
 .wall{position: relative;
-  top: 0vh;}
+  top: -18vh;}
 .box{
 	margin: auto;
   width: 96%;
@@ -122,16 +124,20 @@ h5{
 	position: relative;
 	top: 38%;
 }
+h1{font-size: 50px;}
 h5, ol, p{
-	font-size: 20px;}}
+	font-size: 27px;}}
 @media (max-width: 1000px) {
+
 .wall{position: relative;
-  top: -5vh;}
+  top: -8vh;}
 .box{
 	margin: auto;
   width: 95%;
   height: 120%;
 }
+h5, ol, p{
+	font-size: 20px;}
 h5{
 	position: relative;
 	top: 39%;
@@ -140,11 +146,15 @@ ol, p{ position: relative;
 top: 40%; }
 }
 @media (max-width: 518px) {
+html,body{padding-bottom: 15%;}
 .box{
 	margin: auto;
   width: 90%;
   height: 90%;
 }
+h1{font-size: 30px;}
+.wall{position: relative;
+  top: -1vh;}
 h5, ol, p{
 	position: relative;
 	top: 38%;
@@ -152,17 +162,21 @@ h5, ol, p{
 .small{
   font-size: 10.5px;
   }}
-@media (max-width: 400px){
+@media (max-width: 470px){
+.box{
+	margin: auto;
+  width: 90%;
+  height: 80%;
+}
 .wall{position: relative;
-  top: 0vh;}
+  top: -40%}
 h1{font-size: 25px;}
 h5{font-size: 9px;}
 .small{
-  font-size: 9.5px;
+  font-size: 8px;
   }
 h5, ol, p{
 	position: relative;
-	top: 37%;
-  font-size: 10px;}
+	top: 42%;
+  font-size: 8px;}
 }
-/*11111111111111111111111111111111111111111111111111*/
