@@ -105,9 +105,6 @@ p, h5{text-align-last: right;
 
 
 @media (max-width: 1280px) {
-body{
-    background-image: url('');
-    }
 .box{
 	margin: auto;
   width: 96%;
@@ -156,3 +153,4 @@ h5, ol, p{
 	top: 37%;
   font-size: 10px;}
 }
+/*11111111111111111111111111111111111111111111111111*/
