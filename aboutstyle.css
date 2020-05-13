@@ -117,14 +117,14 @@ span{font-size: 17px;}
 }
 .box1{
   position: absolute;
-  top: 5%;
+  top: 3%;
   left:  14%;
   padding: 0px;
   margin: 0px;
   background-color:rgba(252, 252, 252, 0.2);}
 .box2{
   position: absolute;
-  top: 11%;
+  top: 9%;
   right: 10%;
   font-size: 22px;
   background-color:rgba(252, 252, 252, 0.2);
@@ -140,7 +140,7 @@ background: -webkit-linear-gradient(black, #3A5DA9);
   -webkit-text-fill-color: transparent;}
 .arrow{
   position: absolute;
-  top: 19%;
+  top: 17%;
   right: 10%;
 }
 table, td, th {  
@@ -150,7 +150,7 @@ table {
   display: block;
     overflow-x: auto;
   position: absolute;
-  top: 25%;
+  top: 23%;
   left: 9%;
   border-collapse: collapse;
   width: 82%;
@@ -350,6 +350,8 @@ left: 70%;
   .container .section:nth-child(3){
   background-size: 200% 100%;
   background-position: right;}
+td{ font-size: 24px;
+line-height: 29px;}
 h4>a{
   font-size: 17px;
   }
@@ -389,14 +391,13 @@ p{font-family: 'Times New Roman', serif;
 }
 .card{
   position: relative;
-  top: 65%;
+  top: 70%;
   left: 8%;
   }
 }
 
 
 @media only screen and (max-width: 520px){
-
 .copyright{
     position: relative;
     bottom: -4px;

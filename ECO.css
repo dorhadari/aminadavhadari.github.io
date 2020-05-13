@@ -184,3 +184,21 @@ h5, ol, p{
 	top: 42%;
   font-size: 8px;}
 }
+@media only screen and (max-height: 730px) and (min-width: 1280px) {
+h5, ol, p{
+	position: relative;
+	top: 39%;}
+.wall{position: relative;
+  top: -32vh}}
+  @media only screen and (max-height: 675px) and (min-width: 1280px) {
+.wall{position: relative;
+  top: -35vh}}
+  @media only screen and (max-height: 615px) and (min-width: 1280px) {
+.wall{position: relative;
+  top: -38vh}}
+    @media only screen and (max-height: 570px) and (min-width: 1280px) {
+ .wall{position: relative;
+  top: -42vh}}
+  @media only screen and (max-height: 510px) and (min-width: 1280px) {
+ .wall{position: relative;
+  top: -45vh}}
