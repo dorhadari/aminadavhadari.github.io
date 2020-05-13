@@ -5,7 +5,7 @@ html,body
     padding: 0px;
   }
   body{
-  	background-image: url('photo4.jpg');
+  	background-image: url('');
     
    background-size: cover; 
   background-repeat: no-repeat;
@@ -73,8 +73,8 @@ span{font-size: 17px;}
   height: 95%;
 border: 2px solid black;
 	padding: 10px;
-	background-image: url("photo2.jpg");
-   background-size: 100% 100%; 
+	background-image: url("photo22.jpg");
+   background-size: 100% 45%; 
   background-repeat: no-repeat;
 	position: relative;
 	top: 3%;	
@@ -89,7 +89,7 @@ h5, ol, p{
 h5{font-weight: 100;}
 ol{list-style-type: none;
 	text-align-last: right;
-	color: #FFD381;
+	color: black;
 }
 ol, p{
 	position: relative;
@@ -99,16 +99,14 @@ ol, p{
 	font-weight: 550;
 	}
 p, h5{text-align-last: right;
-	color: #FFD381;
+	color: black;
 	line-height: 2;}
-p>img{
-	background-color: #FFD381;
-}
+
 
 @media (max-width: 1280px) {
 body{
     background-image: url('');
-    background-image: linear-gradient(rgba(255, 224, 167, 0.4) 30% , black);
+    /*background-image: linear-gradient(rgba(255, 224, 167, 0.4) 30% , black);*/
     }
 .box{
 	margin: auto;
