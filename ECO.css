@@ -132,7 +132,25 @@ p{
 .line{ text-decoration: underline;
 	font-weight: 550;
 	}
-
+.btn{
+  position: relative;
+  top: 0vh;
+  right: 72.5%;
+  cursor: pointer;
+    padding: 10px;
+   border: 3px solid white;
+   font-family: 'Times New Roman', serif;
+   font-size: 20px;
+   color: white;
+   background-color: #02304B;
+   text-align: center;
+   transition: all 0.2s;
+   float: right;
+}
+.btn:hover{
+  color: black;
+  background-color: white;
+}
 @media (max-width: 1280px) {
 html,body{padding-bottom: 45%;}
 .wall{position: relative;
@@ -171,7 +189,9 @@ h5, ol, p{
   grid-gap: 0px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
 }
-
+.btn{
+  font-size: 15px;
+}
 h1{font-size: 25px;}
 .small{
   font-size: 9px;
