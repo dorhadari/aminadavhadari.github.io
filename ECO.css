@@ -68,137 +68,120 @@ span{font-size: 17px;}
   display: block;
 }
 
-.box{
+.gridbox{
+  display: grid;
+  grid-gap: 0px;
+  grid-template-rows: 40% 60% ;
 	margin: auto;
   width: 60%;
   height: 95%;
+  background-color: white;
 border: 2px solid black;
 	padding: 10px;
-	background-image: url("photo333.jpeg");
-	background-color: white;
-   background-size: 100% 45%; 
-  background-repeat: no-repeat;
 	position: relative;
 	top: 3%;	
 }
-h5, ol, p{
-	position: relative;
-	top: 66vh;
+.childbox{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  transition: all 0.3s linear;
+}
+.childzone1{
+  background-image: url("photo333.jpeg");
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+}
+.childzone2 .wall {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+h5, ol, p {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 20px;
+  text-align-last: right;
+  padding: 10px;
+  margin: 0px;
   }
 .small{position: relative;
-  top: 2vh;}
-h5{font-weight: 100;}
-ol{list-style-type: none;
-	text-align-last: right;
-	color: black;
+  top: 2vh;
 }
-ol, p{
-	position: relative;
-	top: 37%;
+h5{font-weight: 100;
+  position: absolute;
+  top: 40%;
+  right: 2%;  
+  color: black;
+  line-height: 2;}
+ol{list-style-type: none;
+	color: black;
+  position: absolute;
+  top: 51%;
+  right: 2%; 
+}
+p{
+  position: absolute;
+  top: 65%;
+  right: 2%;   
+  color: black;
+  line-height: 2;
 }
 .line{ text-decoration: underline;
 	font-weight: 550;
 	}
-p, h5{text-align-last: right;
-	color: black;
-	line-height: 2;}
-.wall{position: relative;
-  top: -30vh;
-  width: 100%;
-  height: 55%;
-  opacity: 0.3;
-}
 
 @media (max-width: 1280px) {
 html,body{padding-bottom: 45%;}
 .wall{position: relative;
   top: -18vh;}
-.box{
+.gridbox{
 	margin: auto;
   width: 96%;
   height: 130%;
-}
-h5{
-	position: relative;
-	top: 38%;
 }
 h1{font-size: 50px;}
 h5, ol, p{
 	font-size: 27px;}}
 @media (max-width: 1000px) {
-
-.wall{position: relative;
-  top: -8vh;}
-.box{
-	margin: auto;
-  width: 95%;
-  height: 120%;
-}
 h5, ol, p{
-	font-size: 20px;}
-h5{
-	position: relative;
-	top: 39%;
-}
-ol, p{ position: relative;
-top: 40%; }
-}
+	font-size: 20px;}}
 @media (max-width: 518px) {
 html,body{padding-bottom: 15%;}
-.box{
+.gridbox{
 	margin: auto;
   width: 90%;
   height: 90%;
 }
 h1{font-size: 30px;}
-.wall{position: relative;
-  top: -1vh;}
 h5, ol, p{
-	position: relative;
-	top: 38%;
 	font-size: 11px;}
 .small{
-  font-size: 10.5px;
+  font-size: 10px;
   }}
-  @media (max-width: 500px) {
-	.wall{position: relative;
-  top: -8vh;}
-}
+
 @media (max-width: 470px){
-.box{
+.gridbox{
 	margin: auto;
   width: 90%;
   height: 80%;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
 }
-.wall{position: relative;
-  top: -45%}
+
 h1{font-size: 25px;}
-h5{font-size: 9px;}
 .small{
-  font-size: 8px;
+  font-size: 9px;
   }
 h5, ol, p{
-	position: relative;
-	top: 42%;
+  font-size: 10px;}
+}
+@media (max-width: 400px){
+h5, ol, p, .small{
   font-size: 8px;}
 }
-@media only screen and (max-height: 730px) and (min-width: 1280px) {
-h5, ol, p{
-	position: relative;
-	top: 39%;}
-.wall{position: relative;
-  top: -32vh}}
-  @media only screen and (max-height: 675px) and (min-width: 1280px) {
-.wall{position: relative;
-  top: -35vh}}
-  @media only screen and (max-height: 615px) and (min-width: 1280px) {
-.wall{position: relative;
-  top: -38vh}}
-    @media only screen and (max-height: 570px) and (min-width: 1280px) {
- .wall{position: relative;
-  top: -42vh}}
-  @media only screen and (max-height: 510px) and (min-width: 1280px) {
- .wall{position: relative;
-  top: -45vh}}
+
+  }
