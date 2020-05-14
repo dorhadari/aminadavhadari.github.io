@@ -1,4 +1,4 @@
-/*1111111111*/
+
 body{
 	width: 100%;
     margin: 0px;
@@ -452,23 +452,12 @@ ol{
   height: 85px;}
 
 }
-/*
-@media only screen and (max-height: 700px) and (min-width: 1024px) {
-.child2{
-	position: relative;
-	top: -100%;
+
+@media only screen and (max-height: 715px) and (min-width: 1024px) {
+ol{position: relative;
+ 	top: 115vh;
 }}
-@media only screen and (max-height: 660px) and (min-width: 1024px) {
-.child1>img{
-width: 150px;
-height: 170px;}
-.child2{
-	position: relative;
-	top: -50%;}
-}
-@media only screen and (max-height: 630px) and (min-width: 1024px) {
-.child2{
-	position: relative;
-	top: 0%;}
-}
-}*/
+@media only screen and (max-height: 680px) and (min-width: 1024px) {
+ol{position: relative;
+ 	top: 124vh;
+}}
