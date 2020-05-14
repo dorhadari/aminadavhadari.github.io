@@ -280,6 +280,13 @@ ol{
   width: 290px;
   height: 130px;}
     }
+@media only screen and (max-width: 600px) {
+ol{position: relative;
+  top: 22vh;}
+h1{
+  font-size: 24px;
+}
+}
 @media only screen and (max-width: 414px) {
 body{
   padding-bottom: 35%;}
@@ -377,7 +384,7 @@ body{
     height: 45vh;}
 ol{
   position: relative;
-  top: 23vh;
+  top: 24vh;
    font-size: 8px;}
 .btn{
   position: relative;
@@ -392,6 +399,10 @@ ol{
   height: 85px;}
   }
 @media only screen and (max-width: 360px) {
+h1{
+	position: relative;
+	left: -3%;
+}
 .slash{
   position: relative;
   top: -27vh;
@@ -410,6 +421,7 @@ ol{
 ol{
   position: relative;
   top: 28vh;
+  margin: 5px;
    font-size: 8px;}
 }
 @media only screen and (max-width: 320px) {
