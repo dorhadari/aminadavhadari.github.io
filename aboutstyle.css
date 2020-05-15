@@ -18,7 +18,8 @@ html,body
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;}
+  background-color: #333;
+}
 li {
   float: left;
   font-size: 15px;
@@ -305,7 +306,7 @@ left: 70%;
 .card:hover{
   box-shadow: 0px 0px 10px 7px #11337B;
 }
-@media (max-width: 1440px) {
+@media only screen and (max-width: 1280px) {
   .WordsPuzzle_DARK_BLUE2{
   width: 275px;
   height: 265px;
@@ -313,103 +314,149 @@ left: 70%;
   left: 75%;
   top: 15vh;
 }
+.item5_1 {
+  position: relative;
+  top: 900px;
+}
 .container .section:nth-child(3){
-  width: 74%;
-  }}
-@media (max-width: 1200px) {
+  width: 78%;
+  }
+.box3{position: absolute;
+  top: 0%;
+  left: 3%;}
+}
+@media only screen and (max-width: 960px) {
+.box3{position: absolute;
+  top: 3%;
+  width: 800px;}
+.WordsPuzzle_DARK_BLUE2{
+width: 215px;
+  height: 205px;
+  position: relative;
+  left: 76%;
+  top: 6vh;
+}
 .container .section:nth-child(3){
   width: 100%;
   }
-
-.WordsPuzzle_DARK_BLUE2{
-  display: none;
+.box4{position: absolute;
+  top: 15%;
+  width: 800px;}
+.box5{position: fixed;
+  top: 55%;
+  left: 2%;
+  width: 800px;
 }
-.card{
-  position: relative;
-  top: 75%;
-  left: 3%;
-  }
-.card:hover{
-  box-shadow: 0px 0px 10px 7px #87BBE6;
+.card{position: relative;
+top: 30%;
+left: 31%;
+z-index: 5;
 }}
-
-@media (max-width: 761px){
-
+@media only screen and (max-width: 518px) {
+  /*  414 width   */   
+.box1{
+  background-color:rgba(252, 252, 252, 0);}
 .box2{
+  position: absolute;
+  left: 11%;
   background-color:rgba(252, 252, 252, 0);
-}
-.box5{
-  width: 370px;
-  padding: 20px;
-  margin: 10px;
-}
-@media (max-width: 600px) {
-.container .section:nth-child(2){
-  background-size: 200% 100%;
-  background-position: right;}
-  .container .section:nth-child(3){
-  background-size: 200% 100%;
-  background-position: right;}
-td{ font-size: 24px;
-line-height: 29px;}
-h4>a{
-  font-size: 17px;
+} 
+.WordsPuzzle_DARK_BLUE2{
+  display: none;}
+.box3{position: absolute;
+  top: 4%;
+  width: 400px;}
+.h1{font-size: 26.5px;
+    line-height: 1.4;}
+p{
+  font-size: 21px;
   }
-.item5_1 {
-  display: none;
-}
-/*.container .section:nth-child(1){
-  height: 45vh;
-}*/
-
-.box3{
-  position: relative;
-  top: 50px;
-  width: 370px;
-}
-.box4{
-  width: 360px;
-}
-.h1{ 
-    font-size: 25px;
-    line-height: 1.2;}
-p{font-family: 'Times New Roman', serif;
-  font-size: 18px;
-}
-.box4>ol{
-  position: relative;
-  top: -11px;
-}
-.box4>ol>li{
-  margin: 6px;
-  font-size: 19px;
+.box4{position: absolute;
+  top: 4%;
+  left: 3%;
+  width: 400px;
   }
-.dog{
+.box4>ol>li{ font-size: 21px; }  
+.box5{position: fixed;
+  top: 35%;
+  left: 3%;
+  width: 390px;
+  padding: 5%;
+}
+.card{position: relative;
+top: 10%;
+left: 12%;}
+}
+@media only screen and (max-width: 470px) {
+  /*  375 width   */  
+.box3{position: absolute;
+  top: 5%;
+  left: 1%;
+  width: 390px;}
+.box4{position: absolute;
+  top: 4%;
+  left: 1%;
+  width: 390px;
+}
+.box4>ol>li{ font-size: 20px; } 
+.box5{position: fixed;
+  left: 1%;
+}
+.card{position: relative;
+top: 10%;
+left: 9%;}
+}
+@media only screen and (max-width: 450px) {
+  /*  360 width   */  
+.box3{position: absolute;
+  top: 5%;
+  left: 1%;
+  width: 375px;}
+.h1{font-size: 25px;
+    line-height: 1.4;}
+  p{
   font-size: 20px;
-  padding: 5px;
-  margin: 5px;
-}
-.card{
-  position: relative;
-  top: 70%;
-  left: 8%;
   }
+.box4{position: absolute;
+  top: 4%;
+  left: 1%;
+  width: 375px;
 }
-
-
-@media only screen and (max-width: 520px){
-.copyright{
-    position: relative;
-    bottom: -4px;
-    right: 34px;
-    float: right;
-    font-size: 9px;}
-.box2{
-  left: 9%;
+.box4>ol>li{ font-size: 19px; } 
+.box5{position: fixed;
+  left: 1%;
+  width: 368px;
+  height: 55%;}
+.card{position: relative;
+top: 10%;
+left: 7%;}}
+@media only screen and (max-width: 400px) {
+  /*  320 width   */ 
+h1{font-size: 32px;}
+.box2{ font-size: 20px;}
+td,th{font-size: 20px;
+ line-height: 28px;}
+ .box3{position: absolute;
+  top: 5%;
+  left: 1%;
+  width: 320px;}
+.h1{font-size: 20px;
+    line-height: 1.4;}
+p{
+  font-size: 18px;
+  } 
+.box4{position: absolute;
+  top: 4%;
+  left: 1%;
+  width: 320px;
+  height: 86%;
 }
-ol>li a{
- position: relative;
- bottom: 5px;
- right: 30px;
- padding: 15px;
-}}
+.box4>ol>li{ font-size: 17.5px; }
+.box5{position: fixed;
+  left: 1%;
+  width: 320px;
+  height: 55%;}
+.card{position: relative;
+top: 10%;
+left: 1%;}
+  } 
