@@ -413,13 +413,16 @@ left: 9%;}
 .box2{
 	font-size: 20px;
 }
+h4>a{position: relative;
+  top: -10.3px;
+  font-size: 15px;}
 .arrow{
   position: absolute;
-  top: 16%;
+  top: 14%;
 }
 table {
   position: absolute;
-  top: 22%;}
+  top: 20%;}
 .box3{position: absolute;
   top: 5%;
   left: 1%;
@@ -434,12 +437,14 @@ table {
   left: 1%;
   width: 375px;
 }
-.box4>ol>li{ font-size: 18px; } 
+.box4>ol>li{ font-size: 18px;
+  margin: 10.3px;
+}
 .box5{position: fixed;
 top: 37%;
   left: 1%;
   width: 368px;
-  height: 45%;}
+  height: 49%;}
 .card{position: relative;
 top: 10%;
 left: 7%;}}
@@ -472,13 +477,14 @@ p{
   top: 4%;
   left: 1%;
   width: 320px;
-  height: 86%;
+  height: 84%;
 }
-.box4>ol>li{ font-size: 17.5px; }
+.box4>ol>li{ font-size: 17.5px;
+  margin: 8px; }
 .box5{position: fixed;
   left: 1%;
   width: 320px;
-  height: 42%;}
+  height: 47%;}
 .card{position: relative;
 top: 10%;
 left: 1%;}
