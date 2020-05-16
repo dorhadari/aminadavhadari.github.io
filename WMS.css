@@ -310,7 +310,7 @@ body{
 }
   .WMS{margin: 2%;
    width: 90%;
-  height: 130vh;}
+  height: 125vh;}
 h1{position: relative;
 top: 30px;
 	margin: 0px;
@@ -344,7 +344,7 @@ h2{position: relative;
     height: 50vh;}
 ol{
   position: relative;
-  top: 18vh;
+  top: 22vh;
   margin: 0px;
   padding: 2px;
    font-size: 9px;
@@ -360,7 +360,7 @@ li>img{
   font-size: 15px;}
 .card{
   position: absolute;
-  top: 125vh;
+  top: 120vh;
   left: 55%;
   width: 190px;
   height: 85px;}
@@ -376,7 +376,7 @@ li>img{
   height: 38vh;}
   ol{
   position: relative;
-  top: 15vh;}
+  top: 20vh;}
 .top{
   position: relative;
   top: -3vh;
@@ -390,7 +390,7 @@ span{font-size: 13px;}
   display: grid;
   grid-gap: 0px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
-  height: 130vh;}
+  height: 125vh;}
 body{
   padding-bottom: 40%;}
  h1{position: relative;
@@ -426,7 +426,7 @@ h2{position: relative;
     height: 45vh;}
 ol{
   position: relative;
-  top: 15vh;
+  top: 19vh;
    font-size: 8px;}
 .btn{
   position: relative;
@@ -435,7 +435,7 @@ ol{
   font-size: 15px;}
 .card{
   position: absolute;
-  top: 125vh;
+  top: 120vh;
   left: 55%;
   width: 170px;
   height: 85px;}
