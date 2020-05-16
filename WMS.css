@@ -36,10 +36,10 @@ li a, .dropbtn {
   padding: 14px 16px;
   text-decoration: none;
 }
-ul>li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
-ul>li.dropdown {
+li.dropdown {
   display: inline-block;
 }
 .dropdown-content {
@@ -67,10 +67,11 @@ span{font-size: 17px;}
 
 
 
+
 .WMS{
 	margin: auto;
   width: 60%;
-  height: 182vh;
+  height: 197vh;
 border: 2px solid black;
 	padding: 10px; 
 	display: grid;
@@ -87,17 +88,17 @@ border: 2px solid black;
 }
 h1 {
 position: relative;
-top: 45px;
+top: 75px;
 padding: 10px;
 margin: 5px;
 	font-family: 'Times New Roman', serif;
     text-align: center;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 53px;
    }
     h2{position: relative;
-	top: -25px;
-	right: 4%;
+	top: 20px;
+	right: 2%;
 	padding: 10px;
 	font-size: 32px;
 	text-align: right;
@@ -107,14 +108,14 @@ font-family: tahoma, serif;
 z-index: 1;}
 .top{
 	position: relative;
-	top: -8vh;
+	top: 0vh;
 	left: 6%;
 	box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.7);
 	z-index: 3;
 }
 .slash{
 	position: relative;
-	top: -40vh;
+	top: -43vh;
 	left: -10px;
 	width: 102.5%;
 	height: 90vh;
@@ -134,13 +135,13 @@ z-index: 1;}
 }
  ol{
  	position: relative;
- 	top: 108vh;
+ 	top: 90vh;
  	padding: 10px;
- 	margin: 130px;
+ 	margin: 30px;
  	list-style-type: none;
 	text-align-last: right;
 	 font-family: tahoma, serif;
-	 font-size: 16px;
+	 font-size: 19px;
     font-weight: 900;
     line-height: 1.3;
     text-shadow: 0px 1px 1px white;
@@ -149,7 +150,7 @@ z-index: 1;}
 	z-index: 2;}
 .card{
 	position: absolute;
-	top: 170vh;
+	top: 185vh;
 	margin: 0;
 	left: 65%;
 	z-index: 2;
@@ -159,7 +160,7 @@ z-index: 1;}
 }
 .btn{
   position: relative;
-  top: 20vh;
+  top: 23vh;
   right: 45%;
   cursor: pointer;
     padding: 10px;
@@ -194,22 +195,25 @@ z-index: 1;}
 
 @media only screen and (max-width: 1024px) {
 .WMS{margin: 5%;
-  height: 100vh;}
-h1{
-  font-size: 35px;
+  height: 115vh;}
+h1{position: relative;
+top: 40px;
+  font-size: 47px;
 }
-h2{
+h2{position: relative;
+	top: 0px;
+	right: 8%;
   font-size: 28px;
 }
 .slash{
   position: relative;
-  top: -25vh;
+  top: -18vh;
   left: -10px;
   width: 103%;
   height: 40vh;}
 .top{
   position: relative;
-  top: 7vh;
+  top: 1vh;
   left: 4%;
   width: 190px;
   height: 210px;}
@@ -221,7 +225,7 @@ h2{
     height: 50vh;}
 ol{
   position: relative;
-  top: 20vh;
+  top: 19vh;
   margin: 0px;
    font-size: 16px;}
 .btn{
@@ -230,7 +234,7 @@ ol{
   right: 58%;}
 .card{
   position: absolute;
-  top: 93.5vh;
+  top: 108.5vh;
   left: 45%;
   width: 290px;
   height: 130px;}
@@ -266,7 +270,7 @@ h2{position: relative;
     height: 50vh;}
 ol{
   position: relative;
-  top: 20vh;
+  top: 22vh;
   margin: 0px;
    font-size: 11px;}
 .btn{
@@ -290,26 +294,32 @@ h1{
 @media only screen and (max-width: 414px) {
 body{
   padding-bottom: 35%;}
+ ul>li {
+  font-size: 13px;
+  margin: -4px;
+}
   .WMS{margin: 2%;
    width: 90%;
-  height: 110vh;}
-h1{margin: 0px;
-  font-size: 20px;
+  height: 130vh;}
+h1{position: relative;
+top: 30px;
+	margin: 0px;
+  font-size: 40px;
 }
 h2{position: relative;
-  top:0px;
-  right: 13px;
-  font-size: 18px;
+  top: -10px;
+  right: 0px;
+  font-size: 20px;
 }
 .slash{
   position: relative;
-  top: -25vh;
+  top: -22vh;
   left: -10px;
   width: 105.5%;
   height: 38vh;}
 .top{
   position: relative;
-  top: 7vh;
+  top: -4vh;
   left: 4%;
   width: 100px;
   height: 110px;}
@@ -321,8 +331,9 @@ h2{position: relative;
     height: 50vh;}
 ol{
   position: relative;
-  top: 18vh;
+  top: 15vh;
   margin: 0px;
+  padding: 2px;
    font-size: 9px;
   line-height: 1;}
 li>img{
@@ -336,44 +347,59 @@ li>img{
   font-size: 15px;}
 .card{
   position: absolute;
-  top: 105vh;
+  top: 125vh;
   left: 55%;
   width: 190px;
   height: 85px;}
     }
 @media only screen and (max-width: 411px) {
+ ul>li {
+  font-size: 12.5px;
+  margin: -4px;
+}
 .slash{
   position: relative;
-  top: -25vh;
+  top: -22vh;
   height: 38vh;}
   ol{
   position: relative;
-  top: 20vh;}
+  top: 15vh;}
 .top{
   position: relative;
-  top: 12vh;
+  top: -3vh;
   left: 3%;
-  width: 120px;
-  height: 130px;}
+  width: 115px;
+  height: 125px;}
 }
 @media  only screen and (max-width: 375px) {
+span{font-size: 13px;}
 .WMS{
   display: grid;
   grid-gap: 0px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
-}
+  height: 130vh;}
 body{
   padding-bottom: 40%;}
+ h1{position: relative;
+top: 32px;
+	margin: 0px;
+  font-size: 36px;
+}
+h2{position: relative;
+  top: -10px;
+  right: 0px;
+  font-size: 20px;
+}
 .slash{
   position: relative;
-  top: -20vh;
+  top: -23vh;
   left: -10px;
   width: 102.5%;
   height: 38vh;}
 .top{
   position: relative;
-  top: 0vh;
-  left: 4%;
+  top: -3vh;
+  left: 1%;
   width: 100px;
   height: 110px;}
 .child2 .pic1 {
@@ -384,7 +410,7 @@ body{
     height: 45vh;}
 ol{
   position: relative;
-  top: 24vh;
+  top: 13vh;
    font-size: 8px;}
 .btn{
   position: relative;
@@ -393,7 +419,7 @@ ol{
   font-size: 15px;}
 .card{
   position: absolute;
-  top: 105vh;
+  top: 125vh;
   left: 55%;
   width: 170px;
   height: 85px;}
@@ -401,17 +427,21 @@ ol{
 @media only screen and (max-width: 360px) {
 h1{
 	position: relative;
-	left: -3%;
-}
+	left: -3%;}
+h2{position: relative;
+  top: -8px;
+  right: 15px;
+  font-size: 20px;
+}	
 .slash{
   position: relative;
-  top: -27vh;
+  top: -25vh;
   left: -10px;
   width: 98.5%;
   height: 38vh;}
 .top{
   position: relative;
-  top: 5vh;}
+  top: -4vh;}
 .child2 .pic1 {
     position: relative;
     left: -10px;
@@ -420,7 +450,8 @@ h1{
     height: 50vh;}
 ol{
   position: relative;
-  top: 28vh;
+  top: 22vh;
+  right: 10px;
   margin: 5px;
    font-size: 8px;}
 }
@@ -429,16 +460,16 @@ body{
   padding-bottom: 42%;}
 .WMS{margin: 2%;
    width: 102%;
-  height: 120vh;}
+  height: 135vh;}
 .slash{
   position: relative;
-  top: -30vh;
+  top: -25vh;
   left: -10px;
   width: 99%;
   height: 38vh;}
 .top{
   position: relative;
-  top: 7vh;
+  top: -4vh;
   left: 4%;
   width: 100px;
   height: 110px;}
@@ -458,8 +489,8 @@ ol{
   right: 30%;}
 .card{
   position: absolute;
-  top: 115vh;
-  left: 57%;
+  top: 130vh;
+  left: 59%;
   width: 170px;
   height: 85px;}
 
@@ -467,9 +498,9 @@ ol{
 
 @media only screen and (max-height: 715px) and (min-width: 1024px) {
 ol{position: relative;
- 	top: 115vh;
+ 	top: 95vh;
 }}
 @media only screen and (max-height: 680px) and (min-width: 1024px) {
 ol{position: relative;
- 	top: 124vh;
+ 	top: 107vh;
 }}
