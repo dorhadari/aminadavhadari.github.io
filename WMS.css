@@ -96,6 +96,9 @@ margin: 5px;
     font-weight: 500;
     font-size: 53px;
    }
+h1>span{
+  	font-size: 53px;
+  }
     h2{position: relative;
 	top: 20px;
 	right: 2%;
@@ -200,6 +203,9 @@ h1{position: relative;
 top: 40px;
   font-size: 47px;
 }
+h1>span{
+  	font-size: 44px;
+  }
 h2{position: relative;
 	top: 0px;
 	right: 8%;
@@ -245,6 +251,9 @@ ol{
 h1{margin: 0px;
   font-size: 27px;
 }
+h1>span{
+  	font-size: 27px;
+  }
 h2{position: relative;
   top:0px;
   right: 4px;
@@ -306,6 +315,9 @@ top: 30px;
 	margin: 0px;
   font-size: 40px;
 }
+h1>span{
+  	font-size: 35px;
+  }
 h2{position: relative;
   top: -10px;
   right: 0px;
@@ -331,7 +343,7 @@ h2{position: relative;
     height: 50vh;}
 ol{
   position: relative;
-  top: 15vh;
+  top: 18vh;
   margin: 0px;
   padding: 2px;
    font-size: 9px;
@@ -385,6 +397,9 @@ top: 32px;
 	margin: 0px;
   font-size: 36px;
 }
+h1>span{
+  	font-size: 34.5px;
+  }
 h2{position: relative;
   top: -10px;
   right: 0px;
@@ -410,7 +425,7 @@ h2{position: relative;
     height: 45vh;}
 ol{
   position: relative;
-  top: 13vh;
+  top: 15vh;
    font-size: 8px;}
 .btn{
   position: relative;
@@ -427,9 +442,13 @@ ol{
 @media only screen and (max-width: 360px) {
 h1{
 	position: relative;
+	top: 8%;
 	left: -3%;}
+h1>span{
+  	font-size: 33px;
+  }
 h2{position: relative;
-  top: -8px;
+  top: -20px;
   right: 15px;
   font-size: 20px;
 }	
@@ -441,7 +460,7 @@ h2{position: relative;
   height: 38vh;}
 .top{
   position: relative;
-  top: -4vh;}
+  top: -5vh;}
 .child2 .pic1 {
     position: relative;
     left: -10px;
@@ -450,7 +469,7 @@ h2{position: relative;
     height: 50vh;}
 ol{
   position: relative;
-  top: 22vh;
+  top: 26vh;
   right: 10px;
   margin: 5px;
    font-size: 8px;}
@@ -481,7 +500,7 @@ body{
     height: 55vh;}
 ol{
   position: relative;
-  top: 30vh;
+  top: 31vh;
    font-size: 8px;}
 .btn{
   position: relative;
