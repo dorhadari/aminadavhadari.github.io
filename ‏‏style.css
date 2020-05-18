@@ -6,11 +6,6 @@ html,body
     padding: 0px;
   }
 
-body{
-
- /*111111111111111111111111111111111111111111*/
-  
-}
 .nav1 { 
   grid-area: header;
   position: fixed;
@@ -218,22 +213,22 @@ list-style-type: none;
 .copyright>a{
   color: #FF5913;}
 }
-
-
-
-
 .place{
   width: 100%;
   height: 100%;
 }
 .card{
   position: relative;
-  left: 37%;
-  top: 30vh;
+  top: 42vh;
+  left: 50%;
+  transform: translate(-50%,-50%);
   box-shadow: 0px 0px 10px 7px #87BBE6;
   transition: all 1s;
 }
 .card:hover {
+  position: relative;
+  top: 30vh;
+  left: 37%;
   transform: scale(1.2);
 }
 section{
@@ -300,7 +295,7 @@ section .wave:after{
 .wave{
   background-color: #206BAA;
   
-  z-index: -1; 
+  z-index: 1; 
 }
 .item55>ol>li a{
   position: relative;
@@ -361,7 +356,7 @@ p{
   color: black;
   background-color: white;
 }
-@media (max-width: 1440px) {
+@media only screen and (max-width: 1440px) {
   .WordsPuzzle_DARK_BLUE2{
   width: 275px;
   height: 265px;
@@ -374,30 +369,56 @@ p{
   left: 5%;
   top: 5%;}
 .box3{position: relative;
-  top: -22%;}}
-@media (max-width: 1200px) {
- .container .section:nth-child(1){
-  overflow-x: hidden;
+  top: 0%;}}
+@media only screen and (max-width: 1280px) {
+  /* width 1024 */
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 7%;}
+.item55 { 
+  position: relative;
+  bottom: -72px;
+  width: 100%;
+  height: 55px;
 }
+.card:hover {
+  position: relative;
+  top: 30vh;
+  left: 36%;
+  transform: scale(1.2);
+}
+section .wave{
+  position: absolute;
+  top: 88%;
+  width: 100%;
+  height: 143px;
+  bottom: 0px;
+  left: 0px;
+}
+}
+@media only screen and (max-width: 960px) {
+  /* 768 width */
  .empty{
   display: none;
 }
 .WordsPuzzle_DARK_BLUE2{
-  display: none;
+  position: relative;
+  left: 5%;
+  top: 59vh;
 }
 .box3{position: relative;
-top: 0%;}
-.card{position: relative;
-left: 30%}
-@media (max-width: 761px){
+top: -10%;
+width: 850px;}
+
 .grid-wrapper {
+  position: relative;
+  top: -20%;
   grid-gap: 150px;}
 .white{
   position: relative;
   left: 0%;}
   .zone{
     margin: auto;}
-}
 .rectangle {
   height: 100vh;
   width: 100%;
@@ -405,76 +426,44 @@ left: 30%}
   position: absolute;
   top: 90%;
 }
-.btn{
-    position: relative;
-    top: 5px;
-   border: 1.5px solid white;
-   font-size: 15px;
-   float: left;
-}
 .card{
   box-shadow: 0px 0px 10px 10px #87BBE6;
+}
+.card:hover {
+  position: relative;
+  top: 30vh;
+  left: 31%;
+  transform: scale(1.2);
+}
+.item55 { 
+  position: relative;
+  bottom: -72px;
+  width: 100%;
+  height: 55px;
+    background-color: rgba(252 ,252 ,252, 0.1);
+    z-index: 1;
+}
+section .wave{
+  position: absolute;
+  top: 59%;
+  width: 100%;
+  height: 143px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("wave.png");
+  animation: animate 10s linear infinite;
 }
 .category{
   line-height: 1.2;
 }
 .container .section:nth-child(2){
-  height: 150vh;}
-section .wave{
-  position: absolute;
-  top: 53%;}
-  .btn{
-    position: relative;
-    top: -10px;
-   border: 1.5px solid white;
-   font-size: 15px;
-   float: left;
-}
-@media (max-width: 640px){
-.title{font-size: 46px;}
-} 
-@media (max-width: 600px) {
-.description1 {
- position: relative;
- top: 40%; }
- .avatar{position: relative;
-  top: 50px;
-left: -20px;
-  width: 190px;
-  height: 180px;
-}
-  .title {
-    position: relative;
-    left: 0px;
-    font-size: 50px; 
-     background: linear-gradient(to left, rgba(252, 252, 252, 0.1) 70%, rgba(252, 252, 252, 0.1) 30%);}
-}
-.category {
-  position: relative;
-    left: 0px;
-    background: linear-gradient(to left, rgba(252, 252, 252, 0.1) 70%, rgba(252, 252, 252, 0.1) 30%);}
- .container1{
-   height: 20vh;
-}.item5{
-  position: relative;
-  bottom: -245px;
-  height: 15vh;
-}
-.box3{
-  position: relative;
-  top: 5%;
-  width: 370px;
-}
-.h1{ 
-    font-size: 25px;
-    line-height: 1.2;}
-p{font-family: 'Times New Roman', serif;
-  font-size: 18px;
-}}
-@media only screen and (max-width: 520px){
+  height: 150vh;}}
+
+@media only screen and (max-width: 518px){
+/* 414 width */
 .container .section:nth-child(1){
   background-size: 100% 58%;
-}
+  overflow-x: hidden;}
 .container .section:nth-child(3){
   background-size: 200% 100%;
   background-position: right;}
@@ -485,24 +474,33 @@ p{font-family: 'Times New Roman', serif;
   position: absolute;
   top: 58%;
 }
+.description1 {
+ position: relative;
+ top: 50%; }
 .white{
   position: relative;
   top: -45px;
   }
 .title {
     position: relative;
-    top: 110px;}
+    top: 110px;
+    font-size: 50px; 
+     background: linear-gradient(to left, rgba(252, 252, 252, 0.1) 70%, rgba(252, 252, 252, 0.1) 30%);}
 .category {
   position: relative;
-    top: 105px;}
+    top: 105px;
+    background: linear-gradient(to left, rgba(252, 252, 252, 0.1) 70%, rgba(252, 252, 252, 0.1) 30%);}
     .grid-wrapper {
   position: relative;
-  top: 125px;
-  grid-gap: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  grid-gap: 100px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));}
 .avatar{
   position: relative;
-  top: -5px;
+  top: 0px;
+  left: -10px;
   width: 175px;
   height: 165px;}
 .item5{
@@ -522,10 +520,128 @@ p{font-family: 'Times New Roman', serif;
  right: 30px;
  padding: 15px;
 }
-.card{
+.card:hover {
   position: relative;
-  left: 8%;}
+  top: 30vh;
+  left: 12%;
+  transform: scale(1.2);
 }
-.box2{
-  left: 9%;
+section .wave{
+  position: absolute;
+  top: 50%;}
+.WordsPuzzle_DARK_BLUE2{
+  display: none;
+}
+.box3{position: relative;
+top: 6%;
+width: 400px;}
+.h1{ 
+    font-size: 26px;
+    line-height: 1.2;}
+p{
+  font-size: 21px;
+}
+.btn{
+    position: relative;
+    top: -10px;
+   border: 1.5px solid white;
+   font-size: 15px;
+   float: left;
 }}
+@media only screen and (max-width: 514px){
+/* 411 width */
+section .wave{
+  position: absolute;
+  top: 50%;}
+}
+@media only screen and (max-width: 469px){
+/* 375 width */
+.avatar{
+  position: relative;
+  top: 0px;
+  left: -12px;}
+.item55 { 
+  position: relative;
+  bottom: -60px;}
+.card:hover {
+  position: relative;
+  top: 30vh;
+  left: 7.5%;
+  transform: scale(1.2);
+}
+section .wave{
+  position: absolute;
+  top: 55%;}
+.box3{position: relative;
+top: 6%;
+width: 380px;}
+.h1{ 
+    font-size: 25px;
+    line-height: 1.2;}
+p{
+  font-size: 20px;
+}
+}
+@media only screen and (max-width: 450px){
+/* 360 width */
+.card:hover {
+  position: relative;
+  top: 30vh;
+  left: 7%;
+  transform: scale(1.2);
+}
+section .wave{
+  position: absolute;
+  top: 53%;}
+.box3{position: relative;
+top: 6%;
+left: 2%;
+width: 360px;}
+}
+@media only screen and (max-width: 400px){
+/* 320 width */
+.description1{
+  font-size: 53px;
+}
+.white{
+  position: relative;
+  top: -10px;
+  left:-10px;
+  }
+.title {
+  position: relative;
+  top: 40px;}
+.category {
+  position: relative;
+  top: 40px;}
+.avatar{
+  position: relative;
+  top: 0px;
+  left: -6px;}
+.rectangle {
+  height: 115vh;
+  position: absolute;
+  top: 58%;
+}
+.card{
+  width: 330px;
+  height: 155px;
+}
+.card:hover {
+  position: relative;
+  top: 30vh;
+  left: 8.5%;
+  transform: scale(1.2);
+}
+.box3{
+  position: relative;
+  top: 7%;
+  width: 320px;
+}
+.h1{ 
+    font-size: 20px;
+    line-height: 1.2;}
+p{
+  font-size: 16px;
+}
+}
