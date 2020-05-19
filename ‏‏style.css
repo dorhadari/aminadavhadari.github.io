@@ -565,8 +565,10 @@ section .wave{
   position: absolute;
   top: 50%;
   left: 47%;}
-}
-
+ .afive{
+  position: relative;
+  left:  -20px;
+}}
 @media only screen and (max-width: 518px){
 /* 414 width */
 .container .section:nth-child(1){
@@ -689,7 +691,7 @@ p{
   grid-column-end: 3;
    width:  370px;
    position: relative;
-  left: 10px;
+  left: 15px;
 }
 }
 @media only screen and (max-width: 514px){
@@ -754,7 +756,7 @@ left: 2%;
 width: 360px;}
 .afive{
    position: relative;
-  left: 10px;
+  left: 5px;
 }
 }
 @media only screen and (max-width: 400px){
@@ -810,4 +812,8 @@ p{
   .atwo{
   position: relative;
   left: -29%;
+}
+.afive{
+   position: relative;
+  left: 0px;
 }}
