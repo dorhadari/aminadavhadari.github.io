@@ -295,6 +295,11 @@ ol{
   height: 125px;}
     }
 @media only screen and (max-width: 600px) {
+ul>li {
+  font-size: 12px;
+  margin: -4px;
+}
+span{font-size: 13px;}
 ol{position: relative;
   top: 22vh;}
 h1{
