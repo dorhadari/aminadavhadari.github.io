@@ -146,10 +146,12 @@ font-family: 'Times New Roman', serif;
 	font-size: 20px;
 	font-weight: 900;
 	color: #447684;
-	line-height: 1.5;}
-
+	line-height: 1.5;
+ white-space: nowrap;}
 li>img{
 	cursor: default;
+  position: relative;
+  top: 10px;
 }
 .copyright{
   position: absolute;
@@ -158,7 +160,9 @@ li>img{
 .copyright>a{
   color: #FF5913;}
 }
-
-/*@media only screen and (max-width: 21024px) {
+/*
+@media only screen and (max-width: 600px)  {
+ 
 .btn{color: red;}
+}
 }*/
