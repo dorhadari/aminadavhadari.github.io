@@ -305,10 +305,10 @@ h1{
 body{
   padding-bottom: 35%;}
  ul>li {
-  font-size: 13px;
+  font-size: 12px;
   margin: -4px;
 }
-span{font-size: 14px;}
+span{font-size: 13px;}
   .WMS{margin: 2%;
    width: 90%;
   height: 120vh;}
@@ -386,7 +386,7 @@ li>img{
   height: 125px;}
 }
 @media  only screen and (max-width: 375px) {
-span{font-size: 13px;}
+
 .WMS{
   display: grid;
   grid-gap: 0px;
