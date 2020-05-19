@@ -356,6 +356,103 @@ p{
   color: black;
   background-color: white;
 }
+
+
+
+#containerclouds {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  perspective: 400;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #548cb3;
+  background: linear-gradient(to bottom, #548cb3 0%, #8dc8e7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#548cb3', endColorstr='#8dc8e7', GradientType=0 );
+}
+#containerclouds h2 {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  margin-top: -30px;
+  font-size: 60px;
+  line-height: 1;
+  text-transform: uppercase;
+  z-index: 320;
+}
+.solutions{
+  width: 85%;
+  max-width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  align-items: end;
+  z-index: 2;
+}
+.solutions>div>a{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 4;
+}
+
+.aone{
+    grid-row-start: 3;
+    grid-column-end: 2;
+    justify-self: start;
+}
+.atwo{
+    grid-row-start: 3;
+  grid-column-end: 4;
+}
+.athree{
+    grid-row-start: 3;
+  grid-column-end: 5;
+  justify-self: end;
+}
+.afour{
+  grid-row-start: 11;
+  grid-column-end: 2;
+}
+.afive{
+  grid-row-start: 11;
+  grid-column-end: 5;
+
+}
+#sky {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 512px;
+  height: 512px;
+  margin-left: -256px;
+  margin-top: -256px;
+  transform-style: preserve-3d;
+}
+#sky div {
+  transform-style: preserve-3d;
+}
+
+.cloudLayer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 256px;
+  height: 256px;
+  margin-left: -128px;
+  margin-top: -128px;
+  transition: opacity .5s ease-out;
+}
+
+
 @media only screen and (max-width: 1440px) {
   .WordsPuzzle_DARK_BLUE2{
   width: 275px;
@@ -547,7 +644,20 @@ p{
    border: 1.5px solid white;
    font-size: 15px;
    float: left;
-}}
+}
+.solutions{
+  grid-gap: 10px;
+grid-row-gap: 30px;
+}
+.solutions>div>a{
+  color: white;
+  font-size: 40px;}
+.atwo{
+   position: relative;
+   left: -30%;
+}
+
+}
 @media only screen and (max-width: 514px){
 /* 411 width */
 section .wave{
@@ -581,6 +691,17 @@ width: 380px;}
 p{
   font-size: 20px;
 }
+.atwo{
+   position: relative;
+   left: -55%;
+}
+.athree{
+  justify-self: start;
+}
+.afive{
+ position: relative;
+ left: -20%; 
+}
 }
 @media only screen and (max-width: 450px){
 /* 360 width */
@@ -597,6 +718,15 @@ section .wave{
 top: 6%;
 left: 2%;
 width: 360px;}
+.solutions>div>a{
+  font-size: 35px;}
+.athree{
+  justify-self: center;
+}
+.afive{
+ position: relative;
+ left: -10%; 
+}
 }
 @media only screen and (max-width: 400px){
 /* 320 width */
@@ -644,4 +774,6 @@ width: 360px;}
 p{
   font-size: 16px;
 }
+.solutions>div>a{
+  font-size: 30px;}
 }
