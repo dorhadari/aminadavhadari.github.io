@@ -385,47 +385,53 @@ p{
 }
 .solutions{
   width: 85%;
-  max-width: 800px;
+  max-width: 1000px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 53%;
   transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  text-align: center;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 50px;
-  align-items: end;
+  grid-gap: 45px;
   z-index: 2;
 }
 .solutions>div>a{
+  padding:  10%;
   color: white;
   font-size: 50px;
-  text-align: center;
   text-decoration: none;
   z-index: 4;
 }
 
 .aone{
-    grid-row-start: 3;
+    grid-row-start: 2;
+     grid-column-start: 1;
     grid-column-end: 2;
-    justify-self: start;
+  
 }
 .atwo{
-    grid-row-start: 3;
-  grid-column-end: 4;
+    grid-row-start: 2;
+     grid-column-start: 4;
+  grid-column-end: 5;
+  position: relative;
+  left: -9%;
 }
 .athree{
-    grid-row-start: 3;
-  grid-column-end: 5;
-  justify-self: end;
+    grid-row-start: 2;
+    grid-column-start: 5;
+  grid-column-end: 7;
+  
 }
 .afour{
-  grid-row-start: 11;
+  grid-row-start: 10;
   grid-column-end: 2;
 }
 .afive{
-  grid-row-start: 11;
-  grid-column-end: 5;
-
+  grid-row-start: 10;
+  grid-column-end: 6;
+   width:  370px;
 }
 #sky {
   position: absolute;
@@ -554,7 +560,12 @@ section .wave{
   line-height: 1.2;
 }
 .container .section:nth-child(2){
-  height: 150vh;}}
+  height: 150vh;}
+.solutions{
+  position: absolute;
+  top: 50%;
+  left: 47%;}
+}
 
 @media only screen and (max-width: 518px){
 /* 414 width */
@@ -645,18 +656,41 @@ p{
    font-size: 15px;
    float: left;
 }
-.solutions{
-  grid-gap: 10px;
-grid-row-gap: 30px;
-}
 .solutions>div>a{
-  color: white;
-  font-size: 40px;}
-.atwo{
-   position: relative;
-   left: -30%;
+  position: relative;
+  left: -10%;
+  font-size: 35px;}
+  .aone{
+    grid-row-start: 2;
+     grid-column-start: 1;
+    grid-column-end: 2;
 }
-
+.atwo{
+    grid-row-start: 2;
+     grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  left: -32%;
+}
+.athree{
+    grid-row-start: 2;
+    grid-column-start: 3;
+  grid-column-end: 4;
+  justify-self: start;
+  position: relative;
+  left: -250px;
+}
+.afour{
+  grid-row-start: 10;
+  grid-column-end: 2;
+}
+.afive{
+  grid-row-start: 10;
+  grid-column-end: 3;
+   width:  370px;
+   position: relative;
+  left: 10px;
+}
 }
 @media only screen and (max-width: 514px){
 /* 411 width */
@@ -691,16 +725,16 @@ width: 380px;}
 p{
   font-size: 20px;
 }
-.atwo{
-   position: relative;
-   left: -55%;
-}
-.athree{
-  justify-self: start;
-}
+.solutions>div>a{
+  position: relative;
+  left: -10%;
+  font-size: 28px;}
 .afive{
- position: relative;
- left: -20%; 
+  grid-row-start: 10;
+  grid-column-end: 3;
+   width:  370px;
+   position: relative;
+  left: 12px;
 }
 }
 @media only screen and (max-width: 450px){
@@ -718,14 +752,9 @@ section .wave{
 top: 6%;
 left: 2%;
 width: 360px;}
-.solutions>div>a{
-  font-size: 35px;}
-.athree{
-  justify-self: center;
-}
 .afive{
- position: relative;
- left: -10%; 
+   position: relative;
+  left: 10px;
 }
 }
 @media only screen and (max-width: 400px){
@@ -775,5 +804,10 @@ p{
   font-size: 16px;
 }
 .solutions>div>a{
-  font-size: 30px;}
-}
+  position: relative;
+  left: -10%;
+  font-size: 22px;}
+  .atwo{
+  position: relative;
+  left: -29%;
+}}
