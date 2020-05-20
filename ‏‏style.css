@@ -691,7 +691,7 @@ p{
   grid-column-end: 3;
    width:  370px;
    position: relative;
-  left: -5px;
+  left: -10px;
 }
 }
 @media only screen and (max-width: 514px){
