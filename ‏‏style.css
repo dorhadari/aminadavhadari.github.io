@@ -691,7 +691,7 @@ p{
   grid-column-end: 3;
    width:  370px;
    position: relative;
-  left: 15px;
+  left: 0px;
 }
 }
 @media only screen and (max-width: 514px){
@@ -736,7 +736,7 @@ p{
   grid-column-end: 3;
    width:  370px;
    position: relative;
-  left: 12px;
+  left: 5px;
 }
 }
 @media only screen and (max-width: 450px){
@@ -756,7 +756,7 @@ left: 2%;
 width: 360px;}
 .afive{
    position: relative;
-  left: 5px;
+  left: 0px;
 }
 }
 @media only screen and (max-width: 400px){
@@ -815,5 +815,5 @@ p{
 }
 .afive{
    position: relative;
-  left: 0px;
+  left: -5px;
 }}
