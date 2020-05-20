@@ -567,7 +567,7 @@ section .wave{
   left: 47%;}
  .afive{
   position: relative;
-  left:  -28px;
+  left:  -30px;
 }}
 @media only screen and (max-width: 518px){
 /* 414 width */
@@ -691,7 +691,7 @@ p{
   grid-column-end: 3;
    width:  370px;
    position: relative;
-  left: -5px;
+  left: -8px;
 }
 }
 @media only screen and (max-width: 514px){
