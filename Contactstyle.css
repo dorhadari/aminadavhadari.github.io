@@ -167,7 +167,7 @@ li>img{
 .copyright>a{
   color: #FF5913;}
 }
-.btn{color: red;}
+
 
 @media only screen and (max-width: 1024px)  {
 body{
@@ -199,9 +199,13 @@ ul>li {
   margin: -3px;
 }
 span{font-size: 13px;}
+.contact-form{position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%,-51%);}
 .item5 {
   position: relative;
-  top: 90vh;
+  top: 87vh;
   height: 75px;}
 ol>li, ol>li a{position: relative;
   right: 12%;
@@ -219,6 +223,13 @@ li>img{position: relative;
 body{
     background-image: url("photo1.jpg");
   background-size: 1500px 1410px;}
+.txtb input, .txtb textarea{
+  font-size: 16px;
+}
+.item5 {
+  position: relative;
+  top: 87vh;
+  height: 94px;}
 }
 @media only screen and (max-width: 375px)  {
 body{
@@ -229,9 +240,13 @@ body{
 .contact-form h1{
   font-size: 31px;
 }
+.avatar{
+  width: 97px;
+  height: 87px;
+}
 .item5 {
   position: relative;
-  top: 91vh;
+  top: 88vh;
   height: 70px;}
   li>img{
   width: 50px;
@@ -248,20 +263,19 @@ span{font-size: 12px;}
   width: 95px;
   height: 85px;
 }
+.btn{
+  margin-top: 3px;}
 .item5 {
   position: relative;
-  top: 90vh;
+  top: 87vh;
   height: 70px;}
 }
 @media only screen and (max-width: 320px)  {
-body{
-  height: 105vh;
-}
 .contact-form{
    position: absolute;
-  top: 52%;
+  top: 49%;
   left: 50%;
-  transform: translate(-50%,-48%);
+  transform: translate(-50%,-51%);
 padding: 10px 20px;}
 .contact-form h1{
   font-size: 25px;
@@ -270,11 +284,14 @@ padding: 10px 20px;}
   width: 90px;
   height: 80px;
 }
+.txtb input, .txtb textarea{
+  font-size: 10px;
+}
 .btn{
   padding: 10px 0;}
 .item5 {
   position: relative;
-  top: 97vh;
+  top: 87vh;
 }
 ol>li, ol>li a{
   font-size: 11px;  }
