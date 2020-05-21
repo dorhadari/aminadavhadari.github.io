@@ -194,7 +194,7 @@ li>img{width: 65px;
   height: 45px;}}
 @media only screen and (max-width: 414px)  {
 body{
-  background-size: 1500px 700px;}
+  background-size: 1500px 640px;}
 ul>li {
   font-size: 12px;
   margin: -3px;
@@ -216,8 +216,8 @@ span{font-size: 13px;}
 }
 .item5 {
   position: relative;
-  top: 84vh;
-  height: 92px;}
+  top: 83vh;
+  height: 80px;}
 ol>li, ol>li a{position: relative;
   top: -1px;
   right: 12%;
@@ -235,7 +235,7 @@ li>img{position: relative;
 @media only screen and (max-width: 411px)  {
 body{
     background-image: url("photo1.jpg");
-  background-size: 1500px 1410px;}
+  background-size: 1500px 670px;}
 .txtb input, .txtb textarea{
   font-size: 16px;
 }
@@ -246,7 +246,7 @@ body{
 }
 @media only screen and (max-width: 375px)  {
 body{
-  background-size: 1500px 740px;}
+  background-size: 1500px 600px;}
 .contact-form{
   padding: 26px 25px;
 }
@@ -261,7 +261,7 @@ body{
   font-size: 11px;}
 .item5 {
   position: relative;
-  top: 86vh;
+  top: 84.5vh;
   height: 80px;}
   li>img{
   width: 50px;
@@ -274,6 +274,9 @@ span{font-size: 12px;}
 .contact-form{
   padding: 10px 20px;
 }
+.contact-form h1{
+  font-size: 29px;
+}
 .avatar{
   width: 95px;
   height: 85px;
@@ -282,7 +285,7 @@ span{font-size: 12px;}
   margin: 0px;}
 .item5 {
   position: relative;
-  top: 85vh;
+  top: 84vh;
   height: 80px;}
 }
 @media only screen and (max-width: 320px)  {
