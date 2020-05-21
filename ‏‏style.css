@@ -103,7 +103,7 @@ span{font-size: 17px;}
   background-position: center center;
   z-index: 3;}
 .container .section:nth-child(5){
-  background-image: url("photo-1417632993443-302f4897cf67.jpg");
+  background-image: url("photo1.jpg");
   background-size: cover;
   background-position: center center;
   z-index: 3;}
@@ -338,7 +338,7 @@ p{
   font-family: 'Times New Roman', serif;
   font-size: 26px;
 }
-.btn{
+.btn1{
   position: relative;
   top: -35px;
   cursor: pointer;
@@ -352,7 +352,7 @@ p{
    transition: all 0.2s;
    float: right;
 }
-.btn:hover{
+.btn1:hover{
   color: black;
   background-color: white;
 }
@@ -457,6 +457,95 @@ p{
   margin-top: -128px;
   transition: opacity .5s ease-out;
 }
+/* Contact page */
+
+#Aminadavpic2{
+      position: relative;
+      top: 0vh;
+     float: right;
+    margin: 0px;}
+.avatar2{
+border-radius: 100%;
+}
+.contact-form{
+  width: 85%;
+  max-width: 600px;
+  background: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  font-family: 'Times New Roman', serif;
+}
+.contact-form h1{
+  margin-top: 0;
+  font-weight: 200;
+}
+.txtb{
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.txtb input, .txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.btn{
+  display: inline-block;
+  background: rgba(5, 92,46, 0.7);
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
+.span1{
+  display: block;
+  width: auto;
+}
+.span2{
+  border-radius:10px;
+  padding:5px;
+}
+.item55555 {
+  position: relative;
+  top: 90vh;
+  height: 78px;
+    background-color: white;
+}
+
+.item55555>ol>li, .item55555>ol>li a{display: inline-block;
+  cursor: pointer;
+margin-left: 2%;
+font-family: 'Times New Roman', serif; 
+  font-size: 20px;
+  font-weight: 900;
+  color: #447684;
+  line-height: 1.5;
+ white-space: nowrap;}
+li>img{
+  cursor: default;
+  position: relative;
+  top: 10px;
+}
 
 
 @media only screen and (max-width: 1440px) {
@@ -497,8 +586,7 @@ section .wave{
   height: 143px;
   bottom: 0px;
   left: 0px;
-}
-}
+}}
 @media only screen and (max-width: 960px) {
   /* 768 width */
  .empty{
@@ -651,7 +739,7 @@ width: 400px;}
 p{
   font-size: 21px;
 }
-.btn{
+.btn1{
     position: relative;
     top: -10px;
    border: 1.5px solid white;
@@ -693,12 +781,49 @@ p{
    position: relative;
   left: -8px;
 }
+.contact-form h1{
+  font-size: 31px;
+}
+.avatar2{
+  width: 97px;
+  height: 87px;
+}
+.contact-form{position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%,-51%);}
+.txtb label{
+  font-size: 13px;
+}
+.item55555 {
+  position: relative;
+  top: 91vh;
+  height: 90px;}
+.item55555>ol>li, .item55555>ol>li a{position: relative;
+  top: -1px;
+  right: 12%;
+  margin: 4px;
+  font-size: 11px;  }
+.item55555>ol>.copyright{position: relative;
+  right: 10%;
+  font-size: 7px;
+}
+li>img{position: relative;
+  top: 4px;
+  left: -12%;
+  width: 60px;
+  height: 40px;}
 }
 @media only screen and (max-width: 514px){
 /* 411 width */
 section .wave{
   position: absolute;
   top: 50%;}
+.txtb input, .txtb textarea{
+  font-size: 16px;
+}
+.item55555 {
+  height: 94px;}
 }
 @media only screen and (max-width: 469px){
 /* 375 width */
@@ -816,4 +941,32 @@ p{
 .afive{
    position: relative;
   left: -5px;
+}
+.contact-form{
+   position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%,-51%);
+padding: 10px 20px;}
+.contact-form h1{
+  font-size: 25px;
+}
+.avatar2{
+  width: 90px;
+  height: 80px;
+}
+.txtb input, .txtb textarea{
+  font-size: 10px;
+}
+.btn{
+  padding: 10px 0;}
+.item55555 {
+  position: relative;
+  top: 87vh;
+}
+.item55555>ol>li, .item55555>ol>li a{position: relative;
+  top: 0px;
+  font-size: 9px;  }
+  .copyright{
+  font-size: 5px;
 }}
