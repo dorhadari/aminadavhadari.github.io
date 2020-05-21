@@ -209,7 +209,7 @@ span{font-size: 13px;}
 }
 .item5 {
   position: relative;
-  top: 87vh;
+  top: 84vh;
   height: 75px;}
 ol>li, ol>li a{position: relative;
   right: 12%;
@@ -218,7 +218,7 @@ ol>li, ol>li a{position: relative;
   right: 10%;
   font-size: 8px;
 }
-.btn{color:red;}
+.btn{color: red;}
 li>img{position: relative;
   left: -12%;
   width: 60px;
