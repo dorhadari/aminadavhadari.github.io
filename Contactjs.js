@@ -32,6 +32,10 @@ fetch(url,{
 });
 // disabled the send button
 setMessage({msg:"Successfully sent",isShow:true,type:"success"});
+name.value = "";
+email.value = ""; 
+phone.value = "";
+message.value = "";
 }else{
 	// write error to the user//
 	setMessage({msg:"Please fill in all the fields",isShow:true,type:"error"});
@@ -44,7 +48,9 @@ function setMessage(data){
 	if(msg){
 		msg.innerHTML = data.msg;
 		msg.style.color = data.type === "success" ? "green":"red";
-		msg.style.display = data.isShow ? "block" : "none";
+		msg.style.visibility = data.isShow ? "visible" : "hidden";
+		msg.style.backgroundColor = data.type === "success" ? "#6cb9753d":"#faa6e23d";
 	}
 }
 })();
+

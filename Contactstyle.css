@@ -115,7 +115,6 @@ border-radius: 100%;
 	font-size: 18px;
 	margin-top: 6px;
 }
-
 .btn{
 	display: inline-block;
 	background: rgba(5, 92,46, 0.7);
@@ -125,6 +124,14 @@ border-radius: 100%;
 	cursor: pointer;
 	margin-top: 8px;
 	width: 100%;
+}
+.span1{
+  display: block;
+  width: auto;
+}
+.span2{
+  border-radius:10px;
+  padding:5px;
 }
 .item5 {
   position: relative;
@@ -160,9 +167,118 @@ li>img{
 .copyright>a{
   color: #FF5913;}
 }
-/*
-@media only screen and (max-width: 600px)  {
- 
 .btn{color: red;}
+
+@media only screen and (max-width: 1024px)  {
+body{
+    background-image: url("photo1.jpg");
+  background-size: 1500px 1210px;}
+.item5 {
+  position: relative;
+  top: 90vh;
+}}
+@media only screen and (max-width: 768px)  {
+body{
+    background-image: url("photo1.jpg");
+  background-size: 1500px 1210px;}
+.item5 {
+  position: relative;
+  top: 92vh;
 }
-}*/
+ol>li, ol>li a{
+  font-size: 18px;
+  }
+.copyright{font-size: 13px;}
+li>img{width: 65px;
+  height: 45px;}}
+@media only screen and (max-width: 414px)  {
+body{
+  background-size: 1500px 700px;}
+ul>li {
+  font-size: 12px;
+  margin: -3px;
+}
+span{font-size: 13px;}
+.item5 {
+  position: relative;
+  top: 90vh;
+  height: 75px;}
+ol>li, ol>li a{position: relative;
+  right: 12%;
+  font-size: 13px;  }
+.copyright{position: relative;
+  right: 10%;
+  font-size: 8px;
+}
+li>img{position: relative;
+  left: -12%;
+  width: 60px;
+  height: 40px;}
+}
+@media only screen and (max-width: 411px)  {
+body{
+    background-image: url("photo1.jpg");
+  background-size: 1500px 1410px;}
+}
+@media only screen and (max-width: 375px)  {
+body{
+  background-size: 1500px 740px;}
+.contact-form{
+  padding: 26px 25px;
+}
+.contact-form h1{
+  font-size: 31px;
+}
+.item5 {
+  position: relative;
+  top: 91vh;
+  height: 70px;}
+  li>img{
+  width: 50px;
+  height: 30px;}
+  ol>li, ol>li a{position: relative;
+  top: 5px;
+}}
+@media only screen and (max-width: 360px)  {
+span{font-size: 12px;}
+.contact-form{
+  padding: 10px 20px;
+}
+.avatar{
+  width: 95px;
+  height: 85px;
+}
+.item5 {
+  position: relative;
+  top: 90vh;
+  height: 70px;}
+}
+@media only screen and (max-width: 320px)  {
+body{
+  height: 105vh;
+}
+.contact-form{
+   position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%,-48%);
+padding: 10px 20px;}
+.contact-form h1{
+  font-size: 25px;
+}
+.avatar{
+  width: 90px;
+  height: 80px;
+}
+.btn{
+  padding: 10px 0;}
+.item5 {
+  position: relative;
+  top: 97vh;
+}
+ol>li, ol>li a{
+  font-size: 11px;  }
+.copyright{
+  font-size: 6px;
+}
+  }
