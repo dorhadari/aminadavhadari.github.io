@@ -218,6 +218,7 @@ ol>li, ol>li a{position: relative;
   right: 10%;
   font-size: 8px;
 }
+.btn{color:red;}
 li>img{position: relative;
   left: -12%;
   width: 60px;
