@@ -669,7 +669,7 @@ section .wave{
   background-size: 200% 100%;
   background-position: right;}
 .rectangle {
-  height: 100vh;
+  height: 92vh;
   width: 100%;
   background-color: white;
   position: absolute;
@@ -836,6 +836,8 @@ section .wave{
   position: relative;
   top: 0px;
   left: -12px;}
+.rectangle {
+  height: 96vh;{}
 .item55 { 
   position: relative;
   bottom: -60px;}
