@@ -409,6 +409,22 @@ li>img{
   position: relative;
   top: 10px;
 }
+
+@media only screen and (max-width: 1440px) {
+ .WordsPuzzle_DARK_BLUE2{
+  width: 265px;
+  height: 255px;
+  position: relative;
+  left: 75%;
+  top: 15vh;}
+.box3{position: absolute;
+  top: -30%;}
+p{
+  font-size: 25px;
+  }
+.container .section:nth-child(3){
+  width: 72%;
+  }}
 @media only screen and (max-width: 1280px) {
   .WordsPuzzle_DARK_BLUE2{
   width: 275px;
@@ -429,10 +445,16 @@ li>img{
 .box3{position: absolute;
   top: 0%;
   left: 3%;}
+p{
+  font-size: 26px;
+  }}
+@media only screen and (max-width: 1276px) {
+  .box3{position: absolute;
+  top: -30%;}
 }
 @media only screen and (max-width: 960px) {
 .box3{position: absolute;
-  top: 3%;
+  top: 0%;
   width: 800px;}
  .page{
 	position: relative;
@@ -443,8 +465,8 @@ li>img{
 width: 215px;
   height: 205px;
   position: relative;
-  left: 76%;
-  top: 6vh;
+   left: 5%;
+  top: 69vh;
 }
 .container .section:nth-child(3){
   width: 100%;
