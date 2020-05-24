@@ -100,7 +100,7 @@ border: 2px solid black;
     height: 100%;
     opacity: 0.3;
 }
-h5, ol, p {
+h5, .childzone2>ol, p {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 20px;
   text-align-last: right;
@@ -116,7 +116,7 @@ h5{font-weight: 100;
   right: 2%;  
   color: black;
   line-height: 2;}
-ol{list-style-type: none;
+.childzone2>ol{list-style-type: none;
 	color: black;
   position: absolute;
   top: 51%;
@@ -132,26 +132,36 @@ p{
 .line{ text-decoration: underline;
 	font-weight: 550;
 	}
-.btn{
+.item5 {
   position: relative;
-  top: 0vh;
-  right: 72.5%;
-  cursor: pointer;
-    padding: 10px;
-   border: 3px solid white;
-   font-family: 'Times New Roman', serif;
-   font-size: 20px;
-   color: white;
-   background-color: #02304B;
-   text-align: center;
-   transition: all 0.2s;
-   float: right;
+  bottom: -35vh;
+  height: 80px;
+    background-color: white;
 }
-.btn:hover{
-  color: black;
-  background-color: white;
+.item5>ol>li {
+  float: left;
+  font-size: 15px;
 }
-@media (max-width: 1280px) {
+.item5>ol>li a{
+  position: relative;
+  top: 18px;
+color: rgba(33, 38, 43, 0.8);
+}
+.item5>ol>.copyright{
+  position: absolute;
+  top: 15px; }
+  ol{
+list-style-type: none;
+}
+.copyright{
+  position: absolute;
+  right: 152px; 
+}
+.copyright>a{
+  color: #FF5913;}
+
+@media only screen and (max-width: 1280px) {
+   /* width 1024 */
 html,body{padding-bottom: 45%;}
 .wall{position: relative;
   top: -18vh;}
@@ -161,11 +171,27 @@ html,body{padding-bottom: 45%;}
   height: 130%;
 }
 h1{font-size: 50px;}
-h5, ol, p{
-	font-size: 27px;}}
-@media (max-width: 1000px) {
-h5, ol, p{
-	font-size: 20px;}}
+h5, .childzone2>ol, p{
+	font-size: 27px;}
+.item5 {
+  position: relative;
+  bottom: -10vh;}}
+@media only screen and (max-width: 960px) {
+  /* 768 width */
+html,body{padding-bottom: 25%;}
+.gridbox{
+  margin: auto;
+  width: 96%;
+  height: 100%;
+}
+h5, .childzone2>ol, p{
+	font-size: 20px;}
+.item5 {
+  position: relative;
+  bottom: -10vh;}
+.copyright{
+    font-size: 6px;}
+}
 @media (max-width: 518px) {
   /* 414 width */
 html,body{
@@ -177,13 +203,34 @@ html,body{
   height: 93%;
 }
 h1{font-size: 30px;}
-h5, ol, p{
+h5, .childzone2>ol, p{
 	font-size: 11px;}
-ol, p{position: relative;
+.childzone2>ol, p{position: relative;
 top: -85%;}
 .small{
   font-size: 10px;
-  }}
+  }
+.item5 {
+  position: relative;
+  bottom: -10vh;
+  height: 60px;
+    background-color: white;
+}
+.item5>ol>li {
+  float: left;
+  font-size: 15.5px;
+}
+.item5>ol>li a{
+  position: relative;
+  top: 13px;
+}
+.item5>ol>.copyright{
+  position: absolute;
+  top: 15px; }
+.copyright{
+  position: absolute;
+  right: 45px; 
+}}
 @media (max-width: 470px){
   /* 375 width */
 html,body{
@@ -195,31 +242,36 @@ html,body{
   display: grid;
   grid-gap: 0px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));}
-.btn{
-  font-size: 15px;
-}
+
 h1{font-size: 25px;}
 .small{
   font-size: 9px;
   }
-h5, ol, p{
+h5, .childzone2>ol, p{
   font-size: 10px;}
-ol{ position: relative;
+.childzone2>ol{ position: relative;
   top: -88%;
 }
 p{ position: relative;
-  top: -89.5%;}}
+  top: -89.5%;}
+.item5>ol>li {
+  font-size: 15px;}
+}
 @media (max-width: 400px){
   /* 320 width */
 html,body{
   height: 900px;
-  padding-bottom: 0%;}
+  padding-bottom: 0%;
+}
 .gridbox{
   height: 83%;}
-h5, ol, p, .small{
+h5, .childzone2>ol, p, .small{
   font-size: 8px;}
-ol{
+.childzone2>ol{
   position: relative;
   top: -89%;}
 p{position: relative;
-  top: -92%; }}
+  top: -92%; }
+.item5>ol>li {
+  font-size: 12px;}
+}

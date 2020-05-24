@@ -137,7 +137,7 @@ z-index: 1;}
     height: 125vh;
     z-index: 1;
 }
- ol{
+ .child2>ol{
  	position: relative;
  	top: 90vh;
  	padding: 10px;
@@ -162,56 +162,47 @@ z-index: 1;}
 .card:hover {
   transform: scale(1.2);
 }
-.btn{
+.item5 {
   position: relative;
-  top: 23vh;
-  right: 45%;
-  cursor: pointer;
-    padding: 10px;
-   border: 3px solid white;
-   font-family: 'Times New Roman', serif;
-   font-size: 23px;
-   color: white;
-   background-color: #02304B;
-   text-align: center;
-   transition: all 0.2s;
-   float: right;
-   z-index: 3;
+  bottom: -35vh;
+  height: 80px;
+    background-color: white;
 }
-.btn:hover{
-  color: black;
-  background-color: white;
+.item5>ol>li {
+  float: left;
+  font-size: 15px;
 }
-
-.arrow{
-	cursor: pointer;
-	position: absolute;
-	top: 2%;
-	left: 0%;
-	transform: rotate(180deg);
-	z-index: 3;
-	opacity: 0;
-	transition: all 0.2s;
+.item5>ol>li a{
+  position: relative;
+  top: 18px;
+color: rgba(33, 38, 43, 0.8);
 }
-.arrow:hover{
-	opacity: 1;
+.item5>ol>.copyright{
+  position: absolute;
+  top: 15px; }
+  ol{
+list-style-type: none;
 }
+.copyright{
+  position: absolute;
+  right: 152px; 
+}
+.copyright>a{
+  color: #FF5913;}
 
 @media only screen and (max-width: 1024px) {
-.WMS{margin: 5%;
+.WMS{width: 83%;
+  margin: 5%;
   height: 115vh;}
 h1{position: relative;
 top: 40px;
-  font-size: 47px;
-}
+  font-size: 47px;}
 h1>span{
-  	font-size: 44px;
-  }
+  	font-size: 44px; }
 h2{position: relative;
 	top: 0px;
 	right: 8%;
-  font-size: 28px;
-}
+  font-size: 28px;}
 .slash{
   position: relative;
   top: -18vh;
@@ -230,28 +221,33 @@ h2{position: relative;
     top: 0vh;
     width: 102.5%;
     height: 50vh;}
-ol{
+.child2>ol{
   position: relative;
   top: 19vh;
   margin: 0px;
    font-size: 16px;}
-.btn{
-  position: relative;
-  top: 0vh;
-  right: 58%;}
 .card{
   position: absolute;
   top: 108.5vh;
-  left: 45%;
+  left: 60%;
   width: 290px;
   height: 130px;}
+  .item5 {
+  position: relative;
+  bottom: -10vh;}
     }
 @media only screen and (max-width: 768px) {
 .WMS{margin: 7%;
+  width: 83%;
   height: 105vh;}
 h1{margin: 0px;
-  font-size: 27px;
+  position: relative;
+  top: 30px;
+  font-size: 40px;
 }
+h1>span{
+    font-size: 35px;
+  }
 h1>span{
   	font-size: 27px;
   }
@@ -264,7 +260,7 @@ h2{position: relative;
   position: relative;
   top: -23vh;
   left: -10px;
-  width: 104.5%;
+  width: 103.5%;
   height: 38vh;}
 .top{
   position: relative;
@@ -278,21 +274,22 @@ h2{position: relative;
     top: 0vh;
     width: 102.5%;
     height: 50vh;}
-ol{
+.child2>ol{
   position: relative;
   top: 24.5vh;
   margin: 0px;
    font-size: 11px;}
-.btn{
-  position: relative;
-  top: 0vh;
-  right: 54%;}
 .card{
   position: absolute;
   top: 105vh;
-  left: 45%;
+  left: 56%;
   width: 290px;
   height: 125px;}
+.item5 {
+  position: relative;
+  bottom: -10vh;}
+.copyright{
+    font-size: 6px;}
     }
 @media only screen and (max-width: 600px) {
 ul>li {
@@ -300,7 +297,7 @@ ul>li {
   margin: -4px;
 }
 span{font-size: 13px;}
-ol{position: relative;
+.child2>ol{position: relative;
   top: 22vh;}
 h1{
   font-size: 24px;
@@ -308,7 +305,7 @@ h1{
 }
 @media only screen and (max-width: 414px) {
 body{
-  padding-bottom: 35%;}
+  padding-bottom: 20%;}
  ul>li {
   font-size: 12px;
   margin: -4px;
@@ -348,7 +345,7 @@ h2{position: relative;
     top: 5vh;
     width: 102.5%;
     height: 50vh;}
-ol{
+.child2>ol{
   position: relative;
   top: 22vh;
   margin: 0px;
@@ -359,18 +356,33 @@ li>img{
   width: 23px;
   height: 17px;
 }
-.btn{
+.item5{
   position: relative;
-  top: 5vh;
-  right: 39%;
-  font-size: 15px;}
+  bottom: -80px;
+  height: 15vh;
+}
+.copyright{
+    position: relative;
+    bottom: -4px;
+    right: 34px;
+    float: right;
+    font-size: 6px;}
+.item5>ol>li {
+  font-size: 12px;
+}
+    .item5>ol>li a{
+ position: relative;
+ bottom: 5px;
+ right: 30px;
+ padding: 15px;
+}
 .card{
   position: absolute;
   top: 115vh;
   left: 55%;
   width: 190px;
   height: 85px;}
-    }
+ }
 @media only screen and (max-width: 411px) {
  ul>li {
   font-size: 12.5px;
@@ -380,7 +392,7 @@ li>img{
   position: relative;
   top: -25vh;
   height: 38vh;}
-  ol{
+  .child2>ol{
   position: relative;
   top: 22vh;}
 .top{
@@ -391,14 +403,13 @@ li>img{
   height: 125px;}
 }
 @media  only screen and (max-width: 375px) {
-
 .WMS{
   display: grid;
   grid-gap: 0px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
   height: 123vh;}
 body{
-  padding-bottom: 40%;}
+  padding-bottom: 25%;}
  h1{position: relative;
 top: 32px;
 	margin: 0px;
@@ -430,15 +441,10 @@ h2{position: relative;
     top: 5vh;
     width: 102.5%;
     height: 45vh;}
-ol{
+.child2>ol{
   position: relative;
   top: 20vh;
    font-size: 8px;}
-.btn{
-  position: relative;
-  top: 5vh;
-  right: 39%;
-  font-size: 15px;}
 .card{
   position: absolute;
   top: 118vh;
@@ -477,7 +483,7 @@ h2{position: relative;
     top: 5vh;
     width: 98%;
     height: 50vh;}
-ol{
+.child2>ol{
   position: relative;
   top: 25vh;
   right: 10px;
@@ -488,17 +494,29 @@ ol{
 body{
   padding-bottom: 42%;}
 .WMS{margin: 2%;
-   width: 102%;
+   width: 88%;
   height: 130vh;}
+h1{
+  position: relative;
+  top: 8%;
+  left: -9%;}
+h1>span{
+    font-size: 33px;
+  }
+h2{position: relative;
+  top: -20px;
+  right: 55px;
+  font-size: 16px;
+} 
 .slash{
   position: relative;
   top: -30vh;
   left: -10px;
-  width: 99%;
+  width: 86%;
   height: 38vh;}
 .top{
   position: relative;
-  top: 8vh;
+  top: 17vh;
   left: 4%;
   width: 100px;
   height: 110px;}
@@ -508,28 +526,24 @@ body{
     top: 5vh;
     width: 102.5%;
     height: 55vh;}
-ol{
+.child2>ol{
   position: relative;
-  top: 32vh;
-   font-size: 8px;}
-.btn{
-  position: relative;
-  top: 5vh;
-  right: 30%;}
+  top: 31vh;
+  right: 60px;
+   font-size: 6px;}
 .card{
   position: absolute;
   top: 125vh;
   left: 59%;
   width: 170px;
-  height: 85px;}
-
+  height: 85px;} 
 }
 
 @media only screen and (max-height: 715px) and (min-width: 1024px) {
-ol{position: relative;
+.child2>ol{position: relative;
  	top: 95vh;
 }}
 @media only screen and (max-height: 680px) and (min-width: 1024px) {
-ol{position: relative;
+.child2>ol{position: relative;
  	top: 107vh;
 }}
