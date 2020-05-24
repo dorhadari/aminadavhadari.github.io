@@ -102,13 +102,21 @@ span{font-size: 17px;}
   font-size: 25px;
 }
 .data2{
-  padding-top: 5%;
-  padding-bottom: 5%;
+  
   z-index: 3;
-  background-color: rgba(252,252,252,0.6);
-  border-bottom: 2px solid rgba(85, 187, 201, 0.4); 
+  background-color: rgba(12, 28, 30, 0.1);
+  
+  border: 2px solid rgba(85, 187, 201, 0.4); 
   line-height: 1.5;
 }
+.box{color: rgb(252, 252, 252, 0.85);
+  text-shadow: 2px 2px 4px #000000;
+  background-image: url('data3.png');
+  background-size: 8600% 300%;
+  background-position: top;
+  padding-top: 5%;
+  padding-bottom: 4%;}
+
 .data3{
 border-top-color: white;
 background-color: rgba(12, 28, 30, 0.2);}
@@ -310,7 +318,8 @@ grid-column-start: 2;
   left: 5%;
   width: 50px;
   height: 150px;
-  z-index: 1;}
+  z-index: 1;
+}
 .arrow21{
   transform: rotate(180deg);
   position: absolute;
@@ -353,7 +362,6 @@ grid-column-start: 2;
   padding: 12px 0;
   font-size: 30px;
   border-radius: 3px;
-  text-shadow: 2px 2px 4px white;
 }
 .chi1 {
   grid-column-start: 1;
