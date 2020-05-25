@@ -598,8 +598,8 @@ list-style-type: none;
 }
 .bigcontainer{
   position: absolute;
-  top: 50%;
-  left: 45%;}
+  top: 55%;
+  left: 43%;}
 .data1{font-size: 22px;
   background-size: 250px 280px;}
 .text{
@@ -736,7 +736,7 @@ list-style-type: none;
   height: 220px;}
 .item5 {
   position: relative;
-  top: 175vh;}
+  top: 180vh;}
 .item5>ol>li{
   font-size: 12px;
 }
