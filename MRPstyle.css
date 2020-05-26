@@ -522,7 +522,7 @@ list-style-type: none;
   max-width: 900px;
   position: absolute;
   top: 60%;
-  left: 45%;}
+  left: 44%;}
 .data1{font-size: 30px;}
 .text{
   font-size: 22px;
@@ -648,9 +648,10 @@ list-style-type: none;
   font-size: 13px;
   margin: -4px;
 }
+span{font-size: 13px;}
 .bigcontainer{
   position: absolute;
-  top: 65%;
+  top: 66%;
   left: 44%;}
 .data1{font-size: 22px;
   background-size: 250px 280px;}
