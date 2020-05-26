@@ -521,7 +521,7 @@ list-style-type: none;
   width: 85%;
   max-width: 900px;
   position: absolute;
-  top: 56%;
+  top: 60%;
   left: 45%;}
 .data1{font-size: 30px;}
 .text{
@@ -650,7 +650,7 @@ list-style-type: none;
 }
 .bigcontainer{
   position: absolute;
-  top: 58%;
+  top: 62%;
   left: 44%;}
 .data1{font-size: 22px;
   background-size: 250px 280px;}
@@ -801,7 +801,7 @@ span{font-size: 14px;}
 @media  only screen and (max-width: 375px) {
 .bigcontainer{
   position: absolute;
-  top: 65%;
+  top: 67%;
   left: 45%;}
 .data1{font-size: 20px;}
 .text{
@@ -1040,7 +1040,7 @@ span{font-size: 14px;}
 @media only screen and (max-width: 320px) {
 .bigcontainer{
   position: absolute;
-  top: 72%;}
+  top: 74%;}
 .chil5 {
   position: relative;
   top: -10px;
