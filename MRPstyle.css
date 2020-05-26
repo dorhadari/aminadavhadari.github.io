@@ -521,7 +521,7 @@ list-style-type: none;
   width: 85%;
   max-width: 900px;
   position: absolute;
-  top: 66%;
+  top: 60%;
   left: 45%;}
 .data1{font-size: 30px;}
 .text{
@@ -650,7 +650,7 @@ list-style-type: none;
 }
 .bigcontainer{
   position: absolute;
-  top: 62%;
+  top: 65%;
   left: 44%;}
 .data1{font-size: 22px;
   background-size: 250px 280px;}
