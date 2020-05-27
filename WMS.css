@@ -176,6 +176,7 @@ z-index: 1;}
   position: relative;
   top: 18px;
 color: rgba(33, 38, 43, 0.8);
+z-index: 4;
 }
 .item5>ol>.copyright{
   position: absolute;
