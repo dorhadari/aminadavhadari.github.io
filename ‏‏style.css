@@ -494,6 +494,9 @@ border-radius: 100%;
 .contact-form h1{
   margin-top: 0;
   font-weight: 200;
+  background: -webkit-linear-gradient(black, #3A5DA9 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   /*border-bottom: 2px solid #447684;*/
   width: 280px;
 }
@@ -763,6 +766,9 @@ p{
 .athree{
   position: relative;
   left: -35px;}
+.afive{
+  position: relative;
+  left: -40px;}
 .contact-form h1{
  /* border-bottom: 2px solid #447684;*/
   width: 200px;
@@ -846,7 +852,7 @@ p{
   left: -5px;}
 .afive{
    position: relative;
-  left: 5px;
+  left: 4px;
   width: 100%;}
 }
 @media only screen and (max-width: 450px){
