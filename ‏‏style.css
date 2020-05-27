@@ -395,7 +395,7 @@ p{
   display: grid;
    grid-template-columns: auto auto auto;
   grid-gap: 65px;
-  grid-row-gap: 140px;
+  grid-row-gap: 160px;
   z-index: 2;
 }
 .solutions>div>a{
