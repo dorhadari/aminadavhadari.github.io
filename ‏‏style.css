@@ -175,6 +175,7 @@ border-radius: 100%;
   position: relative;
   top: 18px;
 color: rgba(33, 38, 43, 0.8);
+z-index: 4;
 }
 .item5>ol>li a:hover {
   background-color: white;
@@ -869,9 +870,11 @@ section .wave{
 top: 6%;
 left: 2%;
 width: 360px;}
-.afive{width: 100%;
+.solutions>div>a ,.afive{
+  font-size: 23.5px;}
+.afive{
    position: relative;
-  left: 0px;
+  left: 10px;
 }}
 @media only screen and (max-width: 400px){
 /* 320 width */
