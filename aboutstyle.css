@@ -581,6 +581,7 @@ border-radius: 100%;
 .contact-form h1{
   margin-top: 0;
   font-weight: 200;
+  border-bottom: none;
 }
 .txtb{
   border: 1px solid gray;
@@ -755,7 +756,7 @@ p{
   padding: 3%;
 }
 .contact-form h1{
-  border-bottom: 2px solid brown;
+  /*border-bottom: 2px solid brown;*/
   width: 200px;
   font-size: 31px;
 }

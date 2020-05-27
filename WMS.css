@@ -179,7 +179,7 @@ color: rgba(33, 38, 43, 0.8);
 }
 .item5>ol>.copyright{
   position: absolute;
-  top: 15px; }
+  top: 10px; }
   ol{
 list-style-type: none;
 }
@@ -235,7 +235,10 @@ h2{position: relative;
   .item5 {
   position: relative;
   bottom: -10vh;}
-    }
+.item5>ol>.copyright{
+  position: absolute;
+  top: 0px; }
+  }
 @media only screen and (max-width: 768px) {
 .WMS{margin: 7%;
   width: 83%;
