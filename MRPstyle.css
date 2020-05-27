@@ -445,6 +445,7 @@ grid-column-start: 3;
   position: relative;
   top: 18px;
 color: rgba(33, 38, 43, 0.8);
+  z-index: 4;
 }
 .item5>ol>.copyright{ font-size: 13px;
  }
@@ -460,9 +461,9 @@ list-style-type: none;
   width: 95%;
   max-width: 1000px;
   position: absolute;
-  top: 50%;
+  top: 68%;
   left: 50%;
-  transform: translate(-50%,-25%);}
+  transform: translate(-50%,-32%);}
 .arrow1{
  position: absolute;
   top: 21%;
@@ -521,8 +522,9 @@ list-style-type: none;
   width: 85%;
   max-width: 900px;
   position: absolute;
-  top: 60%;
-  left: 44%;}
+  top: 68%;
+  left: 44%;
+transform: translate(-50%,-32%);}
 .data1{font-size: 30px;}
 .text{
   font-size: 22px;
@@ -651,8 +653,9 @@ list-style-type: none;
 span{font-size: 13px;}
 .bigcontainer{
   position: absolute;
-  top: 66%;
-  left: 44%;}
+  top: 69%;
+  left: 44%;
+transform: translate(-50%,-31%);}
 .data1{font-size: 22px;
   background-size: 250px 280px;}
 .text{
@@ -787,8 +790,18 @@ span{font-size: 13px;}
 .computers{
   width: 380px;
   height: 220px;}
+.item5>ol{
+  width: 100%;
+  padding: 4px;}
 .item5>ol>li{
+  position: relative;
+  left: -20%;
+  margin: -1px;
   font-size: 12px;}
+.item5>ol>.copyright{ 
+  position: relative;
+  left: 2%;
+  font-size: 6px;}
     }
 @media only screen and (max-width: 411px) {
  ul>li {
@@ -802,8 +815,9 @@ span{font-size: 14px;}
 @media  only screen and (max-width: 375px) {
 .bigcontainer{
   position: absolute;
-  top: 67%;
-  left: 45%;}
+  top: 71%;
+  left: 45%;
+  transform: translate(-50%,-29%);}
 .data1{font-size: 20px;}
 .text{
   font-size: 17px;
@@ -917,8 +931,9 @@ span{font-size: 14px;}
 .computers{
   width: 340px;
   height: 190px;}
-  }
-
+.item5>ol>li{
+  margin: 0px -3px;}
+.item5>ol>.copyright{ font-size: 6px;}}
  
 @media only screen and (max-width: 360px) {
 
@@ -1037,11 +1052,14 @@ span{font-size: 14px;}
 .computers{
   width: 325px;
   height: 190px;}
+.item5>ol>li{
+  font-size: 10px;}
 }
 @media only screen and (max-width: 320px) {
 .bigcontainer{
   position: absolute;
-  top: 78%;}
+  top: 74%;
+  transform: translate(-50%,-26%);}
 .chil5 {
   position: relative;
   top: -10px;
@@ -1115,6 +1133,10 @@ span{font-size: 14px;}
 .computers{
   width: 285px;
   height: 190px;}
+.item5>ol>li{
+  position: relative;
+  left: -33%;
+  margin: -2px -6px;}
 }
 /*
 @media only screen and (max-height: 715px) and (min-width: 1024px) {
