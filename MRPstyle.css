@@ -706,7 +706,7 @@ transform: translate(-50%,-28%);}
 }
 .arrow4{
   position: absolute;
-  top: 22%;
+  top: 22.5%;
   left: 58%;
   width: 18%;
   height: 9.5%;
@@ -748,10 +748,10 @@ transform: translate(-50%,-28%);}
   }
 .arrow16{
   position: absolute;
-  top: 22.5%;
+  top: 23.5%;
   left: 39%;
   width: 21%;
-  height: 10%;
+  height: 9%;
 }
 .arrow17{
   position: absolute;
