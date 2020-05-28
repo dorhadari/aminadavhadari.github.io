@@ -699,10 +699,10 @@ transform: translate(-50%,-28%);}
 }
 .arrow3{
   position: absolute;
-  top: 24%;
+  top: 24.5%;
   left: 69%;
   width: 17.5%;
-  height: 9.5%;
+  height: 9%;
 }
 .arrow4{
   position: absolute;
@@ -755,17 +755,17 @@ transform: translate(-50%,-28%);}
 }
 .arrow17{
   position: absolute;
-  top: 21%;
+  top: 22.3%;
   left: 62%;
   width: 12.5%;
-  height: 13%;
+  height: 12%;
 }
 .arrow18{transform: rotate(-30deg);
  position: absolute;
-  top: 22.5%;
+  top: 23%;
   left: 73%;
   width: 12%;
-  height: 11%; 
+  height: 10.5%; 
 }
 .arrow20{
   position: absolute;
