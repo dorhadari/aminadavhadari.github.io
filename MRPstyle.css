@@ -620,13 +620,13 @@ transform: translate(-50%,-32%);}
   position: absolute;
   top: 21%;
   left: 12%;
-  height: 7%;
+  height: 6%;
 }
 .arrow21{
   position: absolute;
   top: 21%;
   left: 16%;
-  }
+  height: 6%;}
 
 .chi{padding: 10px 0;
   font-size: 22px;}
@@ -694,8 +694,8 @@ transform: translate(-50%,-28%);}
   width: 11%;
   height: 4%;
    position: absolute;
-  top: 24%;
-  left: 87%;
+  top: 24.5%;
+  left: 88.5%;
 }
 .arrow3{
   position: absolute;
@@ -713,15 +713,15 @@ transform: translate(-50%,-28%);}
 }
 .arrow5{
   position: absolute;
-  top: 19.5%;
+  top: 20%;
   left: 8%;
   width: 69.5%;
   height: 8%;
 }
 .arrow6{
   position: absolute;
-  top: 24%;
-  left: 95%;
+  top: 24.2%;
+  left: 96.5%;
   width: 10%;
   height: 4%;
 }
@@ -734,7 +734,7 @@ transform: translate(-50%,-28%);}
 }
 .arrow13{ 
   position: absolute;
-  top: 23%;
+  top: 23.3%;
   left: 38%;
   width: 17%;
   height: 4%;
@@ -765,7 +765,7 @@ transform: translate(-50%,-28%);}
   top: 22.5%;
   left: 73%;
   width: 12%;
-  height: 11.5%; 
+  height: 11%; 
 }
 .arrow20{
   position: absolute;
@@ -859,13 +859,13 @@ span{font-size: 14px;}
   top: 21%;
   left: 58%;
   width: 18%;
-  height: 9%;
+  height: 8.5%;
 }
 .arrow5{
   position: absolute;
   top: 18.5%;
-  left: 8%;
-  width: 69.5%;
+  left: 6%;
+  width: 70.5%;
   height: 7%;
 }
 .arrow6{
@@ -884,17 +884,17 @@ span{font-size: 14px;}
 }
 .arrow13{ 
   position: absolute;
-  top: 21.5%;
+  top: 21.3%;
   left: 38%;
   width: 17%;
   height: 4%;
 }
 .arrow15{transform: rotate(210deg);
   position: absolute;
-  top: 19%;
+  top: 19.5%;
   left: 29.5%;
   width: 9%;
-  height: 12%;
+  height: 11%;
   }
 .arrow16{
   position: absolute;
@@ -934,7 +934,7 @@ span{font-size: 14px;}
 .bigarrow{
     position: absolute;
     left: -4%;
-    top: -6vh;
+    top: -6.2vh;
     width: 150px;
     height: 130px;}
 .computers{
@@ -965,7 +965,7 @@ span{font-size: 14px;}
   width: 11%;
   height: 3%;
    position: absolute;
-  top: 27%;
+  top: 26.5%;
   left: 87%;
 }
 .arrow3{
@@ -977,10 +977,10 @@ span{font-size: 14px;}
 }
 .arrow4{
   position: absolute;
-  top: 25%;
+  top: 24.8%;
   left: 58%;
   width: 18.5%;
-  height: 8%;
+  height: 7.5%;
 }
 .arrow5{
   position: absolute;
@@ -1007,7 +1007,7 @@ span{font-size: 14px;}
   position: absolute;
   top: 25%;
   left: 38%;
-  width: 17%;
+  width: 16%;
   height: 4%;
 }
 .arrow15{transform: rotate(210deg);
@@ -1015,7 +1015,7 @@ span{font-size: 14px;}
   top: 23%;
   left: 29.5%;
   width: 9%;
-  height: 11%;
+  height: 10.5%;
   }
 .arrow16{
   position: absolute;
@@ -1033,10 +1033,10 @@ span{font-size: 14px;}
 }
 .arrow18{transform: rotate(-30deg);
  position: absolute;
-  top: 24.5%;
+  top: 24.6%;
   left: 73%;
   width: 12%;
-  height: 9.5%; 
+  height: 9%; 
 }
 .arrow20{
   position: absolute;
@@ -1055,7 +1055,7 @@ span{font-size: 14px;}
 .bigarrow{
     position: absolute;
     left: -2%;
-    top: -6vh;
+    top: -6.2vh;
     width: 125px;
     height: 110px;}
 .computers{
@@ -1106,7 +1106,7 @@ span{font-size: 14px;}
   top: 24%;
   left: 58%;
   width: 18.5%;
-  height: 8%;
+  height: 7.7%;
 }
 .arrow5{
   position: absolute;
@@ -1132,16 +1132,16 @@ span{font-size: 14px;}
 .arrow13{ 
   position: absolute;
   top: 24.3%;
-  left: 38.2%;
-  width: 17%;
-  height: 4%;
+  left: 38.5%;
+  width: 16%;
+  height: 3.5%;
 }
 .arrow15{transform: rotate(210deg);
   position: absolute;
   top: 22%;
   left: 29.5%;
   width: 9%;
-  height: 11.5%;
+  height: 10.5%;
   }
 .arrow16{
   position: absolute;
@@ -1159,10 +1159,10 @@ span{font-size: 14px;}
 }
 .arrow18{transform: rotate(-30deg);
  position: absolute;
-  top: 23.5%;
+  top: 24%;
   left: 73%;
   width: 12%;
-  height: 9.5%; 
+  height: 9%; 
 }
 .arrow20{
   position: absolute;
@@ -1181,7 +1181,7 @@ span{font-size: 14px;}
 .bigarrow{
     position: absolute;
     left: -2%;
-    top: -7vh;
+    top: -7.2vh;
     width: 125px;
     height: 110px;}
 .computers{
