@@ -84,9 +84,9 @@ span{font-size: 17px;}
   width: 85%;
   max-width: 900px;
   position: absolute;
-  top: 77.5%;
+  top: 55vh;
   left: 50%;
-  transform: translate(-50%,-22.5%);
+  transform: translate(-50%,-45vh);
  display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
@@ -100,6 +100,10 @@ span{font-size: 17px;}
   background-color: rgba(255, 255, 255, 0.4);
 }
 .data1{
+  background-image: url('world.png');
+  background-size: 45% 65%;
+  background-repeat: no-repeat;
+  background-position: left bottom;
   text-align: right;
 }
 .h1{
@@ -108,18 +112,16 @@ span{font-size: 17px;}
 .data1>ol>li{font-size: 20px;}
 .data1>ol{display: flex;
   flex-direction: column;
+  margin-bottom: 20%;
   }
-
-
+/*
+.world{width: 400px;
+        height: 400px;}*/
 .data2{border: 1px solid black;}
 .smallcontainer{
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  /*background-image: url('');
-  background-size: 110% 110%;
-  background-repeat: no-repeat;
-  background-position: center;*/
   padding: 10px;
   font-family: 'Times New Roman', serif;
  } 
