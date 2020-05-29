@@ -93,6 +93,7 @@ span{font-size: 17px;}
   text-align: left;
   line-height: 1.5;
   border: none;
+  color: #053051;
 }
 .text{
   font-family: Tahoma, Geneva, sans-serif;
@@ -137,6 +138,7 @@ background-color: rgba(12, 28, 30, 0.2);}
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  color: #08548E;
 }
 .chil1 {
   grid-row-start: 1;
@@ -332,7 +334,7 @@ grid-column-start: 2;
   background-color: rgba(155, 227 ,237, 0.15);
 }
 .data5{
-  background-image: linear-gradient(rgba(12, 28, 30, 0.2) 50%, rgba(12, 28, 30, 0));
+  background-image: linear-gradient(rgba(12, 28, 30, 0.1) 5%, rgba(12, 28, 30, 0));
   }
 .h5{
   font-weight: bold;
