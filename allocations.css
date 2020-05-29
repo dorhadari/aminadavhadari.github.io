@@ -348,12 +348,12 @@ left: -30px;}
   padding: 0px;}
 .child{
   padding: 5px;
-  font-size: 12px;
+  font-size: 11px;
 }
 .data2{width: 105%;
   position: relative;
   left: -5%;}
-.issue, .MRP{font-size: 12px;}
+.issue, .MRP{font-size: 11.5px;}
 .main{font-size: 14px;}
 .arrow{width: 25px;}
 .arrow>img{width: 30px;
