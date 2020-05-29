@@ -334,7 +334,7 @@ ul>li {
 span{font-size: 13px;}
 .data1{ 
         font-size: 10px; 
-        background-size: 50% 40%;
+        background-size: 58% 49%;
         padding: 0px;
         }
 .h1{
@@ -342,7 +342,7 @@ span{font-size: 13px;}
 }
 .data1>ol{width: 100%;
 position: relative;
-left: -50px;}
+left: -30px;}
 .data1>ol>li{font-size: 9px;}
 .smallcontainer{
   padding: 0px;}
@@ -388,7 +388,7 @@ left: 48%;
 @media only screen and (max-width: 375px) {
 .data1{ 
         font-size: 9px; 
-        background-size: 50% 44%;}
+        background-size: 54% 46%;}
 .h1{
   font-size: 22px;
 }
@@ -417,7 +417,7 @@ left: 85%;
 @media only screen and (max-width: 360px) {
 .data1{ 
         font-size: 8px; 
-        background-size: 50% 46%;}
+        background-size: 59% 52%;}
 .h1{
   font-size: 18px;
 }
@@ -425,11 +425,13 @@ left: 85%;
 .issue, .MRP{font-size: 11px;}
 }
 @media only screen and (max-width: 320px) {
+.data1{ 
+        background-size: 54% 49%;}
 .data1>ol>li{font-size: 7.5px;}
 .child{
-  font-size: 10px;
+  font-size: 9.5px;
 }
-.issue, .MRP{font-size: 10px;}
+.issue, .MRP{font-size: 9px;}
 .arrow{width: 8px;}
 .arrow>img{width: 25px;}
 .item5>ol>.copyright{ 
