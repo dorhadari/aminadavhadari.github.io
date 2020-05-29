@@ -417,20 +417,30 @@ left: 85%;
 @media only screen and (max-width: 360px) {
 .data1{ 
         font-size: 8px; 
-        background-size: 59% 52%;}
+        background-size: 56% 50%;}
 .h1{
   font-size: 18px;
 }
-.data1>ol>li{font-size: 8px;}
+.data1>ol>li{font-size: 8.5px;}
 .issue, .MRP{font-size: 11px;}
+.arrow{width: 12.5px;}
+.arrow3{position: relative;
+        left: -20%;}
+.arrow9{position: relative;
+        top: 20%;}
+.arrow11{position: relative;
+        left: -25%;}
 }
 @media only screen and (max-width: 320px) {
 .data1{ 
-        background-size: 54% 49%;}
+        background-size: 54% 48%;}
 .data1>ol>li{font-size: 7.5px;}
 .child{
   font-size: 9.5px;
 }
+.data2{position: relative;
+        left: -7%;
+        width: 107%;}
 .issue, .MRP{font-size: 9px;}
 .arrow{width: 8px;}
 .arrow>img{width: 25px;}
