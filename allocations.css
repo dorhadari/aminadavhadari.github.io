@@ -347,6 +347,9 @@ span{font-size: 13px;}
 position: relative;
 left: -30px;}
 .data1>ol>li{font-size: 9px;}
+li>img{
+  width: 13px;
+  height: 8px;}
 .smallcontainer{
   padding: 0px;}
 .child{
