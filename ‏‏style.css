@@ -966,3 +966,11 @@ padding: 10px 20px;}
   .copyright{
   font-size: 5px;
 }}
+@media only screen and (max-height: 675px) and (min-width: 1440px) {
+.box3{position: relative;
+      top: -50%;}
+}
+@media only screen and (max-height: 624px) and (min-width: 1440px) {
+.box3{position: relative;
+      top: -55%;}
+}
