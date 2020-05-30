@@ -311,6 +311,9 @@ list-style-type: none;
   font-size: 30px;
 }
 .data1>ol>li{font-size: 15px;}
+.data2{width: 107%;
+	position: relative;
+	left: -5%;}
 .arrow>img{width: 60px;
         height: 30px;}
 .arrow6{
@@ -422,6 +425,9 @@ left: 85%;
   font-size: 18px;
 }
 .data1>ol>li{font-size: 8.5px;}
+.data2{position: relative;
+	left: -7%;
+	width: 107.5%;}
 .issue, .MRP{font-size: 11px;}
 .arrow{width: 12.5px;}
 .arrow3{position: relative;
@@ -435,6 +441,9 @@ left: 85%;
 .data1{ 
         background-size: 54% 48%;}
 .data1>ol>li{font-size: 7.5px;}
+.data2{
+	width: 108%;
+}
 .child{
   font-size: 9.5px;
 }
