@@ -787,9 +787,9 @@ position: relative;
 span{font-size: 13px;}
 .bigcontainer{
   position: absolute;
-  top: 72%;
+  top: 74%;
   left: 44%;
-transform: translate(-50%,-28%);}
+transform: translate(-50%,-26%);}
 .data1{font-size: 22px;
   background-size: 250px 280px;}
 .text{
@@ -847,9 +847,9 @@ transform: translate(-50%,-28%);}
 }
 .arrow2{
   width: 11%;
-  height: 4%;
+  height: 3%;
    position: absolute;
-  top: 24.5%;
+  top: 25.3%;
   left: 88.5%;
 }
 .arrow3{
@@ -903,10 +903,10 @@ transform: translate(-50%,-28%);}
   }
 .arrow16{
   position: absolute;
-  top: 24.5%;
+  top: 25%;
   left: 39%;
   width: 21%;
-  height: 7%;
+  height: 6.5%;
 }
 .arrow17{
   position: absolute;
