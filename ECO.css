@@ -207,6 +207,10 @@ h5, .childzone2>ol, p{
 	font-size: 11px;}
 .childzone2>ol, p{position: relative;
 top: -85%;}
+p>img{
+  width: 24px;
+  height: 19px;
+}
 .small{
   font-size: 10px;
   }
@@ -254,6 +258,10 @@ h5, .childzone2>ol, p{
 }
 p{ position: relative;
   top: -89.5%;}
+p>img{
+  width: 21px;
+  height: 16px;
+}
 .item5>ol>li {
   font-size: 15px;}
 }
@@ -267,6 +275,10 @@ html,body{
   height: 83%;}
 h5, .childzone2>ol, p, .small{
   font-size: 8px;}
+p>img{
+  width: 19px;
+  height: 14px;
+}
 .childzone2>ol{
   position: relative;
   top: -89%;}
