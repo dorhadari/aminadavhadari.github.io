@@ -787,9 +787,9 @@ position: relative;
 span{font-size: 13px;}
 .bigcontainer{
   position: absolute;
-  top: 74%;
+  top: 77%;
   left: 44%;
-transform: translate(-50%,-26%);}
+transform: translate(-50%,-23%);}
 .data1{font-size: 22px;
   background-size: 250px 280px;}
 .text{
@@ -854,10 +854,10 @@ transform: translate(-50%,-26%);}
 }
 .arrow3{
   position: absolute;
-  top: 25%;
+  top: 25.5%;
   left: 69%;
   width: 17.5%;
-  height: 7%;
+  height: 6.5%;
 }
 .arrow4{
   position: absolute;
