@@ -1,14 +1,13 @@
 body {
   background: url(bord1.jpg);
-  /*'https://images.unsplash.com/photo-1558051815-0f18e64e6280?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ'*/
   background-size: cover;  
 }
 .nav1 { 
   grid-area: header;
   position: fixed;
   top: 0px;
-  left: 6px;
-  width: 99%;
+  left: 0px;
+  width: 100%;
   z-index: 4;
 }
 .nav1>ul {
@@ -170,7 +169,9 @@ span{font-size: 17px;}
 .item5 {
   position: relative;
   bottom: -1vh;
+  left: 0px;
   height: 80px;
+  width: 100%;
     background-color: white;
 }
 .item5>ol>li {
@@ -185,13 +186,10 @@ z-index: 4;
 }
 .item5>ol>.copyright{
   position: absolute;
-  top: 15px; }
+  top: 15px;
+  right: 152px; }
   ol{
 list-style-type: none;
-}
-.copyright{
-  position: absolute;
-  right: 152px; 
 }
 .copyright>a{
   color: #FF5913;}
@@ -288,21 +286,7 @@ span{font-size: 13px;}
   position: absolute;
   top: 68vh;
   left: 29%;
-}
-.item5 {
-  position: relative;
-  bottom: 3vh;
-  height: 115px;}
-.item5>ol>li{
-  position: relative;
-  left: -20%;
-  margin: -1px;
-  font-size: 12px;}
-.item5>ol>.copyright{ 
-  width: 150%;
-  position: relative;
-  left: -35%;
-  font-size: 6px;}}
+}}
   @media only screen and (max-width: 375px) {
 .note{
   width: 98px;
@@ -339,13 +323,7 @@ span{font-size: 13px;}
   top: 69vh;
   left: 31%;
 }
-.item5 {
-  position: relative;
-  bottom: 3.5vh;
-height: 105px;}
-.item5>ol>.copyright{ 
-  position: relative;
-  left: -40%;}}
+}
  @media only screen and (max-width: 360px) {
 .note{
   width: 98px;
@@ -372,9 +350,7 @@ height: 105px;}
   top: 68vh;
   left: 32%;
 }
-  .item5>ol>.copyright{ 
-  position: relative;
-  left: -50%;}}
+ }
    @media only screen and (max-width: 320px) {
 .note{
   width: 90px;
@@ -415,7 +391,4 @@ height: 105px;}
   top: 67vh;
   left: 42%;
 }
-.item5 {
-  position: relative;
-  bottom: 6vh;
-  height: 115px;}}
+}
