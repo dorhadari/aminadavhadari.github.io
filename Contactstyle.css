@@ -12,8 +12,8 @@ body{
   grid-area: header;
   position: fixed;
   top: 0px;
-  left: 6px;
-  width: 99%;
+  left: 0px;
+  width: 100%;
   z-index: 4;
 }
 .nav1>ul {
@@ -135,7 +135,7 @@ border-radius: 100%;
 }
 .item5 {
   position: relative;
-  top: 88vh;
+  top: 88.2vh;
   height: 78px;
     background-color: white;
 }
