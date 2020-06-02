@@ -778,7 +778,7 @@ grid-template-rows: 145px 145px 145px;}
   height: 145px;
 } 
 .box5{position: fixed;
-  top: 30%;
+  top: 20%;
   left: 3%;
   width: 430px;
   padding: 3%;
@@ -864,6 +864,7 @@ grid-template-rows: 135px 135px 135px;}
 } 
 .box5{position: fixed;
   left: 1%;
+  top: 28%;
   height: 53%;
   width: 400px;
 }
@@ -913,10 +914,10 @@ table {
   margin: 10.3px;
 }
 .box5{position: fixed;
-top: 30%;
+top: 29%;
   left: 1%;
   width: 368px;
-  height: 51%;}}
+  height: 53%;}}
 @media only screen and (max-width: 400px) {
   /*  320 width   */ 
 .page{
