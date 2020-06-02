@@ -9,8 +9,8 @@ html,body
   grid-area: header;
   position: fixed;
   top: 0px;
-  left: 6px;
-  width: 99%;
+  left: 0px;
+  width: 100%;
   z-index: 6;
 }
 .nav1>ul {
@@ -101,11 +101,10 @@ span{font-size: 17px;}
   background-image: url("sky.png");
   background-color: white;
   background-size: 100% 150%;
-  height: 65vh;
-  position: sticky;
-  top: -150vh;
    border-bottom: 1px solid white;
   border-top: 1px solid black;
+  position: sticky;
+  top: -150vh;
   z-index: 5;}
 .container .section:nth-child(5){
   background-image: url("photo-1499092346589-b9b6be3e94b2.jpg");
@@ -269,23 +268,38 @@ p{
   position: relative;
   top: -13px;
 }
-
+.start{
+  position: relative;
+  top: 7.5vh;
+  font-family: 'Times New Roman', serif;
+  font-size: 40px;
+  color: #02304B;
+  margin-left: 0.5%;
+  width: 98.6%;
+  border: 2px solid #02304B;
+}
 .cat {
   transition: all 0.3s linear;
 }
 .house {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%,-47%);
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
-}
+  grid-gap: 18px;
+  grid-template-columns: 180px 180px 180px;
+grid-template-rows: 180px 180px 180px;
+ /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+*/}
 .dog{
-  font-size: 20px;
-  text-align: center;
-  border-radius: 6px;
-  border:1.5px solid black;
+  justify-self: center;
   background-color: rgba(91, 175, 225, 0.5);
-  padding: 10px;
-  margin: 20px;}
+  }
+.dog>img{
+  width: 180px;
+  height: 180px;
+}
 .fish:hover{
   -webkit-transform: rotate(-7deg);
   /*-moz-transform: rotate(-7deg);
@@ -547,7 +561,7 @@ p{
   padding: 45px;
   margin: 10px;
   display: none;
-  z-index: 4;
+  /*z-index: 4;*/
 }
 .about3>.box5>p{
   line-height: 1.6;
@@ -682,7 +696,10 @@ p{
   left: 3%;}
 p{
   font-size: 26px;
-  }}
+  }
+.start{
+  position: relative;
+  top: 10vh;}}
 @media only screen and (max-width: 1276px) {
   .box3{position: absolute;
   top: -30%;}
@@ -710,7 +727,7 @@ width: 215px;
   top: 15%;
   width: 800px;}
 .box5{position: fixed;
-  top: 55%;
+  top: 25%;
   left: 2%;
   width: 800px;
 }}
@@ -748,13 +765,26 @@ p{
   left: 3%;
   width: 400px;
   }
-.box4>ol>li{ font-size: 21px; }  
+.box4>ol>li{ font-size: 21px; }
+.house {
+  grid-gap: 14px;
+  grid-template-columns: 145px 145px 145px;
+grid-template-rows: 145px 145px 145px;} 
+.start{ font-size: 38px;
+  position: relative;
+  top: 15vh;}
+.dog>img{
+  width: 145px;
+  height: 145px;
+} 
 .box5{position: fixed;
-  top: 35%;
+  top: 30%;
   left: 3%;
-  width: 390px;
+  width: 430px;
   padding: 3%;
 }
+.box5>p{position: relative;
+top: 9%;}
 .contact-form h1{
   /*border-bottom: 2px solid brown;*/
   width: 200px;
@@ -824,10 +854,24 @@ li>img{position: relative;
   width: 390px;
 }
 .box4>ol>li{ font-size: 19px; } 
+.house {
+  grid-template-columns: 135px 135px 135px;
+grid-template-rows: 135px 135px 135px;} 
+.start{ font-size: 34px;}
+.dog>img{
+  width: 135px;
+  height: 135px;
+} 
 .box5{position: fixed;
   left: 1%;
   height: 53%;
-}}
+  width: 400px;
+}
+.box5>p{
+  position: relative;
+  top: 0%;
+}
+}
 @media only screen and (max-width: 450px) {
   /*  360 width   */ 
  .page{
@@ -869,7 +913,7 @@ table {
   margin: 10.3px;
 }
 .box5{position: fixed;
-top: 37%;
+top: 30%;
   left: 1%;
   width: 368px;
   height: 51%;}}
@@ -916,6 +960,15 @@ p{
 }
 .box4>ol>li{ font-size: 17.5px;
   margin: 8px; }
+.house {
+  grid-gap: 10px;
+  grid-template-columns: 120px 120px 120px;
+grid-template-rows: 120px 120px 120px;} 
+.start{ font-size: 28px;}
+.dog>img{
+  width: 120px;
+  height: 120px;
+}
 .box5{position: fixed;
   left: 1%;
   width: 320px;
