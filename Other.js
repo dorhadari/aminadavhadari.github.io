@@ -20,7 +20,12 @@ class Draggable{
     	this.downAction = this.isMobile ?  "touchstart" : "mousedown";
     	this.upAction = this.isMobile ?  "touchend" : "mouseup";
     }
-
+    disabledScroll(){
+    document.body.style.overflow = "hidden";
+    }
+    activeScroll(){
+document.body.style.overflow = "";
+    }
     onMouseMove(e){
      const target = this.target;
             const pose = {
@@ -41,6 +46,7 @@ class Draggable{
               Array.from(document.querySelectorAll(this.selector)).forEach(el => {
     
                 el.addEventListener(this.downAction, (e) => {
+                    this.disabledScroll();
                     const target = e.target;
                     const handle = target.closest(this.handle);
                     if(handle){
@@ -59,8 +65,7 @@ class Draggable{
     
                 })
                 window.addEventListener(this.upAction, (e) => {
-                	
-                	
+                	this.activeScroll();
                     window.removeEventListener(this.moveAction, this.onMouseMove);
                 })
     

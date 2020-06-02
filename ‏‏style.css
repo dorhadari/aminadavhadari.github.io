@@ -82,8 +82,19 @@ span{font-size: 17px;}
   background-repeat: no-repeat;
   z-index: 3;
   transition: 2s; 
-} 
+}
 .container .section:nth-child(2){
+  background-color: rgba(252,252,252,1);
+  background-image: url("photo5.png");
+  background-size: 200% 250%;
+  background-position: left center;
+  background-repeat: no-repeat;
+   position: sticky;
+  top: -200vh;
+  height: 65vh;
+  z-index: 3;
+} 
+.container .section:nth-child(3){
   /*background-image: url("photo1.jpg");*/
   background-color: rgba(252,252,252,0);
   background-size: 100% 100%;
@@ -91,18 +102,18 @@ span{font-size: 17px;}
   background-attachment: fixed;
   z-index: 3;
 }
-.container .section:nth-child(3){
+.container .section:nth-child(4){
   background-image: url("photo-1512799545738-0625ef92a288.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: 3;}
   
-.container .section:nth-child(4){
+.container .section:nth-child(5){
   background-image: url("photo-1512799545738-0625ef92a288.jpg");
   background-size: cover;
   background-position: center center;
   z-index: 3;}
-.container .section:nth-child(5){
+.container .section:nth-child(6){
   background-image: url("photo1.jpg");
   background-size: cover;
   background-position: center center;
@@ -213,6 +224,32 @@ list-style-type: none;
 }
 .copyright>a{
   color: #FF5913;}
+}
+.important{
+ width: 100%; 
+}
+.important>p{
+  background-color: rgba(252, 252, 252, 0.8);
+  width: 85%;
+  max-width: 800px;
+  position: absolute;
+  top: 47.5%;
+  left: 50%;
+  transform: translate(-50%,-52.5%);
+  padding: 10px;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: black;
+  text-align: right;
+  font-size: 21px;
+  line-height: 1.6;
+  text-shadow: 2px 2px 8px white;
+  border: 1px solid black;
+}
+.ami{
+  font-weight: 800;
+    font-size: 39px;
+    text-shadow: 2px 2px 6px white;
+   /* background-color: rgba(252, 252, 252, 0.2);*/
 }
 .place{
   width: 100%;
@@ -663,7 +700,7 @@ section .wave{
 .category{
   line-height: 1.2;
 }
-.container .section:nth-child(2){
+.container .section:nth-child(3){
   height: 150vh;}
  .afive{
   position: relative;
@@ -674,7 +711,7 @@ section .wave{
 .container .section:nth-child(1){
   background-size: 100% 58%;
   overflow-x: hidden;}
-.container .section:nth-child(3){
+.container .section:nth-child(4){
   background-size: 200% 100%;
   background-position: right;}
 .rectangle {
@@ -732,6 +769,12 @@ section .wave{
  bottom: 5px;
  right: 30px;
  padding: 15px;
+}
+.important>p{
+  font-size: 18px;
+}
+.ami{
+    font-size: 32px;
 }
 .card:hover {
   position: relative;
@@ -826,6 +869,14 @@ section .wave{
 .item55 { 
   position: relative;
   bottom: -60px;}
+.important>p{
+   width: 90%;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.ami{
+    font-size: 30px;
+}
 .card:hover {
   position: relative;
   top: 30vh;
@@ -857,6 +908,9 @@ p{
 }
 @media only screen and (max-width: 450px){
 /* 360 width */
+.important>p{
+  font-size: 16px;
+}
 .card:hover {
   position: relative;
   top: 30vh;
@@ -900,6 +954,13 @@ width: 360px;}
   height: 115vh;
   position: absolute;
   top: 58%;
+}
+.important>p{
+  font-size: 14px;
+  line-height: 1.6;
+}
+.ami{
+    font-size: 29.5px;
 }
 .card{
   width: 330px;
