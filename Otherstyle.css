@@ -167,7 +167,7 @@ span{font-size: 17px;}
   top: 60vh;
   left: 15%;
 }
-.item5 {
+.item5 {margin: 0;
   position: relative;
   bottom: -4.2vh;
   height: 80px;
@@ -296,7 +296,7 @@ span{font-size: 13px;}
   height: 94px;}
 .item5>ol>li {
   position: relative;
-  left: -15%;
+  left: -12%;
   top: -6.5px;
   margin-bottom: -4px;
   font-size: 13px;}
@@ -347,7 +347,7 @@ span{font-size: 13px;}
   height: 94px;}
 .item5>ol>li {
   position: relative;
-  left: -19%;
+  left: -15%;
   top: -8px;
   margin-bottom: -4px;
   font-size: 12px;}
