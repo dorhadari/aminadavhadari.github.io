@@ -290,6 +290,7 @@ p{
   grid-gap: 22px;
   grid-template-columns: 180px 180px 180px;
 grid-template-rows: 180px 180px 180px;
+background-color: rgba(252, 252, 252, 0.6);
  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
 */}
 .dog{
