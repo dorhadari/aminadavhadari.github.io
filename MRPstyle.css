@@ -787,9 +787,9 @@ position: relative;
 span{font-size: 13px;}
 .bigcontainer{
   position: absolute;
-  top: 77%;
+  top: 75%;
   left: 44%;
-transform: translate(-50%,-23%);}
+transform: translate(-50%,-25%);}
 .data1{font-size: 22px;
   background-size: 250px 280px;}
 .text{
@@ -991,9 +991,9 @@ span{font-size: 14px;}
 @media  only screen and (max-width: 375px) {
 .bigcontainer{
   position: absolute;
-  top: 74%;
+  top: 76%;
   left: 45%;
-  transform: translate(-50%,-26%);}
+  transform: translate(-50%,-24%);}
 .data1{font-size: 20px;}
 .text{
   font-size: 17px;
@@ -1112,7 +1112,11 @@ span{font-size: 14px;}
 .item5>ol>.copyright{ font-size: 6px;}}
  
 @media only screen and (max-width: 360px) {
-
+.bigcontainer{
+  position: absolute;
+  top: 74.5%;
+  left: 45%;
+  transform: translate(-50%,-25.5%);}
 .chil{padding: 7px 0;
     font-size: 12px;}
 .chi{padding: 6px 0;
