@@ -991,9 +991,9 @@ span{font-size: 14px;}
 @media  only screen and (max-width: 375px) {
 .bigcontainer{
   position: absolute;
-  top: 76%;
+  top: 78%;
   left: 45%;
-  transform: translate(-50%,-24%);}
+  transform: translate(-50%,-22%);}
 .data1{font-size: 20px;}
 .text{
   font-size: 17px;
