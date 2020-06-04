@@ -265,6 +265,9 @@ list-style-type: none;
   font-weight: 800;
     font-size: 39px;
 }
+.dote{
+	color: rgba(252,252,252,0);
+}
 .place{
   width: 100%;
   height: 100%;
@@ -796,6 +799,7 @@ section .wave{
   position: absolute;
   top: 48.5%;
   transform: translate(-50%,-51.5%);
+  box-shadow: 0px 0px 30px rgba(173, 213, 255, 0.6); 
   font-size: 18px;}
 .ami{
     font-size: 32px;
