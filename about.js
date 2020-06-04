@@ -15,18 +15,10 @@ $('.section:nth-child(1)').css('background', "");
 
 
 
-const section = document.getElementById('bird');
+const section = document.getElementById('bottom');
 const box5  =  document.querySelector('.box5');
-if(section){
-    var sectionRect =  section.getBoundingClientRect();
-}
-if(box5){
-    var box5Rect = box5.getBoundingClientRect();
-}
-
-
-$(window).scroll(function() {
-    if(sectionRect && box5Rect){
+const onScroll = () =>{
+        if(sectionRect && box5Rect){
        if ($(this).scrollTop() > sectionRect.bottom + -800) {
         box5.style.display = "block";
 } else {
@@ -34,6 +26,20 @@ box5.style.display = "none";
 } 
     }
 
+}
+if(section){
+    var sectionRect =  section.getBoundingClientRect();
+}
+if(box5){
+    var box5Rect = box5.getBoundingClientRect();
+
+}
+onScroll();
+
+
+$(window).scroll(function() 
+{
+onScroll();
 });
 
 /*$(document).ready(function(){
