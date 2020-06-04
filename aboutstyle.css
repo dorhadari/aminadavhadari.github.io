@@ -268,7 +268,98 @@ p{
   position: relative;
   top: -13px;
 }
-.start{
+.house{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+  width: 85%;
+  max-width: 600px;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Times New Roman', serif;
+  background-image: url('connections.png');
+  background-size: 300% 300%;
+  background-position: center;
+  border-radius: 3px;
+}
+.dog{ 
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #0B4D74;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 24px;
+  border-radius: 3px;
+  transition: all 0.3s linear;
+} 
+.dog:hover{
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+.cat1{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #0B4D74;
+  padding: 12px 5px;
+  font-size: 25.5px;
+  border-radius: 3px;
+  transition: all 0.3s linear;
+  text-align: left;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 4; 
+}
+.cat2{
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 2; 
+}
+.cat3{
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 3; 
+}
+.cat4{
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-column-end: 4; 
+}
+.cat5{
+  padding: 20px 0;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 2; 
+}
+.cat6{
+  padding: 20px 0;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 3; 
+}
+.cat7{
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-column-end: 4; 
+}
+.cat8{
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 2; 
+}
+.cat9{
+  grid-row-start: 4;
+  grid-column-start: 2;
+  grid-column-end: 3; 
+}
+.cat10{
+  grid-row-start: 4;
+  grid-column-start: 3;
+  grid-column-end: 4; 
+}
+/*.start{
   position: relative;
   top: 7.5vh;
   font-family: 'Times New Roman', serif;
@@ -293,7 +384,7 @@ grid-template-rows: 180px 180px 180px;
 background-color: rgba(252, 252, 252, 0.6);
  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
 */}
-.dog{
+/*.dog{
   justify-self: center;
   background-color: rgba(91, 175, 225, 0.5);
   }
@@ -306,7 +397,7 @@ background-color: rgba(252, 252, 252, 0.6);
   -moz-transform: rotate(-7deg);
   -o-transform: rotate(-7deg);
   transform: rotate(-7deg);
-}
+}*/
 
 
  
@@ -698,13 +789,14 @@ p{
 .box3{position: absolute;
   top: 0%;
   left: 3%;
-  width: 61%}
+  width: 61%;}
 p{
   font-size: 26px;
   }
-.start{
+/*.start{
   position: relative;
-  top: 10vh;}}
+  top: 10vh;}*/
+}
 @media only screen and (max-width: 1276px) {
   .box3{position: absolute;
   top: -30%;}
@@ -770,7 +862,10 @@ p{
   left: 1.8%;
   }
 .box4>ol>li{ font-size: 21px; }
-.house {
+.dog{
+  font-size: 23.5px;
+}
+/*.house {
   grid-gap: 18px;
   grid-template-columns: 145px 145px 145px;
 grid-template-rows: 145px 145px 145px;} 
@@ -780,7 +875,7 @@ grid-template-rows: 145px 145px 145px;}
 .dog>img{
   width: 145px;
   height: 145px;
-} 
+} */
 .box5{position: fixed;
   top: 20%;
   left: 2.8%;
@@ -855,7 +950,13 @@ li>img{position: relative;
   left: 1%;
 }
 .box4>ol>li{ font-size: 19px; } 
-.house {
+.dog{
+  font-size: 22px;
+}
+.cat1{
+  font-size: 24.5px;
+}
+/*.house {
 	grid-gap: 14px;
   grid-template-columns: 135px 135px 135px;
 grid-template-rows: 135px 135px 135px;} 
@@ -863,10 +964,10 @@ grid-template-rows: 135px 135px 135px;}
 .dog>img{
   width: 135px;
   height: 135px;
-} 
+} */
 .box5{position: fixed;
   left: 1%;
-  top: 30%;
+  top: 28.5%;
   height: 53%;
 }
 .box5>p{
@@ -911,6 +1012,12 @@ table {
 }
 .box4>ol>li{ font-size: 18px;
   margin: 10.3px;
+}
+.dog{
+  font-size: 21px;
+}
+.cat1{
+  font-size: 23px;
 }
 .box5{position: fixed;
 top: 23%;
@@ -959,7 +1066,13 @@ p{
 }
 .box4>ol>li{ font-size: 17.5px;
   margin: 8px; }
-.house {
+.dog{
+  font-size: 18.5px;
+}
+.cat1{
+  font-size: 20.5px;
+}
+/*.house {
   grid-gap: 10px;
   grid-template-columns: 120px 120px 120px;
 grid-template-rows: 120px 120px 120px;} 
@@ -967,7 +1080,7 @@ grid-template-rows: 120px 120px 120px;}
 .dog>img{
   width: 120px;
   height: 120px;
-}
+}*/
 .box5{position: fixed;
   top: 24%;
   left: 1%;
