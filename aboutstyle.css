@@ -111,7 +111,6 @@ span{font-size: 17px;}
   background-image: url("photo-1499092346589-b9b6be3e94b2.jpg");
   background-size: cover;
   background-attachment: fixed;
-  overflow-x: hidden;
   z-index: 4;}
 .container .section:nth-child(6){
   background-image: url("photo1.jpg");
@@ -364,7 +363,6 @@ p{
   grid-row-start: 4;
   grid-column-start: 3;
   grid-column-end: 4; 
-}
 }
 
  
