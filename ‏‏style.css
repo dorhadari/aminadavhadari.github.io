@@ -2,8 +2,8 @@
 html,body
 {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
   }
 
 .nav1 { 
@@ -84,16 +84,16 @@ span{font-size: 17px;}
   transition: 2s; 
 }
 .container .section:nth-child(2){
-  background-image: linear-gradient(to right, rgba(252, 252, 252, 0.9), rgba(135, 187, 230, 1));
-background-image: url("photo55.jpg");
+  background-image: linear-gradient(rgba(252, 252, 252, 0.9), rgba(135, 187, 230, 1));
+/*background-image: url("photo55.jpg");
   background-size: 35% 100%;
-  background-position: left;
+  background-position: left;*/
    position: sticky;
   top: -200vh;
   height: 65vh;
   z-index: 3;
 } 
-.container .section:nth-child(2):after {
+/*.container .section:nth-child(2):after {
   position: absolute;
   content: " ";
   top: 0;
@@ -102,7 +102,7 @@ background-image: url("photo55.jpg");
   height: 100%;
   z-index: 0;
   background-color: rgba(135, 187, 230, 0.4);
-}
+}*/
 .container .section:nth-child(3){
   /*background-image: url("photo1.jpg");*/
   background-color: rgba(252,252,252,0);
@@ -252,7 +252,7 @@ list-style-type: none;
   padding: 10px;
   font-family: Tahoma, Geneva, sans-serif;
   color: #02304B;
-  text-align: right;
+  text-align: justify;
   font-size: 21px;
   line-height: 1.6;
   text-shadow: 2px 2px 4px white;
@@ -637,7 +637,7 @@ li>img{
 .container .section:nth-child(2){
   background-size: 50% 100%;}
 .important>p{
-	height: 63.7vh;
+  height: 63.7vh;
   position: absolute;
   top: 49%;
   transform: translate(-50%,-51%);
@@ -792,7 +792,7 @@ section .wave{
  padding: 15px;
 }
 .important>p{
-	height: 62.7vh;
+  height: 62.7vh;
   position: absolute;
   top: 48.5%;
   transform: translate(-50%,-51.5%);
