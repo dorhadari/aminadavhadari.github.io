@@ -84,7 +84,6 @@ span{font-size: 17px;}
   transition: 2s; 
 }
 .container .section:nth-child(2){
-  background-image: linear-gradient(rgba(252, 252, 252, 0.9), rgba(135, 187, 230, 1));
 background-image: url("photo55.jpg");
   background-size: 50% 100%;
   background-position: left;
@@ -247,9 +246,9 @@ list-style-type: none;
   width: 85%;
   max-width: 800px;
   position: absolute;
-  top: 47.8%;
+  top: 48%;
   left: 50%;
-  transform: translate(-50%,-52.2%);
+  transform: translate(-50%,-52%);
   padding: 10px;
   font-family: Tahoma, Geneva, sans-serif;
   color: #02304B;
@@ -636,12 +635,14 @@ li>img{
   height: 55px;
 }
 .container .section:nth-child(2){
-  background-size: 50% 100%;}
+  background-size: 50% 100%;
+	border-top: 1px solid black;
+  border-bottom: 1px solid black;}
 .important>p{
   height: 63.7vh;
   position: absolute;
-  top: 49%;
-  transform: translate(-50%,-51%);
+  top: 49.2%;
+  transform: translate(-50%,-50.8%);
 }
 .card:hover {
   position: relative;
@@ -797,8 +798,8 @@ section .wave{
   height: 62.7vh;
   width: 82%;
   position: absolute;
-  top: 48.5%;
-  transform: translate(-50%,-51.5%);
+  top: 48.6%;
+  transform: translate(-50%,-51.4%);
   font-size: 16.5px;}
 .ami{
     font-size: 32px;
@@ -938,6 +939,7 @@ p{
 @media only screen and (max-width: 450px){
 /* 360 width */
 .important>p{
+  height: 62.5vh;
   font-size: 15px;
 }
 .ami{
@@ -987,6 +989,7 @@ left: 3%;}
   top: 58%;
 }
 .important>p{
+  height: 62.2vh;
   font-size: 13px;
 }
 .card{
