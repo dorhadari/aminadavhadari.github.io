@@ -795,11 +795,11 @@ section .wave{
 .important>p{
   background-size: 100% 26%;
   height: 62.7vh;
+  width: 82%;
   position: absolute;
   top: 48.5%;
   transform: translate(-50%,-51.5%);
-  box-shadow: 0px 0px 20px rgba(173, 213, 255, 0.65); 
-  font-size: 18px;}
+  font-size: 16.5px;}
 .ami{
     font-size: 32px;
 }
@@ -876,6 +876,8 @@ li>img{position: relative;
 }
 @media only screen and (max-width: 514px){
 /* 411 width */
+.important>p{
+  font-size: 16px;}
 section .wave{
   position: absolute;
   top: 50%;}
@@ -897,12 +899,12 @@ section .wave{
   position: relative;
   bottom: -60px;}
 .important>p{
-   width: 90%;
-  font-size: 17px;
+   width: 80%;
+  font-size: 15.5px;
   line-height: 1.6;
 }
 .ami{
-    font-size: 30px;
+    font-size: 28px;
 }
 .card:hover {
   position: relative;
@@ -936,7 +938,10 @@ p{
 @media only screen and (max-width: 450px){
 /* 360 width */
 .important>p{
-  font-size: 16px;
+  font-size: 15px;
+}
+.ami{
+    font-size: 27.5px;
 }
 .card:hover {
   position: relative;
@@ -982,11 +987,7 @@ left: 3%;}
   top: 58%;
 }
 .important>p{
-  font-size: 14px;
-  line-height: 1.6;
-}
-.ami{
-    font-size: 29.5px;
+  font-size: 13px;
 }
 .card{
   width: 330px;
