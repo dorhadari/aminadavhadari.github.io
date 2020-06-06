@@ -8,6 +8,9 @@ html,body
     height: 100%;
     position: relative;
     }
+  body{
+    overflow-x: hidden;
+  }
 
 .nav1 { 
   grid-area: header;
