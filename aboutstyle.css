@@ -4,6 +4,9 @@ html,body
     background-color: #11337B;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
     }
 
 .nav1 { 
