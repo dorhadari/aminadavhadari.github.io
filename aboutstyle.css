@@ -303,8 +303,8 @@ p{
   transform: rotate(-7deg);
 }
 .cat1{
-  background-image: url('stroke.png');
-  background-size: 100% 250%;
+  background-image: url('stroke2.png');
+  background-size: 100% 220%;
   background-position: center;
   background-repeat: no-repeat;
   color: black;
