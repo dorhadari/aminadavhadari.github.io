@@ -36,7 +36,9 @@ li a, .dropbtn {
   text-decoration: none;
 }
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #02304B;
+  border: 2.5px solid white;
+  margin: -2.5px;
 }
 li.dropdown {
   display: inline-block;
@@ -240,7 +242,7 @@ list-style-type: none;
   height: 62vh;
   background-color: rgba(252, 252, 252, 1);
   background-image: url('shine3.png');
-  background-position: bottom; left;
+  background-position: bottom;
   background-size: 100% 35%;
   background-repeat: no-repeat;
   width: 85%;
@@ -251,7 +253,7 @@ list-style-type: none;
   transform: translate(-50%,-52%);
   padding: 10px;
   font-family: Tahoma, Geneva, sans-serif;
-  color: #02304B;
+  color: #02304B;/*#0a476a*/
   text-align: justify;
   font-size: 18px;
   line-height: 1.6;
@@ -356,6 +358,8 @@ color: rgba(33, 38, 43, 1);
 }
 .item55>ol>li a:hover {
   background-color: red;
+  border: none;
+  margin: 0;
 }
 .about2{
   position: relative;
