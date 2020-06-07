@@ -35,8 +35,8 @@ li a, .dropbtn {
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: #46677B;
+ul>li a:hover, .dropdown:hover .dropbtn {
+  background-color: #02304B;
   border: 2.5px solid white;
   margin: -2.5px;
 }
@@ -198,9 +198,6 @@ border-radius: 100%;
 color: rgba(33, 38, 43, 0.8);
 z-index: 4;
 }
-.item5>ol>li a:hover {
-  background-color: white;
-}
 .item5>ol>.copyright{
   position: absolute;
   top: 10px; 
@@ -358,8 +355,6 @@ color: rgba(33, 38, 43, 1);
 }
 .item55>ol>li a:hover {
   background-color: red;
-  border: none;
-  margin: 0;
 }
 .about2{
   position: relative;
@@ -606,8 +601,6 @@ font-family: 'Times New Roman', serif;
   color: #447684;
   line-height: 1.5;
  white-space: nowrap;}
-.item55555>ol>li a:hover{
-background-color: white;}
 li>img{
   cursor: default;
   position: relative;

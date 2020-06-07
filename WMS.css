@@ -36,8 +36,10 @@ li a, .dropbtn {
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+ul>li a:hover, .dropdown:hover .dropbtn {
+   background-color: #02304B;
+  border: 2.5px solid white;
+  margin: -2.5px;
 }
 li.dropdown {
   display: inline-block;
@@ -177,6 +179,9 @@ z-index: 1;}
   top: 18px;
 color: rgba(33, 38, 43, 0.8);
 z-index: 4;
+}
+.item5>ol>li a:hover {
+  background-color: red;
 }
 .item5>ol>.copyright{
   position: absolute;

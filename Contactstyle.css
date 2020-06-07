@@ -38,7 +38,9 @@ ul>li a, .dropbtn {
   text-decoration: none;
 }
 ul>li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+   background-color: #02304B;
+  border: 2.5px solid white;
+  margin: -2.5px;
 }
 li.dropdown {
   display: inline-block;
