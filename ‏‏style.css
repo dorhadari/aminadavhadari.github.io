@@ -445,7 +445,7 @@ p{
   text-align: center;
   display: grid;
    grid-template-columns: auto auto auto;
-  grid-gap: 65px;
+  grid-gap: 11%;
   grid-row-gap: 160px;
   z-index: 2;
 }
@@ -726,6 +726,10 @@ section .wave{
   position: relative;
   left:  -30px;
 }}
+@media only screen and (max-width: 664px){
+/* 531 width */
+.solutions>div>a{
+  font-size: 42px;}}
 @media only screen and (max-width: 518px){
 /* 414 width */
 .container .section:nth-child(1){
