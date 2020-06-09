@@ -9,7 +9,7 @@
 
 
 
-// draggableץjs
+// draggable .js
 class Draggable{
 
     constructor(){
@@ -39,6 +39,9 @@ document.body.style.overflow = "";
     START(options){
         if(!options){
             return;
+        }
+        if(this.isMobile){
+            options.handle = options.selector;
         }
         if(options.selector && options.handle){
             this.selector = options.selector;
