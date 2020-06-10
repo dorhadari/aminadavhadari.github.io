@@ -140,12 +140,16 @@ background-image: url("photo55.jpg");
   font-size: 2em;
   /*transition: all 0.3s linear;*/
 }
-.container1{
-   height: 20vh;
+.rectangle {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 90%;
 }
 .description1 {
  position: relative;
- top: 69%; 
+ top: 38%; 
         text-align: center;
        font-family: 'Times New Roman', sans-serif;
       font-size: 57px;
@@ -204,13 +208,13 @@ z-index: 4;
 .item5>ol>.copyright{
   position: absolute;
   top: 10px; 
-}}
+}
 .container1{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh;
-  width: 100vw;
+   height: 20vh;
+  width: 100%;
 }
 .grid-wrapper {
   height: 70vh;
@@ -689,13 +693,6 @@ width: 86.5%;}
   left: 0%;}
   .zone{
     margin: auto;}
-.rectangle {
-  height: 100vh;
-  width: 100%;
-  background-color: white;
-  position: absolute;
-  top: 90%;
-}
 .card{
   box-shadow: 0px 0px 10px 10px #87BBE6;
 }
