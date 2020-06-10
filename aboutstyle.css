@@ -732,7 +732,6 @@ li>img{
   left: 75%;
   top: 15vh;
 }
-
 .container .section:nth-child(3){
   width: 70.2%;
   }
@@ -804,10 +803,10 @@ p{
 	width: 17%;
 }
 .dog{
-  font-size: 23.5px;
+  font-size: 20.5px;
 }
 .cat1{
-  font-size: 30.5px;
+  font-size: 30px;
 }
 .box5{position: fixed;
   top: 20%;
@@ -881,12 +880,10 @@ li>img{position: relative;
 .box4>.h1{
 	font-size: 24.5px;
 	margin-bottom: 10%;}
-.box4>ol>li{ font-size: 19px; } 
-.dog{
-  font-size: 22px;
-}
+.box4>ol>li{ font-size: 19px; }
+.dog{ font-size: 19px; }
 .cat1{
-  font-size: 24.5px;
+  font-size: 25.5px;
   padding: 12px 23px;
 }
 .box5{position: fixed;
@@ -931,7 +928,7 @@ table {
   margin: 10.3px;
 }
 .dog{
-  font-size: 21px;
+  font-size: 19px;
 }
 .cat1{
   font-size: 25px;

@@ -64,6 +64,9 @@ span{font-size: 17px;}
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.language{
+  float: right;
+}
 
 
 .container{
