@@ -363,20 +363,15 @@ color: rgba(33, 38, 43, 1);
 .item55>ol>li a:hover {
   background-color: red;
 }
-.about2{
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
 
 .WordsPuzzle_DARK_BLUE2{
-position: relative;
+position: absolute;
 top: 10vh;
 left: 70%; 
 }
 
-.box3{position: relative;
-  top: -40%;
+.box3{position: absolute;
+  top: 9vh;
   left: 3%;
    background-color: rgba(252, 252, 252, 0.5);
   width: 59.2%;
@@ -617,7 +612,7 @@ li>img{
   .WordsPuzzle_DARK_BLUE2{
   width: 275px;
   height: 265px;
-  position: relative;
+  position: absolute;
   left: 75%;
   top: 15vh;
 }
@@ -625,8 +620,8 @@ li>img{
   position: relative;
   left: 5%;
   top: 5%;}
-.box3{position: relative;
-  top: -30%;}}
+.box3{position: absolute;
+  top: 6vh;}}
 @media only screen and (max-width: 1280px) {
   /* width 1024 */
 .WordsPuzzle_DARK_BLUE{
@@ -661,13 +656,7 @@ section .wave{
   height: 143px;
   bottom: 0px;
   left: 0px;
-}
-.box3{position: relative;
-  top: 0%;}}
-  @media only screen and (max-width: 1277px) {
-  .box3{position: absolute;
-  top: -30%;}
-}
+}}
 @media only screen and (max-width: 960px) {
   /* 768 width */
  .language{
@@ -677,12 +666,11 @@ section .wave{
   display: none;
 }
 .WordsPuzzle_DARK_BLUE2{
-  position: relative;
+  position: absolute;
   left: 5%;
   top: 59vh;
 }
-.box3{position: relative;
-top: -10%;
+.box3{
 width: 86.5%;}
 .grid-wrapper {
   position: relative;
@@ -820,8 +808,7 @@ section .wave{
 .WordsPuzzle_DARK_BLUE2{
   display: none;
 }
-.box3{position: relative;
-top: 6%;
+.box3{
 width: 80.5%;}
 .h1{ 
     font-size: 26px;
@@ -920,8 +907,7 @@ section .wave{
 section .wave{
   position: absolute;
   top: 55%;}
-.box3{position: relative;
-top: 6%;
+.box3{
 width: 79%;}
 .h1{ 
     font-size: 25px;
@@ -958,8 +944,7 @@ p{
 section .wave{
   position: absolute;
   top: 53%;}
-.box3{position: relative;
-top: 6%;
+.box3{
 left: 3%;}
 .solutions>div>a ,.afive{
   font-size: 23.5px;}
@@ -1007,7 +992,7 @@ left: 3%;}
   transform: scale(1.2);
 }
 .box3{
-  position: relative;
+  position: absolute;
   top: 7%;
   left: 2%;
 }
@@ -1061,11 +1046,3 @@ padding: 10px 20px;}
   .copyright{
   font-size: 5px;
 }}
-@media only screen and (max-height: 675px) and (min-width: 1440px) {
-.box3{position: relative;
-      top: -50%;}
-}
-@media only screen and (max-height: 624px) and (min-width: 1440px) {
-.box3{position: relative;
-      top: -55%;}
-}
