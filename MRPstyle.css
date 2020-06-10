@@ -116,7 +116,7 @@ grid-template-rows: 64% 35%;
 .box{
   grid-row-start: 1;
   
-  background-image: url('data3.png');
+  background-image: url('data3.jpg');
   background-size: 8600% 300%;
   background-position: top;
   color: rgb(252, 252, 252, 0.85);
