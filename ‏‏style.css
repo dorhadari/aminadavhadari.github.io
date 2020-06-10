@@ -666,6 +666,9 @@ section .wave{
 }
 @media only screen and (max-width: 960px) {
   /* 768 width */
+ .language{
+  display: none;
+} 
  .empty{
   display: none;
 }

@@ -259,6 +259,7 @@ height: 45%;
   width: 87.2%;
   border: 4px solid black;
   padding: 20px;
+  padding-bottom: 25px;
   margin: 10px;
 }
 .box4>ol{
@@ -767,7 +768,7 @@ td{
 .copyright{ font-size: 8px; }
 }
 @media only screen and (max-width: 518px) {
-  /*  414 width   */   
+  /*  414 width   */  
 .box1{
   background-color:rgba(252, 252, 252, 0);}
 .box2{
@@ -803,10 +804,10 @@ p{
 	width: 17%;
 }
 .dog{
-  font-size: 20.5px;
+  font-size: 18.5px;
 }
 .cat1{
-  font-size: 30px;
+  font-size: 28px;
 }
 .box5{position: fixed;
   top: 20%;
@@ -881,9 +882,9 @@ li>img{position: relative;
 	font-size: 24.5px;
 	margin-bottom: 10%;}
 .box4>ol>li{ font-size: 19px; }
-.dog{ font-size: 19px; }
+.dog{ font-size: 16px; }
 .cat1{
-  font-size: 25.5px;
+  font-size: 24.4px;
   padding: 12px 23px;
 }
 .box5{position: fixed;
@@ -928,10 +929,10 @@ table {
   margin: 10.3px;
 }
 .dog{
-  font-size: 19px;
+  font-size: 15.5px;
 }
 .cat1{
-  font-size: 25px;
+  font-size: 24px;
   padding: 12px 22px;
 }
 .box5{position: fixed;
@@ -974,10 +975,10 @@ td,th{font-size: 20px;
 .box4>ol>li{ font-size: 17.5px;
   margin: 8px; }
 .dog{
-  font-size: 18.5px;
+  font-size: 14px;
 }
 .cat1{
-  font-size: 23.5px;
+  font-size: 22.5px;
   padding: 12px 20px;
 }
 .box5{position: fixed;
