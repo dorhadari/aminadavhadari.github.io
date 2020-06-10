@@ -103,9 +103,9 @@ span{font-size: 17px;}
   background-attachment: fixed;
   z-index: 4;}
 .container .section:nth-child(4){
-  background-image: url("sky.png");
+  background-image: url("sky.jpg");
   background-color: white;
-  background-size: 100% 150%;
+  background-size: 100% 100%;
    border-bottom: 1px solid white;
   border-top: 1px solid black;
   position: sticky;
@@ -251,7 +251,6 @@ height: 45%;
   font-family: 'Times New Roman', serif;
   font-size: 26px;
 }
-
 .box4{position: relative;
   top: 7%;
   left: 4.2%;

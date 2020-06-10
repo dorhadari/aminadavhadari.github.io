@@ -1,3 +1,4 @@
+
 $(window).scroll(function(){
     $(".section:nth-child(1)").css("opacity", 1 - $(window).scrollTop() / 100);
   });
@@ -8,15 +9,21 @@ $(window).scroll(function(){
 
 
 const section = document.getElementById('bottom');
+const house  =  document.querySelector('#house');
 const box5  =  document.querySelector('.box5');
-const onScroll = () =>{
-        if(sectionRect && box5Rect){
-       if ($(this).scrollTop() > sectionRect.bottom + -800) {
-        box5.style.display = "block";
-} else {
+    var houseRect =  house.getBoundingClientRect();
+
 box5.style.display = "none";
-} 
-    }
+const onScroll = () =>{
+	console.log("scroll",$(window.document.body).scrollTop(),houseRect.top );
+		 if($(window.document.body).scrollTop() > 2445 && $(window.document.body).scrollTop()<houseRect.top+300 ){
+				box5.style.display = "block"
+		}
+		else if($(window.document.body).scrollTop()<houseRect.top ){
+			box5.style.display = "none"
+		}
+	
+
 
 }
 if(section){
@@ -28,9 +35,11 @@ if(box5){
 }
 onScroll();
 
+window.document.body.addEventListener('scroll',(e)=>{
+	onScroll(e);
+	
+})
 
-$(window).scroll(function() 
-{
-onScroll();
-});
+
+
 
