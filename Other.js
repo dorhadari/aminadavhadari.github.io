@@ -50,6 +50,7 @@ document.body.style.overflow = "";
     
                 el.addEventListener(this.downAction, (e) => {
                     this.disabledScroll();
+                     document.body.style.overflowY = "hidden";
                     const target = e.target;
                     const handle = target.closest(this.handle);
                     if(handle){
@@ -69,6 +70,7 @@ document.body.style.overflow = "";
                 })
                 window.addEventListener(this.upAction, (e) => {
                 	this.activeScroll();
+                     document.body.style.overflowY = "";
                     window.removeEventListener(this.moveAction, this.onMouseMove);
                 })
     
