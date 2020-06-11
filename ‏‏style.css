@@ -133,13 +133,6 @@ background-image: url("photo55.jpg");
   z-index: 3;}
 
 
-
-
-.zone {
-  color: #FFF;
-  font-size: 2em;
-  /*transition: all 0.3s linear;*/
-}
 .rectangle {
   height: 100vh;
   width: 100%;
@@ -147,9 +140,28 @@ background-image: url("photo55.jpg");
   position: absolute;
   top: 90%;
 }
+.grid-wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 70%;
+  display: grid;
+  grid-gap: 6.9%;
+}
+.box{
+  align-self: center;
+  background-color: rgba(252, 252, 252, 0);
+  padding: 0%;
+  margin: 0px;
+  color: black;}
 .description1 {
- position: relative;
- top: 38%; 
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  position: relative;
+  top: -9%;
         text-align: center;
        font-family: 'Times New Roman', sans-serif;
       font-size: 57px;
@@ -157,45 +169,46 @@ background-image: url("photo55.jpg");
     line-height: 58px;
   font-weight: 500;
   }
-  #Aminadavpic{
-      position: relative;
-      top: 0%;
-      left: 32%;}
+.white{
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  top: -26%;
+  text-align: center;
+}
+/*#Aminadavpic{
+      }*/
 .avatar{
 border-radius: 100%;
 }
 .title {
-  position: relative;
-  left: 2%;
     font-family: 'Times New Roman', serif;
-    /*width: 400px;*/
-    text-align: center;
     font-weight: 800;
     font-size: 50px;
-    color: black;
     text-shadow: 2px 2px 6px white;
      background: linear-gradient(to left, rgba(252, 252, 252, 0.2) 70%, rgba(252, 252, 252, 0) 30%);}
 .category {
-  position: relative;
-  left: 2%;
     font-family: 'Times New Roman', serif;
     color: rgba(0, 0, 0, 1);
-    text-align: center;
     font-size: 30px;
     font-weight: 900;
     line-height: 1.4;
     text-shadow: 2px 2px 8px white;
     background: linear-gradient(to left, rgba(252, 252, 252, 0.2) 70%, rgba(252, 252, 252, 0) 30%);}
 .WordsPuzzle_DARK_BLUE{
-  position: relative;
-  top: 20%;
+  grid-row-start: 2;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  justify-self: center;}
+.WordsPuzzle_DARK_BLUE>img{
   opacity: 0.8;
    -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 .item5 {
   position: relative;
-  bottom: 17px;
+  bottom: -17.7vh;
   height: 75px;
     background-color: white;
 }
@@ -209,26 +222,6 @@ z-index: 4;
   position: absolute;
   top: 10px; 
 }
-.container1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-   height: 20vh;
-  width: 100%;
-}
-.grid-wrapper {
-  height: 70vh;
-  display: grid;
-  grid-gap: 40px;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
-}
-.box{
-  background-color: rgba(252, 252, 252, 0);
-  padding: 0%;
-  margin: 0px;}
-/*.empty{
-  background: none;
-}*/
 ol{
 list-style-type: none;
 }
@@ -251,10 +244,10 @@ list-style-type: none;
   background-repeat: no-repeat;
   width: 85%;
   max-width: 800px;
-  position: absolute;
-  top: 48%;
+  position: relative;
+  top: 0%;
   left: 50%;
-  transform: translate(-50%,-52%);
+  transform: translate(-50%, 0%);
   padding: 10px;
   font-family: Tahoma, Geneva, sans-serif;
   color: #02304B;/*#0a476a*/
@@ -609,24 +602,28 @@ li>img{
   top: 10px;
 }
 @media only screen and (max-width: 1440px) {
-  .WordsPuzzle_DARK_BLUE2{
+.WordsPuzzle_DARK_BLUE2{
   width: 275px;
   height: 265px;
   position: absolute;
   left: 75%;
   top: 15vh;
 }
-.white{
-  position: relative;
-  left: 5%;
-  top: 5%;}
 .box3{position: absolute;
   top: 6vh;}}
 @media only screen and (max-width: 1280px) {
   /* width 1024 */
-.WordsPuzzle_DARK_BLUE{
+.grid-wrapper {
   position: relative;
-  top: 7%;}
+  top: 35%;
+  height: 45%;
+}
+.white{
+  position: relative;
+  top: -20%;}
+.item5 {
+  position: relative;
+  bottom: -45vh;}
 .item55 { 
   position: relative;
   bottom: -72px;
@@ -639,9 +636,8 @@ li>img{
   border-bottom: 1px solid black;}
 .important>p{
   height: 63.7vh;
-  position: absolute;
-  top: 49.2%;
-  transform: translate(-50%,-50.8%);
+  position: relative;
+  top: -1.7%;
 }
 .card:hover {
   position: relative;
@@ -661,26 +657,27 @@ section .wave{
   /* 768 width */
  .language{
   display: none;
-} 
- .empty{
-  display: none;
+}
+.grid-wrapper {
+  position: relative;
+  top: 40%;
+  height: 58%;
 }
 .WordsPuzzle_DARK_BLUE2{
   position: absolute;
   left: 5%;
   top: 59vh;
 }
+.item5 {
+  position: relative;
+  bottom: -32vh;}
 .box3{
 width: 86.5%;}
-.grid-wrapper {
+.important>p{
+  height: 63.4vh;
   position: relative;
-  top: -20%;
-  grid-gap: 150px;}
-.white{
-  position: relative;
-  left: 0%;}
-  .zone{
-    margin: auto;}
+  top: -2.2%;
+}
 .card{
   box-shadow: 0px 0px 10px 10px #87BBE6;
 }
@@ -736,13 +733,19 @@ section .wave{
   position: absolute;
   top: 58%;
 }
-.description1 {
- position: relative;
- top: 50%; }
 .white{
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 5;
   position: relative;
-  top: -45px;
+  top: 6%;
   }
+.WordsPuzzle_DARK_BLUE{
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  position: relative;
+  top: 26%;}
 .title {
     position: relative;
     top: 110px;
@@ -752,22 +755,14 @@ section .wave{
   position: relative;
     top: 105px;
     background: linear-gradient(to left, rgba(252, 252, 252, 0.1) 70%, rgba(252, 252, 252, 0.1) 30%);}
-    .grid-wrapper {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  grid-gap: 100px;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));}
 .avatar{
   position: relative;
   top: 0px;
-  left: -10px;
   width: 175px;
   height: 165px;}
 .item5{
   position: relative;
-  bottom: -490px;
+  bottom: -80vh;
   height: 15vh;
 }
 .item5>ol>.copyright{
@@ -789,9 +784,8 @@ section .wave{
   background-size: 100% 26%;
   height: 62.7vh;
   width: 82%;
-  position: absolute;
-  top: 48.6%;
-  transform: translate(-50%,-51.4%);
+  position: relative;
+  top: -2.8%;
   font-size: 16.5px;}
 .ami{
     font-size: 32px;
@@ -868,8 +862,13 @@ li>img{position: relative;
 }
 @media only screen and (max-width: 514px){
 /* 411 width */
-.important>p{
-  font-size: 16px;}
+.white{
+  position: relative;
+  top: 10%;
+  }
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 30%;}
 section .wave{
   position: absolute;
   top: 50%;}
@@ -881,10 +880,17 @@ section .wave{
 }
 @media only screen and (max-width: 469px){
 /* 375 width */
+.white{
+  position: relative;
+  top: 6.5%;
+  }
 .avatar{
   position: relative;
-  top: 0px;
-  left: -12px;}
+  top: -15px;
+}
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 28%;}
 .rectangle {
   height: 96vh;}
 .item55 { 
@@ -928,6 +934,19 @@ p{
 }
 @media only screen and (max-width: 450px){
 /* 360 width */
+.white{
+  position: relative;
+  top: -3%;
+  }
+.avatar{
+  position: relative;
+  top: 10px;
+}
+.item5{
+  position: relative;
+  bottom: -90vh;
+  height: 12vh;
+}
 .important>p{
   height: 62.5vh;
   font-size: 15px;
@@ -959,19 +978,23 @@ left: 3%;}
 }
 .white{
   position: relative;
-  top: -10px;
-  left:-10px;
+  top: -5px;
   }
 .title {
   position: relative;
-  top: 40px;}
+  top: 60px;}
 .category {
   position: relative;
-  top: 40px;}
+  top: 60px;}
 .avatar{
+  width: 165px;
+  height: 155px; 
   position: relative;
   top: 0px;
-  left: -6px;}
+}
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 12%;}
 .rectangle {
   height: 115vh;
   position: absolute;
