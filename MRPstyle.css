@@ -69,9 +69,9 @@ span{font-size: 17px;}
   width: 85%;
   max-width: 900px;
   position: absolute;
-  top: 77.5%;
+  top: 10vh;
   left: 50%;
-  transform: translate(-50%,-22.5%);
+  transform: translate(-50%,-0%);
  display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
@@ -507,11 +507,7 @@ list-style-type: none;
 @media only screen and (max-width: 1024px) {
   .bigcontainer{
   width: 95%;
-  max-width: 1000px;
-  position: absolute;
-  top: 68%;
-  left: 50%;
-  transform: translate(-50%,-32%);}
+  max-width: 1000px;}
 .arrow1{
  position: absolute;
   top: 28%;
@@ -572,9 +568,7 @@ list-style-type: none;
   width: 85%;
   max-width: 900px;
   position: absolute;
-  top: 70%;
-  left: 44%;
-transform: translate(-50%,-30%);}
+  left: 44%;}
 .data1{font-size: 30px;}
 .text{
   font-size: 22px;
@@ -697,9 +691,7 @@ position: relative;
 span{font-size: 13px;}
 .bigcontainer{
   position: absolute;
-  top: 75%;
-  left: 44%;
-transform: translate(-50%,-25%);}
+  left: 44%;}
 .data1{font-size: 22px;
   background-size: 250px 280px;}
 .text{
@@ -901,9 +893,7 @@ span{font-size: 14px;}
 @media  only screen and (max-width: 375px) {
 .bigcontainer{
   position: absolute;
-  top: 78%;
-  left: 45%;
-  transform: translate(-50%,-22%);}
+  left: 45%;}
 .data1{font-size: 20px;}
 .text{
   font-size: 17px;
@@ -1022,11 +1012,6 @@ span{font-size: 14px;}
 .item5>ol>.copyright{ font-size: 6px;}}
  
 @media only screen and (max-width: 360px) {
-.bigcontainer{
-  position: absolute;
-  top: 74.5%;
-  left: 45%;
-  transform: translate(-50%,-25.5%);}
 .chil{padding: 7px 0;
     font-size: 12px;}
 .chi{padding: 6px 0;
@@ -1149,10 +1134,6 @@ span{font-size: 14px;}
   font-size: 10px;}
 }
 @media only screen and (max-width: 320px) {
-.bigcontainer{
-  position: absolute;
-  top: 76.5%;
-  transform: translate(-50%,-23.5%);}
 .chil5 {
   position: relative;
   top: -10px;
