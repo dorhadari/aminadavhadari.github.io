@@ -858,7 +858,8 @@ span{font-size: 13px;}
 .bigarrow{
     position: absolute;
     top: 33.85%;
-    width: 170px;}
+    width: 170px;
+    height: 160px;}
 .computers{
   width: 380px;
   height: 220px;}
