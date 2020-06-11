@@ -767,7 +767,7 @@ section .wave{
 }
 .item5>ol>.copyright{
   position: absolute;
-  top: -20px; }
+  top: -5px; }
 .copyright{
     position: relative;
     bottom: -4px;
