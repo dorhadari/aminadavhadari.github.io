@@ -135,7 +135,6 @@ grid-template-rows: 64% 35%;
   align-self: center;
   }
 .h4{
-  background-color: rgba(155, 227 ,237, 0.15);
   font-weight: bold;
 }
 .data3{
@@ -453,11 +452,14 @@ grid-column-start: 2;
   grid-column-end: 3; 
   color: white;
   text-shadow: 2px 2px 4px #000000;
-}
+}/*11111111111111111111111111111111111111111111111111*/
 .bigarrow{
+  grid-row-start: 4;
+grid-column-start: 2;
+  grid-column-end: 3; 
     position: absolute;
-    left: 37%;
-    top: 47%;
+    left: 40%;
+    top: 16.2%;
     width: 310px;
     height: 270px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -555,7 +557,8 @@ list-style-type: none;
   top: 27%;}
 .bigarrow{
     position: absolute;
-    top: 45.4%;}
+    top: 15.5%;
+    left: 35%;}
 .computers{
   position: relative;
   top: 0px;
@@ -674,8 +677,8 @@ position: relative;
   top:10%;}
 .bigarrow{
     position: absolute;
-    left: 0%;
-    top: -9.2vh;
+    top: 13.5%;
+    left: 37%;
     width: 300px;
     height: 250px;}
 .computers{
@@ -854,8 +857,7 @@ span{font-size: 13px;}
   font-size: 13px;}
 .bigarrow{
     position: absolute;
-    left: -4%;
-    top: -6.5vh;
+    top: 35%;
     width: 170px;
     height: 130px;}
 .computers{
@@ -888,7 +890,6 @@ span{font-size: 13px;}
 }
 span{font-size: 14px;}
 }
-
 
 @media  only screen and (max-width: 375px) {
 .bigcontainer{
@@ -1000,10 +1001,10 @@ span{font-size: 14px;}
   }
 .bigarrow{
     position: absolute;
-    left: -4%;
-    top: -6vh;
+    top: 34%;
+    left: 37%;
     width: 150px;
-    height: 130px;}
+    height: 150px;}
 .computers{
   width: 340px;
   height: 190px;}
@@ -1120,8 +1121,7 @@ span{font-size: 14px;}
   }
 .bigarrow{
     position: absolute;
-    left: -2%;
-    top: -6.5vh;
+     top: 38.4%;
     width: 125px;
     height: 110px;}
 .computers{
@@ -1247,8 +1247,7 @@ span{font-size: 14px;}
   height: 80px; }
 .bigarrow{
     position: absolute;
-    left: -2%;
-    top: -7.2vh;
+    top: 37%;
     width: 125px;
     height: 110px;}
 .computers{
@@ -1258,9 +1257,4 @@ span{font-size: 14px;}
   position: relative;
   left: -33%;
   margin: -2px -6px;}
-}
-/*
-@media only screen and (max-height: 715px) and (min-width: 1024px) {
-}
-@media only screen and (max-height: 680px) and (min-width: 1024px) {
 }
