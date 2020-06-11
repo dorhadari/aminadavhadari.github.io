@@ -452,7 +452,7 @@ grid-column-start: 2;
   grid-column-end: 3; 
   color: white;
   text-shadow: 2px 2px 4px #000000;
-}/*11111111111111111111111111111111111111111111111111*/
+}
 .bigarrow{
   grid-row-start: 4;
 grid-column-start: 2;
@@ -859,7 +859,7 @@ span{font-size: 13px;}
     position: absolute;
     top: 34.2%;
     width: 170px;
-    height: 140px;}
+    height: 150px;}
 .computers{
   width: 380px;
   height: 220px;}
@@ -1121,9 +1121,9 @@ span{font-size: 14px;}
   }
 .bigarrow{
     position: absolute;
-     top: 38.4%;
+     top: 37.2%;
     width: 125px;
-    height: 110px;}
+    height: 130px;}
 .computers{
   width: 325px;
   height: 190px;}
