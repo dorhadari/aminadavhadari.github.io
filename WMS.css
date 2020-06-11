@@ -388,7 +388,7 @@ li>img{
   position: absolute;
   top: 115vh;
   left: 55%;
-  width: 190px;
+  width: 180px;
   height: 85px;}
  }
 @media only screen and (max-width: 411px) {
@@ -451,10 +451,12 @@ h2{position: relative;
 }	
 .slash{
   position: relative;
+   top: -2.5vh;
   left: -10px;
   height: 38vh;}
 .top{
   position: relative;
+  top: 33.5vh;
   left: 2%;
    width: 95px;
   height: 105px;}
@@ -468,6 +470,8 @@ li>img{
     top: 5vh;
     height: 50vh;}
 .child2>ol{
+  position: relative;
+  top: 25vh;
    font-size: 8px;}
 }
 @media only screen and (max-width: 320px) {
@@ -503,7 +507,9 @@ h2{position: relative;
     width: 105.5%;
     height: 50vh;}
 .child2>ol{
-   font-size: 6px;}
+  position: relative;
+  top: 21vh;
+  font-size: 6px;}
 .card{
   position: absolute;
   top: 125vh;
