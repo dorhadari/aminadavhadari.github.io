@@ -857,7 +857,7 @@ span{font-size: 13px;}
   font-size: 13px;}
 .bigarrow{
     position: absolute;
-    top: 33.6%;
+    top: 33.2%;
     width: 170px;
     height: 160px;}
 .computers{
@@ -1001,10 +1001,10 @@ span{font-size: 14px;}
   }
 .bigarrow{
     position: absolute;
-    top: 34%;
+    top: 33.6%;
     left: 37%;
     width: 150px;
-    height: 150px;}
+    height: 155px;}
 .computers{
   width: 340px;
   height: 190px;}
@@ -1121,9 +1121,9 @@ span{font-size: 14px;}
   }
 .bigarrow{
     position: absolute;
-     top: 36.6%;
+     top: 36.8%;
     width: 125px;
-    height: 140px;}
+    height: 130px;}
 .computers{
   width: 325px;
   height: 190px;}
