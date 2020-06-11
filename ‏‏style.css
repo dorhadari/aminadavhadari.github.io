@@ -745,7 +745,7 @@ section .wave{
   grid-column-start: 1;
   grid-column-end: 5;
   position: relative;
-  top: 26%;}
+  top: 30%;}
 .title {
     position: relative;
     top: 110px;
@@ -868,7 +868,7 @@ li>img{position: relative;
   }
 .WordsPuzzle_DARK_BLUE{
   position: relative;
-  top: 30%;}
+  top: 38%;}
 section .wave{
   position: absolute;
   top: 50%;}
@@ -890,9 +890,13 @@ section .wave{
 }
 .WordsPuzzle_DARK_BLUE{
   position: relative;
-  top: 28%;}
+  top: 36%;}
 .rectangle {
   height: 96vh;}
+.item5{
+  position: relative;
+  bottom: -90vh;
+}
 .item55 { 
   position: relative;
   bottom: -60px;}
@@ -942,6 +946,9 @@ p{
   position: relative;
   top: 10px;
 }
+.WordsPuzzle_DARK_BLUE{
+  position: relative;
+  top: 30%;}
 .item5{
   position: relative;
   bottom: -90vh;
