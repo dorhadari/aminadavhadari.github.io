@@ -66,7 +66,12 @@ span{font-size: 17px;}
 }
 .language{
   float: right;
+  margin-right: 2%;
+  }
+.lang a {
+  text-align: center;
 }
+
 
 
 .container{
@@ -655,9 +660,6 @@ section .wave{
 }}
 @media only screen and (max-width: 960px) {
   /* 768 width */
- .language{
-  display: none;
-}
 .grid-wrapper {
   position: relative;
   top: 40%;
