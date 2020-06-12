@@ -93,7 +93,7 @@ span{font-size: 17px;}
 .data1>ol{display: flex;
   flex-direction: column;
   margin-bottom: 20%;
-  }
+  padding-inline-start: 0px;}
 
 .data2
 {
@@ -309,7 +309,9 @@ list-style-type: none;
   color: #FF5913;}
 
   @media only screen and (max-width: 768px) {
-.data1{ 
+.data1{ width: 107%;
+        position: relative;
+        left: -5%;
         font-size: 14px; 
         background-size: 60% 60%;}
 .h1{
@@ -348,10 +350,11 @@ span{font-size: 13px;}
 .h1{
   font-size: 27px;
 }
-.data1>ol{width: 100%;
-position: relative;
-left: -30px;}
-.data1>ol>li{font-size: 9px;}
+.data1>ol{width: 105%;
+  position: relative;
+  left: 1%;}
+.data1>ol>li{font-size: 9px;
+  line-height: 1.4;}
 li>img{
   width: 13px;
   height: 8px;}
@@ -405,7 +408,7 @@ left: 48%;
 }
 .data1>ol{width: 110%;
 position: relative;
-left: -60px;}
+left: 2%;}
 .child{
   padding: 4px 2px;
   font-size: 12px;
@@ -432,6 +435,9 @@ left: 85%;
 .h1{
   font-size: 18px;
 }
+.data1>ol{
+  position: relative;
+  left: 2.5%;}
 .data1>ol>li{font-size: 8.5px;}
 .data2{position: relative;
 	left: -7%;
