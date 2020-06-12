@@ -722,6 +722,9 @@ section .wave{
   font-size: 42px;}}
 @media only screen and (max-width: 518px){
 /* 414 width */
+.language{
+  margin-right: 0%;
+  }
 .container .section:nth-child(1){
   background-size: 100% 58%;
   overflow-x: hidden;}
