@@ -629,6 +629,20 @@ height: 45%;
   font-size: 26px;
   line-height: 1.6;
 }
+.fade-in{
+    animation: fadein 1s ease;
+}
+  @keyframes fadein {
+  from {opacity : 0;}
+  to {opacity: 1;}
+}
+.fade-out{
+    animation: fadeout 1s ease;
+}
+  @keyframes fadeout {
+  from {opacity : 1;}
+  to {opacity: 0;}
+}
 
 /* Contact page */
 
@@ -795,9 +809,7 @@ margin-left: 1%;
 .box3>p{
   font-size: 22.5px;
 }
-p{
-  font-size: 21px;
-  }
+
 .box4{position: absolute;
   top: 5%;
   left: 1.8%;
