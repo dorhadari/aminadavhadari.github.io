@@ -138,6 +138,7 @@ span{font-size: 17px;}
   right: 10%;
   font-size: 22px;
   background-color:rgba(252, 252, 252, 0.2);
+  z-index: 4;
 }
 h1{
   font-family: 'Times New Roman', serif;
@@ -813,6 +814,8 @@ p{
   left: 4%;
   padding: 3%;
 }
+.box5>p{
+  font-size: 22px;}
 .contact-form h1{
   /*border-bottom: 2px solid brown;*/
   width: 200px;
@@ -885,7 +888,7 @@ li>img{position: relative;
   padding: 12px 23px;
 }
 .box5>p{
-  font-size: 22px;
+  font-size: 20px;
 }}
 @media only screen and (max-width: 450px) {
   /*  360 width   */ 
@@ -893,9 +896,6 @@ li>img{position: relative;
 .box2{
 	font-size: 20px;
 }
-h4>a{position: relative;
-  top: -10.3px;
-  font-size: 15px;}
 .arrow{
   position: absolute;
   top: 14%;
@@ -908,6 +908,10 @@ table {
   left: 1%;}
 .box3>p{
   font-size: 19px;
+}
+.box3>p>img{
+  width: 34px;
+  height: 24px;
 }
 .h1{font-size: 25px;
     line-height: 1.4;}
@@ -929,9 +933,6 @@ table {
   /*  320 width   */ 
 h1{font-size: 32px;}
 .box2{ font-size: 20px;}
-h4>a{position: relative;
-	top: -10px;
-	font-size: 15px;}
 .arrow{
   position: absolute;
   top: 15%;
@@ -949,7 +950,7 @@ td,th{font-size: 20px;
     line-height: 1.4;}
 .box3>p{
   font-size: 17.5px;
-  } 
+  }
 .box4{position: absolute;
   top: 4%;
   left: 1%;
@@ -968,7 +969,7 @@ td,th{font-size: 20px;
   padding: 12px 20px;
 }
 .box5>p{
-  font-size: 20px;
+  font-size: 18.2px;
 }
 .contact-form{
    position: absolute;
