@@ -812,7 +812,8 @@ section .wave{
   display: none;
 }
 .box3{
-width: 80.5%;}
+width: 80.5%;
+padding-bottom: 0px;}
 .h1{ 
     font-size: 26px;
     line-height: 1.2;}
@@ -821,7 +822,7 @@ p{
 }
 .btn1{
     position: relative;
-    top: -10px;
+    top: 15px;
    border: 1.5px solid white;
    font-size: 15px;
    float: left;
@@ -931,8 +932,8 @@ width: 79%;}
 .h1{ 
     font-size: 25px;
     line-height: 1.2;}
-p{
-  font-size: 20px;
+.box3>p{
+  font-size: 18.5px;
 }
 .solutions>div>a ,.afive{
   font-size: 26px;}
@@ -965,7 +966,7 @@ p{
 }
 .important>p{
   height: 62.5vh;
-  font-size: 15px;
+  font-size: 14.5px;
 }
 .ami{
     font-size: 27.5px;
@@ -981,6 +982,10 @@ section .wave{
   top: 53%;}
 .box3{
 left: 3%;}
+.box3>p>img{
+  width: 35px;
+  height: 25px;
+}
 .solutions>div>a ,.afive{
   font-size: 23.5px;}
 .afive{width: 200%;
@@ -1018,7 +1023,7 @@ left: 3%;}
 }
 .important>p{
   height: 62.2vh;
-  font-size: 13px;
+  font-size: 12.5px;
 }
 .card{
   width: 330px;
@@ -1038,7 +1043,7 @@ left: 3%;}
 .h1{ 
     font-size: 20px;
     line-height: 1.2;}
-p{
+.box3>p{
   font-size: 16px;
 }
 .solutions>div>a{
