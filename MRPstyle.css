@@ -450,16 +450,14 @@ grid-column-start: 1;
 grid-row-start: 4;
 grid-column-start: 2;
   grid-column-end: 3; 
-  color: white;
+ position: relative; 
+ color: white;
   text-shadow: 2px 2px 4px #000000;
 }
-.bigarrow{
-  grid-row-start: 4;
-grid-column-start: 2;
-  grid-column-end: 3; 
+.bigarrow{ 
     position: absolute;
-    left: 40%;
-    top: 16.2%;
+    left: 5.1%;
+    bottom: -108%;
     width: 310px;
     height: 270px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -555,10 +553,7 @@ list-style-type: none;
 .arrow21{
   position: absolute;
   top: 27%;}
-.bigarrow{
-    position: absolute;
-    top: 15.5%;
-    left: 35%;}
+
 .computers{
   position: relative;
   top: 0px;
@@ -676,9 +671,8 @@ position: relative;
 .chi9{position: relative;
   top:10%;}
 .bigarrow{
-    position: absolute;
-    top: 13.5%;
-    left: 37%;
+   position: absolute;
+    left: 0%;
     width: 300px;
     height: 250px;}
 .computers{
@@ -856,9 +850,10 @@ span{font-size: 13px;}
   .chi{padding: 6px 0;
   font-size: 13px;}
 .bigarrow{
-    position: absolute;
-    top: 33%;
-    width: 175px;
+   position: absolute;
+    left: -7%;
+    bottom: -121%;
+    width: 165px;
     height: 160px;}
 .computers{
   width: 380px;
@@ -1000,9 +995,8 @@ span{font-size: 14px;}
   height: 5%;
   }
 .bigarrow{
-    position: absolute;
-    top: 33.6%;
-    left: 37%;
+   position: absolute;
+    bottom: -135%;
     width: 160px;
     height: 155px;}
 .computers{
@@ -1123,8 +1117,7 @@ span{font-size: 14px;}
   font-size: 9.5px;}
 .bigarrow{
     position: absolute;
-     top: 36%;
-     left: 40%;
+    bottom: -130%;
     width: 140px;
     height: 140px;}
 .computers{
@@ -1250,8 +1243,7 @@ span{font-size: 14px;}
   height: 80px; }
 .bigarrow{
     position: absolute;
-    top: 35.6%;
-    left: 40.5%;
+    bottom: -112%;
     width: 138px;
     height: 127px;}
 .computers{
