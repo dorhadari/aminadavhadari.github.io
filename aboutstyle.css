@@ -804,11 +804,14 @@ margin-left: 1%;
   display: none;}
 .h1{font-size: 26.5px;
     line-height: 1.4;}
+.box3{
+  padding-bottom: 3%;
+}
 .box3>.h1{
 	margin-top: 10%;}
 .box3>p{
   margin-top: 1%;
-  font-size: 22.5px;
+  font-size: 21.5px;
 }
 
 .box4{position: absolute;
@@ -962,7 +965,8 @@ td,th{font-size: 20px;
  .box3{position: absolute;
   top: 5%;
   left: 1%;
-  width: 80.5%; }
+  width: 80.5%;
+  padding-bottom: 2%; }
 .box3>.h1{font-size: 20.5px;
     line-height: 1.4;}
 .box3>p{
