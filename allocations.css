@@ -1,7 +1,7 @@
 html,body{
     width: 100%;
-    margin: 0px;
-    padding: 0px;}
+    margin: 0;
+    padding: 0;}
 .nav1 { 
   grid-area: header;
   position: fixed;
@@ -123,6 +123,8 @@ span{font-size: 17px;}
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
   padding: 10px;
+  overflow: auto;
+  overflow-y: hidden;
   font-family: 'Times New Roman', serif;
  } 
 .child{
