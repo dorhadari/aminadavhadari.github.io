@@ -121,7 +121,7 @@ span{font-size: 17px;}
 .smallcontainer{
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 10px;
+  grid-gap: 2.5%;
   padding: 10px;
   overflow: auto;
   overflow-y: hidden;
@@ -424,6 +424,10 @@ left: 85%;
 .arrow7{
   position: relative;
   top: 18%;}
+.arrow11{
+  position: relative;
+  left: -30%;
+}
 .item5>ol{
     width: 130%;}
 .item5>ol>.copyright{ 
@@ -450,9 +454,10 @@ left: 85%;
         left: -20%;}
 .arrow9{position: relative;
         top: 20%;}
-.arrow11{position: relative;
-        left: -25%;}
-}
+.arrow10, .arrow11{
+  position: relative;
+  left: -10px;
+}}
 @media only screen and (max-width: 320px) {
 .data1{ 
         background-size: 54% 48%;}
