@@ -1,7 +1,7 @@
 
 
 body{
-	width: 100%;
+  width: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -456,14 +456,14 @@ grid-column-start: 2;
 }
 .bigarrow{ 
     position: absolute;
-    left: 5.1%;
-    bottom: -108%;
+    top: 47%;
+    left: 51%;
+    transform: translate(-49%,-53%) rotate(180deg);
     width: 310px;
     height: 270px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  transform: rotate(180deg);
-  z-index: -1;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    z-index: -1
 }
 .chi10 {
 grid-row-start: 3;
@@ -670,10 +670,8 @@ position: relative;
   font-size: 22px;}
 .chi9{position: relative;
   top:10%;}
-.bigarrow{
-   position: absolute;
-    left: 0%;
-    width: 300px;
+.bigarrow{    
+    width: 260px;
     height: 250px;}
 .computers{
   width: 720px;
@@ -850,10 +848,7 @@ span{font-size: 13px;}
   .chi{padding: 6px 0;
   font-size: 13px;}
 .bigarrow{
-   position: absolute;
-    left: -7%;
-    bottom: -121%;
-    width: 165px;
+    width: 145px;
     height: 160px;}
 .computers{
   width: 380px;
@@ -995,10 +990,12 @@ span{font-size: 14px;}
   height: 5%;
   }
 .bigarrow{
-   position: absolute;
-    bottom: -135%;
-    width: 160px;
-    height: 155px;}
+  position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-49%,-50%) rotate(180deg);
+    width: 135px;
+    height: 145px;}
 .computers{
   width: 340px;
   height: 190px;}
@@ -1116,9 +1113,11 @@ span{font-size: 14px;}
 .chi9{
   font-size: 9.5px;}
 .bigarrow{
-    position: absolute;
-    bottom: -130%;
-    width: 140px;
+  position: absolute;
+    top: 47%;
+    left: 51%;
+    transform: translate(-49%,-53%) rotate(180deg);
+    width: 115px;
     height: 140px;}
 .computers{
   width: 325px;
@@ -1242,9 +1241,7 @@ span{font-size: 14px;}
   width: 80px;
   height: 80px; }
 .bigarrow{
-    position: absolute;
-    bottom: -112%;
-    width: 138px;
+    width: 115px;
     height: 127px;}
 .computers{
   width: 285px;
